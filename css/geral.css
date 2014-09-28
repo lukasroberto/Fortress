@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	/*background-image: url("../img/background_geral.jpg") !important;*/
+	background-position: top right !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed !important;
+	background-clip: border-box !important;
+	padding-top: 60px !important;
+	padding-bottom: 40px !important;
+	background-color: #FFF !important;
+	color: #333;
+}
+.nav {
+}
+/* cor dos Icones Gerenciameto cliente */
+.verdemaps:link, .verdemaps:visited {
+	color: #0C0;
+}
+.verdemaps:hover {
+	color: #090;
+}
+.laranja-os:link, .laranja-os:visited {
+	color: #F90;
+}
+.laranja-os:hover {
+	color: #F60;
+}
+.vermelho-excluir:link, .vermelho-excluir:visited {
+	color: #F00;
+}
+.vermelho-excluir:hover {
+	color: #900;
+}
+
+@media (min-width: 550px) {
+
+.alinha-rigth{
+	float:right;
+}
+
+.alinha-left{
+	float:left;
+	max-width:100%;
+}
+}

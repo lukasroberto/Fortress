@@ -1,0 +1,1431 @@
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Undefined variable: os_id in C:\wamp\www\fortress\view\os\ospendente.php on line 81
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Undefined variable: os in C:\wamp\www\fortress\view\os\ospendente.php on line 85
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 85
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Undefined variable: os in C:\wamp\www\fortress\view\os\ospendente.php on line 89
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 89
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Undefined variable: os in C:\wamp\www\fortress\view\os\ospendente.php on line 100
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 100
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Undefined variable: os in C:\wamp\www\fortress\view\os\ospendente.php on line 100
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 100
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Undefined variable: os in C:\wamp\www\fortress\view\os\ospendente.php on line 104
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 104
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Undefined variable: os in C:\wamp\www\fortress\view\os\ospendente.php on line 108
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 108
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Undefined variable: os in C:\wamp\www\fortress\view\os\ospendente.php on line 112
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 112
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Undefined variable: os in C:\wamp\www\fortress\view\os\ospendente.php on line 116
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 116
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Undefined variable: os in C:\wamp\www\fortress\view\os\ospendente.php on line 120
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 120
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Undefined variable: os in C:\wamp\www\fortress\view\os\ospendente.php on line 131
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 131
+[09-Sep-2014 21:43:24 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 85
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 89
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 100
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 100
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 104
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 108
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 112
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 116
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 120
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 131
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 135
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\fortress\view\os\ospendente.php on line 139
+[09-Sep-2014 21:43:44 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:43:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:51:55 Europe/Paris] PHP Warning:  require_once(../../model/ospendente.class.php): failed to open stream: No such file or directory in C:\wamp\www\fortress\view\os\ospendente.php on line 11
+[09-Sep-2014 21:51:55 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:51:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:51:55 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required '../../model/ospendente.class.php' (include_path='.;C:\php\pear') in C:\wamp\www\fortress\view\os\ospendente.php on line 11
+[09-Sep-2014 21:51:55 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:51:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:52:20 Europe/Paris] PHP Warning:  require_once(../../model/ospendente.class.php): failed to open stream: No such file or directory in C:\wamp\www\fortress\view\os\ospendente.php on line 11
+[09-Sep-2014 21:52:20 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:52:20 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:52:20 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required '../../model/ospendente.class.php' (include_path='.;C:\php\pear') in C:\wamp\www\fortress\view\os\ospendente.php on line 11
+[09-Sep-2014 21:52:20 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:52:20 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:52:23 Europe/Paris] PHP Warning:  require_once(../../model/ospendente.class.php): failed to open stream: No such file or directory in C:\wamp\www\fortress\view\os\ospendente.php on line 11
+[09-Sep-2014 21:52:23 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:52:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[09-Sep-2014 21:52:23 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required '../../model/ospendente.class.php' (include_path='.;C:\php\pear') in C:\wamp\www\fortress\view\os\ospendente.php on line 11
+[09-Sep-2014 21:52:23 Europe/Paris] PHP Stack trace:
+[09-Sep-2014 21:52:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[10-Sep-2014 20:09:32 Europe/Paris] PHP Notice:  Undefined index: idusuario in C:\wamp\www\fortress\view\os\ospendente.php on line 8
+[10-Sep-2014 20:09:32 Europe/Paris] PHP Stack trace:
+[10-Sep-2014 20:09:32 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[10-Sep-2014 20:09:32 Europe/Paris] PHP Notice:  Undefined index: nivuser in C:\wamp\www\fortress\view\menu\menu.php on line 23
+[10-Sep-2014 20:09:32 Europe/Paris] PHP Stack trace:
+[10-Sep-2014 20:09:32 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[10-Sep-2014 20:09:32 Europe/Paris] PHP   2. include_once() C:\wamp\www\fortress\view\os\ospendente.php:68
+[13-Sep-2014 20:45:05 Europe/Paris] PHP Fatal error:  Call to undefined method cliente::getCodCliente() in C:\wamp\www\fortress\view\os\cadastraos.php on line 86
+[13-Sep-2014 20:45:05 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:45:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:46:14 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:46:14 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:46:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:46:14 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:46:14 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:46:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:46:23 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:46:23 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:46:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:46:23 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:46:23 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:46:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:46:30 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:46:30 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:46:30 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:46:30 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:46:30 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:46:30 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:46:33 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:46:33 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:46:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:46:33 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:46:33 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:46:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:47:12 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:47:12 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:47:12 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:47:12 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:47:12 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:47:12 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:47:15 Europe/Paris] PHP Fatal error:  Call to undefined method cliente::loadObject() in C:\wamp\www\fortress\view\os\cadastraos.php on line 37
+[13-Sep-2014 20:47:15 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:47:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:48:12 Europe/Paris] PHP Fatal error:  Call to undefined method cliente::loadObject() in C:\wamp\www\fortress\view\os\cadastraos.php on line 37
+[13-Sep-2014 20:48:12 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:48:12 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:48:12 Europe/Paris] PHP Fatal error:  Call to undefined method cliente::loadObject() in C:\wamp\www\fortress\view\os\cadastraos.php on line 37
+[13-Sep-2014 20:48:12 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:48:12 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:48:13 Europe/Paris] PHP Fatal error:  Call to undefined method cliente::loadObject() in C:\wamp\www\fortress\view\os\cadastraos.php on line 37
+[13-Sep-2014 20:48:13 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:48:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:48:14 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:48:14 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:48:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:48:14 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:48:14 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:48:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:48:15 Europe/Paris] PHP Fatal error:  Call to undefined method cliente::loadObject() in C:\wamp\www\fortress\view\os\cadastraos.php on line 37
+[13-Sep-2014 20:48:15 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:48:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:48:17 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:48:17 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:48:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:48:17 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:48:17 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:48:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:48:17 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:48:17 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:48:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:48:17 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:48:17 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:48:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:48:18 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:48:18 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:48:18 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:48:18 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:48:18 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:48:18 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:48:20 Europe/Paris] PHP Fatal error:  Call to undefined method cliente::loadObject() in C:\wamp\www\fortress\view\os\cadastraos.php on line 37
+[13-Sep-2014 20:48:20 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:48:20 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:50:46 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 95
+[13-Sep-2014 20:50:46 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:50:46 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:50:46 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 95
+[13-Sep-2014 20:50:46 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:50:46 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:50:47 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 95
+[13-Sep-2014 20:50:47 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:50:47 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:50:47 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 95
+[13-Sep-2014 20:50:47 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:50:47 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:50:48 Europe/Paris] PHP Notice:  Undefined variable: clienteController in C:\wamp\www\fortress\view\os\cadastraos.php on line 36
+[13-Sep-2014 20:50:48 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:50:48 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:50:48 Europe/Paris] PHP Fatal error:  Call to a member function loadObject() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 36
+[13-Sep-2014 20:50:48 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:50:48 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:51:14 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:51:14 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:51:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:51:14 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:51:14 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:51:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:51:15 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:51:15 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:51:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:51:15 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:51:15 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:51:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:51:17 Europe/Paris] PHP Fatal error:  Call to undefined method cliente::loadObject() in C:\wamp\www\fortress\view\os\cadastraos.php on line 37
+[13-Sep-2014 20:51:17 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:51:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:53:35 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[13-Sep-2014 20:53:35 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:53:35 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:53:35 Europe/Paris] PHP   2. Crud->loadObject() C:\wamp\www\fortress\view\os\cadastraos.php:31
+[13-Sep-2014 20:53:35 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:175
+[13-Sep-2014 20:54:25 Europe/Paris] PHP Fatal error:  Class 'CadastraOs' not found in C:\wamp\www\fortress\view\os\cadastraos.php on line 14
+[13-Sep-2014 20:54:25 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:54:25 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:55:03 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:55:03 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:55:03 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:55:03 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:55:03 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:55:03 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:55:06 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:55:06 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:55:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:55:06 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:55:06 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:55:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:55:07 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:55:07 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:55:07 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:55:07 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:55:07 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:55:07 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:55:35 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:55:35 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:55:35 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:55:35 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:55:35 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:55:35 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:55:44 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:55:44 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:55:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:55:44 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:55:44 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:55:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:56:33 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:56:33 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:56:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[13-Sep-2014 20:56:33 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[13-Sep-2014 20:56:33 Europe/Paris] PHP Stack trace:
+[13-Sep-2014 20:56:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:18:02 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[14-Sep-2014 18:18:02 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:18:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:18:02 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[14-Sep-2014 18:18:02 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:18:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:18:05 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[14-Sep-2014 18:18:05 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:18:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:18:05 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[14-Sep-2014 18:18:05 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:18:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:18:08 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[14-Sep-2014 18:18:08 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:18:08 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:18:08 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[14-Sep-2014 18:18:08 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:18:08 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:32:08 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:32:08 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:32:08 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:32:08 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:32:08 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:32:08 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:32:55 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:32:55 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:32:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:32:55 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:32:55 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:32:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:32:59 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:32:59 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:32:59 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:32:59 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:32:59 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:32:59 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:33:42 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:33:42 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:33:42 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:33:42 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:33:42 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:33:42 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:34:11 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:34:11 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:34:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:34:11 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:34:11 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:34:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:34:14 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:34:14 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:34:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:34:14 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:34:14 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:34:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:34:17 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:34:17 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:34:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:34:17 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:34:17 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:34:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:35:00 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:35:00 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:35:00 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:35:00 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:35:00 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:35:00 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:35:15 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:35:15 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:35:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:35:15 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:35:15 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:35:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:37:18 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 107
+[14-Sep-2014 18:37:18 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:37:18 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:37:18 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 107
+[14-Sep-2014 18:37:18 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:37:18 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:37:37 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 106
+[14-Sep-2014 18:37:37 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:37:37 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:37:37 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 106
+[14-Sep-2014 18:37:37 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:37:37 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:38:21 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:38:21 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:38:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:38:21 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:38:21 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:38:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:39:04 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 102
+[14-Sep-2014 18:39:04 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:39:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:39:04 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 102
+[14-Sep-2014 18:39:04 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:39:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:39:19 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 102
+[14-Sep-2014 18:39:19 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:39:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:39:19 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 102
+[14-Sep-2014 18:39:19 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:39:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:40:10 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 101
+[14-Sep-2014 18:40:10 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:40:10 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:40:10 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 101
+[14-Sep-2014 18:40:10 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:40:10 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:41:45 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 99
+[14-Sep-2014 18:41:45 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:41:45 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:41:45 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 99
+[14-Sep-2014 18:41:45 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:41:45 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:42:04 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:42:04 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:42:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:42:04 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 97
+[14-Sep-2014 18:42:04 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:42:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:42:11 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 101
+[14-Sep-2014 18:42:11 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:42:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:42:11 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 101
+[14-Sep-2014 18:42:11 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:42:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:42:24 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 99
+[14-Sep-2014 18:42:24 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:42:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:42:24 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 99
+[14-Sep-2014 18:42:24 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:42:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:42:33 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 101
+[14-Sep-2014 18:42:33 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:42:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:42:33 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 101
+[14-Sep-2014 18:42:33 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:42:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:44:52 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:44:52 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:44:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:44:52 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:44:52 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:44:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:45:03 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:45:03 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:45:03 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:45:03 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:45:03 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:45:03 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:51:11 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:51:11 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:51:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:51:11 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:51:11 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:51:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:51:12 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:51:12 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:51:12 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:51:12 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:51:12 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:51:12 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:51:40 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:51:40 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:51:40 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:51:40 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:51:40 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:51:40 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:12 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:12 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:12 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:12 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:12 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:12 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:13 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:13 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:13 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:13 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:13 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:13 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:13 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:13 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:13 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:13 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:13 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:13 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:14 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:14 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:14 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:14 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:22 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:22 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:22 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:22 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:22 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:22 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:22 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:22 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:28 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:28 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:28 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:28 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:28 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:28 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:37 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:37 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:37 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:52:37 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:52:37 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:52:37 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:53:03 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:53:03 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:53:03 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:53:03 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:53:03 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:53:03 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:53:13 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:53:13 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:53:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:53:13 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:53:13 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:53:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:53:22 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:53:22 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:53:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:53:22 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:53:22 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:53:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:53:27 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:53:27 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:53:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:53:27 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:53:27 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:53:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:53:33 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:53:33 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:53:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:53:33 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:53:33 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:53:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:54:53 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:54:53 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:54:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:54:53 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:54:53 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:54:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:55:11 Europe/Paris] PHP Notice:  Undefined variable: usuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:55:11 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:55:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 18:55:11 Europe/Paris] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 104
+[14-Sep-2014 18:55:11 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 18:55:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 19:42:20 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[14-Sep-2014 19:42:20 Europe/Paris] PHP Stack trace:
+[14-Sep-2014 19:42:20 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[14-Sep-2014 19:42:20 Europe/Paris] PHP   2. Crud->loadObject() C:\wamp\www\fortress\view\os\cadastraos.php:39
+[14-Sep-2014 19:42:20 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:175
+[15-Sep-2014 12:53:50 Europe/Paris] PHP Notice:  Undefined index: tipo in C:\wamp\www\fortress\view\os\cadastraos.php on line 37
+[15-Sep-2014 12:53:50 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 12:53:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 12:53:50 Europe/Paris] PHP Notice:  Undefined variable: classe in C:\wamp\www\fortress\functions\functions.class.php on line 192
+[15-Sep-2014 12:53:50 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 12:53:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 12:53:50 Europe/Paris] PHP   2. Functions->mensagemDeRetornoPersonalizada() C:\wamp\www\fortress\view\os\cadastraos.php:37
+[15-Sep-2014 12:53:50 Europe/Paris] PHP Notice:  Undefined variable: msgA in C:\wamp\www\fortress\functions\functions.class.php on line 194
+[15-Sep-2014 12:53:50 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 12:53:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 12:53:50 Europe/Paris] PHP   2. Functions->mensagemDeRetornoPersonalizada() C:\wamp\www\fortress\view\os\cadastraos.php:37
+[15-Sep-2014 13:06:08 Europe/Paris] PHP Notice:  Undefined index: tipo in C:\wamp\www\fortress\view\os\cadastraos.php on line 41
+[15-Sep-2014 13:06:08 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:06:08 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:06:08 Europe/Paris] PHP Notice:  Undefined variable: classe in C:\wamp\www\fortress\functions\functions.class.php on line 192
+[15-Sep-2014 13:06:08 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:06:08 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:06:08 Europe/Paris] PHP   2. Functions->mensagemDeRetornoPersonalizada() C:\wamp\www\fortress\view\os\cadastraos.php:41
+[15-Sep-2014 13:06:08 Europe/Paris] PHP Notice:  Undefined variable: msgA in C:\wamp\www\fortress\functions\functions.class.php on line 194
+[15-Sep-2014 13:06:08 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:06:08 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:06:08 Europe/Paris] PHP   2. Functions->mensagemDeRetornoPersonalizada() C:\wamp\www\fortress\view\os\cadastraos.php:41
+[15-Sep-2014 13:12:52 Europe/Paris] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 86
+[15-Sep-2014 13:12:52 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:12:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:12:52 Europe/Paris] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 13:12:52 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:12:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:12:52 Europe/Paris] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:86
+[15-Sep-2014 13:15:46 Europe/Paris] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 86
+[15-Sep-2014 13:15:46 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:15:46 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:15:46 Europe/Paris] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 13:15:46 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:15:46 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:15:46 Europe/Paris] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:86
+[15-Sep-2014 13:17:57 Europe/Paris] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 86
+[15-Sep-2014 13:17:57 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:17:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:17:57 Europe/Paris] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 13:17:57 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:17:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:17:57 Europe/Paris] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:86
+[15-Sep-2014 13:17:58 Europe/Paris] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 86
+[15-Sep-2014 13:17:58 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:17:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:17:58 Europe/Paris] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 13:17:58 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:17:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:17:58 Europe/Paris] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:86
+[15-Sep-2014 13:18:15 Europe/Paris] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 86
+[15-Sep-2014 13:18:15 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:18:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:18:15 Europe/Paris] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 13:18:15 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:18:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:18:15 Europe/Paris] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:86
+[15-Sep-2014 13:18:31 Europe/Paris] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 84
+[15-Sep-2014 13:18:31 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:18:31 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:18:31 Europe/Paris] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 13:18:31 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:18:31 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:18:31 Europe/Paris] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:84
+[15-Sep-2014 13:19:51 Europe/Paris] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 86
+[15-Sep-2014 13:19:51 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:19:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:19:51 Europe/Paris] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 13:19:51 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:19:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:19:51 Europe/Paris] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:86
+[15-Sep-2014 13:19:52 Europe/Paris] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 86
+[15-Sep-2014 13:19:52 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:19:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:19:52 Europe/Paris] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 13:19:52 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:19:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:19:52 Europe/Paris] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:86
+[15-Sep-2014 13:20:14 Europe/Paris] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 86
+[15-Sep-2014 13:20:14 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:20:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:20:14 Europe/Paris] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 13:20:14 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:20:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:20:14 Europe/Paris] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:86
+[15-Sep-2014 13:20:37 Europe/Paris] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 86
+[15-Sep-2014 13:20:37 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:20:37 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:20:37 Europe/Paris] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 13:20:37 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:20:37 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:20:37 Europe/Paris] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:86
+[15-Sep-2014 13:43:50 Europe/Paris] PHP Notice:  Undefined offset: 1 in C:\wamp\www\fortress\view\os\cadastraos.php on line 34
+[15-Sep-2014 13:43:50 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:43:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:45:08 Europe/Paris] PHP Notice:  Undefined offset: 1 in C:\wamp\www\fortress\view\os\cadastraos.php on line 34
+[15-Sep-2014 13:45:08 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:45:08 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:49:58 Europe/Paris] PHP Notice:  Undefined index: osclicodigo in C:\wamp\www\fortress\view\os\cadastraos.php on line 109
+[15-Sep-2014 13:49:58 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:49:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:51:05 Europe/Paris] PHP Notice:  Undefined offset: 1 in C:\wamp\www\fortress\view\os\cadastraos.php on line 34
+[15-Sep-2014 13:51:05 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:51:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:51:53 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 13:51:53 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:51:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:51:53 Europe/Paris] PHP   2. Crud->loadObject() C:\wamp\www\fortress\view\os\cadastraos.php:45
+[15-Sep-2014 13:51:53 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:175
+[15-Sep-2014 13:53:00 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 13:53:00 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:53:00 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:53:00 Europe/Paris] PHP   2. Crud->loadObject() C:\wamp\www\fortress\view\os\cadastraos.php:45
+[15-Sep-2014 13:53:00 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:175
+[15-Sep-2014 13:53:02 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 13:53:02 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:53:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 13:53:02 Europe/Paris] PHP   2. Crud->loadObject() C:\wamp\www\fortress\view\os\cadastraos.php:45
+[15-Sep-2014 13:53:02 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:175
+[15-Sep-2014 13:53:08 Europe/Paris] PHP Fatal error:  Call to a member function getCodigo() on a non-object in C:\wamp\www\fortress\view\os\cadastraos.php on line 96
+[15-Sep-2014 13:53:08 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 13:53:08 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 14:01:51 Europe/Paris] PHP Notice:  Undefined variable: registros in C:\wamp\www\fortress\view\os\cadastraos.php on line 90
+[15-Sep-2014 14:01:51 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 14:01:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 14:02:31 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 14:02:31 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 14:02:31 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 14:02:31 Europe/Paris] PHP   2. Crud->loadObject() C:\wamp\www\fortress\view\os\cadastraos.php:45
+[15-Sep-2014 14:02:31 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:175
+[15-Sep-2014 14:05:02 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 14:05:02 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 14:05:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 14:05:02 Europe/Paris] PHP   2. Crud->loadObject() C:\wamp\www\fortress\view\os\cadastraos.php:45
+[15-Sep-2014 14:05:02 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:175
+[15-Sep-2014 14:07:47 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 14:07:47 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 14:07:47 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 14:07:47 Europe/Paris] PHP   2. Crud->loadObject() C:\wamp\www\fortress\view\os\cadastraos.php:46
+[15-Sep-2014 14:07:47 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:175
+[15-Sep-2014 14:30:26 Europe/Paris] PHP Fatal error:  Call to undefined function DateTime() in C:\wamp\www\fortress\view\os\cadastraos.php on line 140
+[15-Sep-2014 14:30:26 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 14:30:26 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 14:30:49 Europe/Paris] PHP Warning:  date_timezone_get() expects parameter 1 to be DateTimeInterface, string given in C:\wamp\www\fortress\view\os\cadastraos.php on line 140
+[15-Sep-2014 14:30:49 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 14:30:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 14:30:49 Europe/Paris] PHP   2. date_timezone_get() C:\wamp\www\fortress\view\os\cadastraos.php:140
+[15-Sep-2014 14:30:57 Europe/Paris] PHP Notice:  Use of undefined constant date_timezone_get - assumed 'date_timezone_get' in C:\wamp\www\fortress\view\os\cadastraos.php on line 140
+[15-Sep-2014 14:30:57 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 14:30:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 16:01:41 Europe/Paris] PHP Warning:  Missing argument 1 for CadastraOs::osCodigo(), called in C:\wamp\www\fortress\view\os\cadastraos.php on line 112 and defined in C:\wamp\www\fortress\controller\cadastraos.controller.class.php on line 25
+[15-Sep-2014 16:01:41 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 16:01:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 16:01:41 Europe/Paris] PHP   2. CadastraOs->osCodigo() C:\wamp\www\fortress\view\os\cadastraos.php:112
+[15-Sep-2014 16:01:41 Europe/Paris] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in C:\wamp\www\fortress\view\os\cadastraos.php on line 112
+[15-Sep-2014 16:01:41 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 16:01:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 16:04:50 Europe/Paris] PHP Warning:  Missing argument 1 for CadastraOs::osCodigo(), called in C:\wamp\www\fortress\view\os\cadastraos.php on line 112 and defined in C:\wamp\www\fortress\controller\cadastraos.controller.class.php on line 25
+[15-Sep-2014 16:04:50 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 16:04:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 16:04:50 Europe/Paris] PHP   2. CadastraOs->osCodigo() C:\wamp\www\fortress\view\os\cadastraos.php:112
+[15-Sep-2014 16:04:50 Europe/Paris] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in C:\wamp\www\fortress\view\os\cadastraos.php on line 112
+[15-Sep-2014 16:04:50 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 16:04:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 16:11:02 Europe/Paris] PHP Warning:  Missing argument 1 for CadastraOs::osCodigo(), called in C:\wamp\www\fortress\view\os\cadastraos.php on line 112 and defined in C:\wamp\www\fortress\controller\cadastraos.controller.class.php on line 25
+[15-Sep-2014 16:11:02 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 16:11:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 16:11:02 Europe/Paris] PHP   2. CadastraOs->osCodigo() C:\wamp\www\fortress\view\os\cadastraos.php:112
+[15-Sep-2014 16:11:02 Europe/Paris] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in C:\wamp\www\fortress\view\os\cadastraos.php on line 112
+[15-Sep-2014 16:11:02 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 16:11:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 16:11:34 Europe/Paris] PHP Warning:  Missing argument 1 for CadastraOs::osCodigo(), called in C:\wamp\www\fortress\view\os\cadastraos.php on line 112 and defined in C:\wamp\www\fortress\controller\cadastraos.controller.class.php on line 25
+[15-Sep-2014 16:11:34 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 16:11:34 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 16:11:34 Europe/Paris] PHP   2. CadastraOs->osCodigo() C:\wamp\www\fortress\view\os\cadastraos.php:112
+[15-Sep-2014 16:11:34 Europe/Paris] PHP Notice:  Undefined property: stdClass::$proximo in C:\wamp\www\fortress\view\os\cadastraos.php on line 112
+[15-Sep-2014 16:11:34 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 16:11:34 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 16:17:24 Europe/Paris] PHP Warning:  Missing argument 1 for CadastraOs::osCodigo(), called in C:\wamp\www\fortress\view\os\cadastraos.php on line 15 and defined in C:\wamp\www\fortress\controller\cadastraos.controller.class.php on line 25
+[15-Sep-2014 16:17:24 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 16:17:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 16:17:24 Europe/Paris] PHP   2. CadastraOs->osCodigo() C:\wamp\www\fortress\view\os\cadastraos.php:15
+[15-Sep-2014 16:17:24 Europe/Paris] PHP Notice:  Undefined property: stdClass::$proximo in C:\wamp\www\fortress\view\os\cadastraos.php on line 113
+[15-Sep-2014 16:17:24 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 16:17:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 16:18:00 Europe/Paris] PHP Notice:  Undefined property: stdClass::$proximo in C:\wamp\www\fortress\view\os\cadastraos.php on line 113
+[15-Sep-2014 16:18:00 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 16:18:00 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:18:46 Europe/Paris] PHP Notice:  Undefined index: oscodigo in C:\wamp\www\fortress\view\os\cadastraos.php on line 29
+[15-Sep-2014 19:18:46 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:18:46 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:18:46 Europe/Paris] PHP Notice:  Undefined offset: 1 in C:\wamp\www\fortress\view\os\cadastraos.php on line 35
+[15-Sep-2014 19:18:46 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:18:46 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:22:59 Europe/Paris] PHP Notice:  Undefined index: oscodigo in C:\wamp\www\fortress\view\os\cadastraos.php on line 29
+[15-Sep-2014 19:22:59 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:22:59 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:22:59 Europe/Paris] PHP Notice:  Undefined offset: 1 in C:\wamp\www\fortress\view\os\cadastraos.php on line 35
+[15-Sep-2014 19:22:59 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:22:59 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:23:40 Europe/Paris] PHP Notice:  Undefined index: oscodigo in C:\wamp\www\fortress\view\os\cadastraos.php on line 29
+[15-Sep-2014 19:23:40 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:23:40 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:23:40 Europe/Paris] PHP Notice:  Undefined offset: 1 in C:\wamp\www\fortress\view\os\cadastraos.php on line 35
+[15-Sep-2014 19:23:40 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:23:40 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:23:40 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 19:23:40 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:23:40 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:23:40 Europe/Paris] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:38
+[15-Sep-2014 19:23:40 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[15-Sep-2014 19:26:53 Europe/Paris] PHP Notice:  Undefined index: oscodigo in C:\wamp\www\fortress\view\os\cadastraos.php on line 29
+[15-Sep-2014 19:26:53 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:26:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:26:53 Europe/Paris] PHP Notice:  Undefined offset: 1 in C:\wamp\www\fortress\view\os\cadastraos.php on line 35
+[15-Sep-2014 19:26:53 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:26:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:26:53 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 19:26:53 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:26:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:26:53 Europe/Paris] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:38
+[15-Sep-2014 19:26:53 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[15-Sep-2014 19:26:58 Europe/Paris] PHP Notice:  Undefined index: oscodigo in C:\wamp\www\fortress\view\os\cadastraos.php on line 29
+[15-Sep-2014 19:26:58 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:26:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:26:58 Europe/Paris] PHP Notice:  Undefined offset: 1 in C:\wamp\www\fortress\view\os\cadastraos.php on line 35
+[15-Sep-2014 19:26:58 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:26:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:26:58 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 19:26:58 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:26:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:26:58 Europe/Paris] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:38
+[15-Sep-2014 19:26:58 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[15-Sep-2014 19:27:31 Europe/Paris] PHP Notice:  Undefined index: oscodigo in C:\wamp\www\fortress\view\os\cadastraos.php on line 29
+[15-Sep-2014 19:27:31 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:27:31 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:27:31 Europe/Paris] PHP Notice:  Undefined offset: 10 in C:\wamp\www\fortress\view\os\cadastraos.php on line 35
+[15-Sep-2014 19:27:31 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:27:31 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:27:31 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 19:27:31 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:27:31 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:27:31 Europe/Paris] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:38
+[15-Sep-2014 19:27:31 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[15-Sep-2014 19:31:26 Europe/Paris] PHP Notice:  Undefined offset: 1 in C:\wamp\www\fortress\view\os\cadastraos.php on line 34
+[15-Sep-2014 19:31:26 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:31:26 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:31:26 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 19:31:26 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:31:26 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:31:26 Europe/Paris] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:37
+[15-Sep-2014 19:31:26 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[15-Sep-2014 19:31:51 Europe/Paris] PHP Notice:  Undefined index: oscodigo in C:\wamp\www\fortress\view\os\cadastraos.php on line 29
+[15-Sep-2014 19:31:51 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:31:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:31:51 Europe/Paris] PHP Notice:  Undefined offset: 1 in C:\wamp\www\fortress\view\os\cadastraos.php on line 35
+[15-Sep-2014 19:31:51 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:31:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:31:51 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 19:31:51 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:31:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:31:51 Europe/Paris] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:38
+[15-Sep-2014 19:31:51 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[15-Sep-2014 19:31:58 Europe/Paris] PHP Notice:  Undefined index: oscodigo in C:\wamp\www\fortress\view\os\cadastraos.php on line 29
+[15-Sep-2014 19:31:58 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:31:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:31:58 Europe/Paris] PHP Notice:  Undefined offset: 1 in C:\wamp\www\fortress\view\os\cadastraos.php on line 35
+[15-Sep-2014 19:31:58 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:31:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:31:58 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 19:31:58 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:31:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:31:58 Europe/Paris] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:38
+[15-Sep-2014 19:31:58 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[15-Sep-2014 19:32:05 Europe/Paris] PHP Notice:  Undefined offset: 1 in C:\wamp\www\fortress\view\os\cadastraos.php on line 34
+[15-Sep-2014 19:32:05 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:32:05 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 19:32:05 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:32:05 Europe/Paris] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:37
+[15-Sep-2014 19:32:05 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[15-Sep-2014 19:36:02 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 19:36:02 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:36:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:36:02 Europe/Paris] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:37
+[15-Sep-2014 19:36:02 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[15-Sep-2014 19:38:48 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 19:38:48 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:38:48 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:38:48 Europe/Paris] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:37
+[15-Sep-2014 19:38:48 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[15-Sep-2014 19:39:23 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 19:39:23 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:39:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:39:23 Europe/Paris] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:37
+[15-Sep-2014 19:39:23 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[15-Sep-2014 19:39:29 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[15-Sep-2014 19:39:29 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 19:39:29 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 19:39:29 Europe/Paris] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:37
+[15-Sep-2014 19:39:29 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[15-Sep-2014 20:07:03 Europe/Paris] PHP Notice:  Undefined index: idusuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 8
+[15-Sep-2014 20:07:03 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 20:07:03 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 20:07:03 Europe/Paris] PHP Notice:  Undefined index: nivuser in C:\wamp\www\fortress\view\menu\menu.php on line 23
+[15-Sep-2014 20:07:03 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 20:07:03 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 20:07:03 Europe/Paris] PHP   2. include_once() C:\wamp\www\fortress\view\os\cadastraos.php:70
+[15-Sep-2014 20:56:50 Europe/Paris] PHP Warning:  require_once(../../model/ospendente.class.php): failed to open stream: No such file or directory in C:\wamp\www\fortress\view\os\osfinalizada.php on line 11
+[15-Sep-2014 20:56:50 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 20:56:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\osfinalizada.php:0
+[15-Sep-2014 20:56:50 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required '../../model/ospendente.class.php' (include_path='.;C:\php\pear') in C:\wamp\www\fortress\view\os\osfinalizada.php on line 11
+[15-Sep-2014 20:56:50 Europe/Paris] PHP Stack trace:
+[15-Sep-2014 20:56:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\osfinalizada.php:0
+[15-Sep-2014 17:22:27 America/Sao_Paulo] PHP Notice:  Undefined variable: imprimeOsCodigo in C:\wamp\www\fortress\view\os\cadastraos.php on line 123
+[15-Sep-2014 17:22:27 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:22:27 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:25:27 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 89
+[15-Sep-2014 17:25:27 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:25:27 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:25:27 America/Sao_Paulo] PHP Notice:  Undefined index: oscodigo in C:\wamp\www\fortress\view\os\cadastraos.php on line 89
+[15-Sep-2014 17:25:27 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:25:27 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:25:27 America/Sao_Paulo] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 17:25:27 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:25:27 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:25:27 America/Sao_Paulo] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:89
+[15-Sep-2014 17:26:00 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 85
+[15-Sep-2014 17:26:00 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:26:00 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:26:49 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 89
+[15-Sep-2014 17:26:49 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:26:49 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:26:49 America/Sao_Paulo] PHP Notice:  Undefined index: oscodigo in C:\wamp\www\fortress\view\os\cadastraos.php on line 89
+[15-Sep-2014 17:26:49 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:26:49 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:26:49 America/Sao_Paulo] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 17:26:49 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:26:49 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:26:49 America/Sao_Paulo] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:89
+[15-Sep-2014 17:27:24 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 89
+[15-Sep-2014 17:27:24 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:27:24 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:27:24 America/Sao_Paulo] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 17:27:24 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:27:24 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:27:24 America/Sao_Paulo] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:89
+[15-Sep-2014 17:27:43 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 89
+[15-Sep-2014 17:27:43 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:27:43 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:27:43 America/Sao_Paulo] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 17:27:43 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:27:43 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:27:43 America/Sao_Paulo] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:89
+[15-Sep-2014 17:32:00 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 88
+[15-Sep-2014 17:32:00 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:32:00 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:33:03 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 88
+[15-Sep-2014 17:33:03 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:33:03 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:33:04 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 88
+[15-Sep-2014 17:33:04 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:33:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:34:05 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 88
+[15-Sep-2014 17:34:05 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:34:05 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:34:07 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 88
+[15-Sep-2014 17:34:07 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:34:07 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:34:19 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 88
+[15-Sep-2014 17:34:19 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:34:19 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:34:19 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in C:\wamp\www\fortress\view\os\cadastraos.php on line 89
+[15-Sep-2014 17:34:19 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:34:19 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:34:19 America/Sao_Paulo] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 17:34:19 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:34:19 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:34:19 America/Sao_Paulo] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:89
+[15-Sep-2014 17:35:39 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 88
+[15-Sep-2014 17:35:39 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:35:39 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:35:52 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in C:\wamp\www\fortress\view\os\cadastraos.php on line 89
+[15-Sep-2014 17:35:52 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:35:52 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:35:52 America/Sao_Paulo] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 17:35:52 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:35:52 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:35:52 America/Sao_Paulo] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:89
+[15-Sep-2014 17:36:07 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 89
+[15-Sep-2014 17:36:07 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:36:07 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:36:07 America/Sao_Paulo] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 17:36:07 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:36:07 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:36:07 America/Sao_Paulo] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:89
+[15-Sep-2014 17:36:30 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 89
+[15-Sep-2014 17:36:30 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:36:30 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:36:30 America/Sao_Paulo] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 17:36:30 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:36:30 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:36:30 America/Sao_Paulo] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:89
+[15-Sep-2014 17:36:31 America/Sao_Paulo] PHP Notice:  Undefined index: acao in C:\wamp\www\fortress\view\os\cadastraos.php on line 89
+[15-Sep-2014 17:36:31 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:36:31 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:36:31 America/Sao_Paulo] PHP Notice:  Undefined variable: msgB in C:\wamp\www\fortress\functions\functions.class.php on line 154
+[15-Sep-2014 17:36:31 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:36:31 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[15-Sep-2014 17:36:31 America/Sao_Paulo] PHP   2. Functions->mensagemDeRetorno() C:\wamp\www\fortress\view\os\cadastraos.php:89
+[15-Sep-2014 17:39:52 America/Sao_Paulo] PHP Notice:  Undefined index: oscodigo in C:\wamp\www\fortress\view\os\cadastraos.php on line 89
+[15-Sep-2014 17:39:52 America/Sao_Paulo] PHP Stack trace:
+[15-Sep-2014 17:39:52 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[19-Sep-2014 15:27:45 Europe/Paris] PHP Notice:  Undefined index: idusuario in C:\wamp\www\fortress\view\os\ospendente.php on line 8
+[19-Sep-2014 15:27:45 Europe/Paris] PHP Stack trace:
+[19-Sep-2014 15:27:45 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[19-Sep-2014 15:27:45 Europe/Paris] PHP Notice:  Undefined index: nivuser in C:\wamp\www\fortress\view\menu\menu.php on line 23
+[19-Sep-2014 15:27:45 Europe/Paris] PHP Stack trace:
+[19-Sep-2014 15:27:45 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[19-Sep-2014 15:27:45 Europe/Paris] PHP   2. include_once() C:\wamp\www\fortress\view\os\ospendente.php:68
+[19-Sep-2014 12:06:01 America/Sao_Paulo] PHP Notice:  Undefined index: idusuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 10
+[19-Sep-2014 12:06:01 America/Sao_Paulo] PHP Stack trace:
+[19-Sep-2014 12:06:01 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[19-Sep-2014 12:06:01 America/Sao_Paulo] PHP Notice:  Undefined index: nivuser in C:\wamp\www\fortress\view\menu\menu.php on line 23
+[19-Sep-2014 12:06:01 America/Sao_Paulo] PHP Stack trace:
+[19-Sep-2014 12:06:01 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[19-Sep-2014 12:06:01 America/Sao_Paulo] PHP   2. include_once() C:\wamp\www\fortress\view\os\cadastraos.php:74
+[22-Sep-2014 12:56:51 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[22-Sep-2014 12:56:51 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:56:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:56:51 Europe/Paris] PHP   2. oslist->listOsPorTecnico() C:\wamp\www\fortress\view\os\lista.php:100
+[22-Sep-2014 12:56:51 Europe/Paris] PHP   3. Crud->execute_query() C:\wamp\www\fortress\controller\oslist.controller.class.php:28
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:34 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:34 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:34 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:34 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:34 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:34 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:34 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:34 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:34 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:34 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:34 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Notice:  Undefined index: cli_nome in C:\wamp\www\fortress\view\os\lista.php on line 114
+[22-Sep-2014 12:58:41 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 12:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:03:56 Europe/Paris] PHP Notice:  Undefined variable: status in C:\wamp\www\fortress\view\os\lista.php on line 21
+[22-Sep-2014 13:03:56 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:03:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:03:56 Europe/Paris] PHP Notice:  Undefined variable: status in C:\wamp\www\fortress\view\os\lista.php on line 27
+[22-Sep-2014 13:03:56 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:03:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:03:56 Europe/Paris] PHP Notice:  Undefined variable: contextoDoTitulo in C:\wamp\www\fortress\view\os\lista.php on line 59
+[22-Sep-2014 13:03:56 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:03:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:03:56 Europe/Paris] PHP Notice:  Undefined variable: status in C:\wamp\www\fortress\view\os\lista.php on line 96
+[22-Sep-2014 13:03:56 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:03:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Notice:  Undefined index: tec_nome in C:\wamp\www\fortress\view\os\lista.php on line 115
+[22-Sep-2014 13:18:17 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:18:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:24:53 Europe/Paris] PHP Notice:  Undefined variable: contextoDoTecnico in C:\wamp\www\fortress\view\os\lista.php on line 69
+[22-Sep-2014 13:24:53 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:24:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:25:18 Europe/Paris] PHP Notice:  Undefined variable: contextoDoTecnico in C:\wamp\www\fortress\view\os\lista.php on line 69
+[22-Sep-2014 13:25:18 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:25:18 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:25:24 Europe/Paris] PHP Notice:  Undefined variable: contextoDoTecnico in C:\wamp\www\fortress\view\os\lista.php on line 69
+[22-Sep-2014 13:25:24 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:25:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:28:41 Europe/Paris] PHP Notice:  Undefined variable: contextoDoTecnico in C:\wamp\www\fortress\view\os\lista.php on line 69
+[22-Sep-2014 13:28:41 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:28:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:28:47 Europe/Paris] PHP Notice:  Undefined variable: contextoDoTecnico in C:\wamp\www\fortress\view\os\lista.php on line 69
+[22-Sep-2014 13:28:47 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:28:47 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:30:56 Europe/Paris] PHP Notice:  Undefined variable: contextoDoTecnico in C:\wamp\www\fortress\view\os\lista.php on line 69
+[22-Sep-2014 13:30:56 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:30:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:31:01 Europe/Paris] PHP Notice:  Undefined index: nometecnico in C:\wamp\www\fortress\view\os\lista.php on line 40
+[22-Sep-2014 13:31:01 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:31:01 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:32:08 Europe/Paris] PHP Notice:  Undefined variable: contextoDoTecnico in C:\wamp\www\fortress\view\os\lista.php on line 69
+[22-Sep-2014 13:32:08 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:32:08 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:32:48 Europe/Paris] PHP Notice:  Undefined variable: contextoDoTecnico in C:\wamp\www\fortress\view\os\lista.php on line 69
+[22-Sep-2014 13:32:48 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:32:48 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 13:32:49 Europe/Paris] PHP Notice:  Undefined variable: contextoDoTecnico in C:\wamp\www\fortress\view\os\lista.php on line 69
+[22-Sep-2014 13:32:49 Europe/Paris] PHP Stack trace:
+[22-Sep-2014 13:32:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[22-Sep-2014 17:23:20 America/Sao_Paulo] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[22-Sep-2014 17:23:20 America/Sao_Paulo] PHP Stack trace:
+[22-Sep-2014 17:23:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[22-Sep-2014 17:23:20 America/Sao_Paulo] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:41
+[22-Sep-2014 17:23:20 America/Sao_Paulo] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[22-Sep-2014 17:33:53 America/Sao_Paulo] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[22-Sep-2014 17:33:53 America/Sao_Paulo] PHP Stack trace:
+[22-Sep-2014 17:33:53 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[22-Sep-2014 17:33:53 America/Sao_Paulo] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:41
+[22-Sep-2014 17:33:53 America/Sao_Paulo] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[22-Sep-2014 17:34:12 America/Sao_Paulo] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[22-Sep-2014 17:34:12 America/Sao_Paulo] PHP Stack trace:
+[22-Sep-2014 17:34:12 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[22-Sep-2014 17:34:12 America/Sao_Paulo] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:41
+[22-Sep-2014 17:34:12 America/Sao_Paulo] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[22-Sep-2014 17:35:21 America/Sao_Paulo] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[22-Sep-2014 17:35:21 America/Sao_Paulo] PHP Stack trace:
+[22-Sep-2014 17:35:21 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[22-Sep-2014 17:35:21 America/Sao_Paulo] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:41
+[22-Sep-2014 17:35:21 America/Sao_Paulo] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[22-Sep-2014 17:41:36 America/Sao_Paulo] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[22-Sep-2014 17:41:36 America/Sao_Paulo] PHP Stack trace:
+[22-Sep-2014 17:41:36 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[22-Sep-2014 17:41:36 America/Sao_Paulo] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:41
+[22-Sep-2014 17:41:36 America/Sao_Paulo] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[22-Sep-2014 17:44:14 America/Sao_Paulo] PHP Notice:  Array to string conversion in C:\wamp\www\fortress\functions\crud.class.php on line 213
+[22-Sep-2014 17:44:14 America/Sao_Paulo] PHP Stack trace:
+[22-Sep-2014 17:44:14 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[22-Sep-2014 17:44:14 America/Sao_Paulo] PHP   2. Crud->save() C:\wamp\www\fortress\view\os\cadastraos.php:41
+[22-Sep-2014 17:44:14 America/Sao_Paulo] PHP   3. Crud->execute_query() C:\wamp\www\fortress\functions\crud.class.php:84
+[23-Sep-2014 15:10:47 Europe/Paris] PHP Notice:  Undefined index: idusuario in C:\wamp\www\fortress\view\os\ospendente.php on line 8
+[23-Sep-2014 15:10:47 Europe/Paris] PHP Stack trace:
+[23-Sep-2014 15:10:47 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[23-Sep-2014 15:10:47 Europe/Paris] PHP Notice:  Undefined index: nivuser in C:\wamp\www\fortress\view\menu\menu.php on line 23
+[23-Sep-2014 15:10:47 Europe/Paris] PHP Stack trace:
+[23-Sep-2014 15:10:47 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\ospendente.php:0
+[23-Sep-2014 15:10:47 Europe/Paris] PHP   2. include_once() C:\wamp\www\fortress\view\os\ospendente.php:68
+[23-Sep-2014 15:10:48 Europe/Paris] PHP Notice:  Undefined index: idusuario in C:\wamp\www\fortress\view\os\lista.php on line 8
+[23-Sep-2014 15:10:48 Europe/Paris] PHP Stack trace:
+[23-Sep-2014 15:10:48 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[23-Sep-2014 15:10:48 Europe/Paris] PHP Notice:  Undefined index: nivuser in C:\wamp\www\fortress\view\menu\menu.php on line 23
+[23-Sep-2014 15:10:48 Europe/Paris] PHP Stack trace:
+[23-Sep-2014 15:10:48 Europe/Paris] PHP   1. {main}() C:\wamp\www\fortress\view\os\lista.php:0
+[23-Sep-2014 15:10:48 Europe/Paris] PHP   2. include_once() C:\wamp\www\fortress\view\os\lista.php:64
+[23-Sep-2014 10:24:11 America/Sao_Paulo] PHP Notice:  Undefined index: idusuario in C:\wamp\www\fortress\view\os\cadastraos.php on line 10
+[23-Sep-2014 10:24:11 America/Sao_Paulo] PHP Stack trace:
+[23-Sep-2014 10:24:11 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[23-Sep-2014 10:24:11 America/Sao_Paulo] PHP Notice:  Undefined index: nivuser in C:\wamp\www\fortress\view\menu\menu.php on line 23
+[23-Sep-2014 10:24:11 America/Sao_Paulo] PHP Stack trace:
+[23-Sep-2014 10:24:11 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
+[23-Sep-2014 10:24:11 America/Sao_Paulo] PHP   2. include_once() C:\wamp\www\fortress\view\os\cadastraos.php:74
