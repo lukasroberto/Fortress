@@ -1429,3 +1429,10 @@
 [23-Sep-2014 10:24:11 America/Sao_Paulo] PHP Stack trace:
 [23-Sep-2014 10:24:11 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\os\cadastraos.php:0
 [23-Sep-2014 10:24:11 America/Sao_Paulo] PHP   2. include_once() C:\wamp\www\fortress\view\os\cadastraos.php:74
+[04-Oct-2014 19:56:44 Europe/Paris] PHP Notice:  Undefined index: idusuario in C:\wamp\www\Fortress\view\os\lista.php on line 8
+[04-Oct-2014 19:56:44 Europe/Paris] PHP Stack trace:
+[04-Oct-2014 19:56:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\os\lista.php:0
+[04-Oct-2014 19:56:44 Europe/Paris] PHP Notice:  Undefined index: nivuser in C:\wamp\www\Fortress\view\menu\menu.php on line 23
+[04-Oct-2014 19:56:44 Europe/Paris] PHP Stack trace:
+[04-Oct-2014 19:56:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\os\lista.php:0
+[04-Oct-2014 19:56:44 Europe/Paris] PHP   2. include_once() C:\wamp\www\Fortress\view\os\lista.php:64
