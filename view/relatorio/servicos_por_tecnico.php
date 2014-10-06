@@ -38,39 +38,7 @@ $query = new Query();
 <link href="../../css/geral.css" rel="stylesheet">
 <link rel="stylesheet" href="../../css/jquery-ui.css" />
 <link rel="stylesheet" href="../../css/datepicker.css" />
-<style>
-@media screen and (max-width: 1px) {
-.row-offcanvas {
-	position: relative;
-	-webkit-transition: all .25s ease-out;
-	-o-transition: all .25s ease-out;
-	transition: all .25s ease-out;
-}
-.row-offcanvas-right {
-	right: 0;
-}
-.row-offcanvas-left {
-	left: 0;
-}
-.row-offcanvas-right .sidebar-offcanvas {
-	right: -50%; /* 6 columns */
-}
-.row-offcanvas-left .sidebar-offcanvas {
-	left: -50%; /* 6 columns */
-}
-.row-offcanvas-right.active {
-	right: 50%; /* 6 columns */
-}
-.row-offcanvas-left.active {
-	left: 50%; /* 6 columns */
-}
-.sidebar-offcanvas {
-	position: absolute;
-	top: 0;
-	width: 50%; /* 6 columns */
-}
-}
-</style>
+
 </head>
 <body>
 <?php include_once("../../view/menu/menu.php");?>
@@ -80,11 +48,7 @@ $query = new Query();
 <blockquote>
   <h2>Relatórios de Serviços</h2>
   <small>Confira abaixo as informações relacionadas aos Serviços realizados neste mês.</small></blockquote>
-  <div class="row row-offcanvas row-offcanvas-right">
-    <div class="col-xs-12 col-sm-9">
-      <p class="pull-right visible-xs">
-        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Opções</button>
-      </p>
+
       <div class="row">
         <form class="navbar-form navbar-left" id="contact-form" action="servicos_por_tecnico.php" method="post" enctype="multipart/form-data">
           <div class="form-group datepicker">
@@ -150,25 +114,7 @@ $query = new Query();
 		}
 		?>
       </div>
-      </div>
-    <!--/span-->
-    
-    <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-      <div class="list-group">
-       <a href="#" class="list-group-item active">Link</a> 
-      <a href="#" class="list-group-item">Link</a>
-       <a href="#" class="list-group-item">Link</a>
-        <a href="#" class="list-group-item">Link</a>
-         <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-           <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-             <a href="#" class="list-group-item">Link</a>
-              <a href="#" class="list-group-item">Link</a>
-               </div>
-    </div>
-    <!--/span--> 
-  </div>
+
   <!--/row-->
   <?php include_once("../../view/footer/footer.php");?>
 </div>

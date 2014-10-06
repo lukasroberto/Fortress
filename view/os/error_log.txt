@@ -1436,3 +1436,10 @@
 [04-Oct-2014 19:56:44 Europe/Paris] PHP Stack trace:
 [04-Oct-2014 19:56:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\os\lista.php:0
 [04-Oct-2014 19:56:44 Europe/Paris] PHP   2. include_once() C:\wamp\www\Fortress\view\os\lista.php:64
+[04-Oct-2014 20:08:15 Europe/Paris] PHP Notice:  Undefined index: idusuario in C:\wamp\www\Fortress\view\os\lista.php on line 8
+[04-Oct-2014 20:08:15 Europe/Paris] PHP Stack trace:
+[04-Oct-2014 20:08:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\os\lista.php:0
+[04-Oct-2014 20:08:15 Europe/Paris] PHP Notice:  Undefined index: nivuser in C:\wamp\www\Fortress\view\menu\menu.php on line 23
+[04-Oct-2014 20:08:15 Europe/Paris] PHP Stack trace:
+[04-Oct-2014 20:08:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\os\lista.php:0
+[04-Oct-2014 20:08:15 Europe/Paris] PHP   2. include_once() C:\wamp\www\Fortress\view\os\lista.php:64
