@@ -8,7 +8,7 @@ date_default_timezone_set('America/Sao_Paulo');
 
 session_start();
 if($_SESSION["idusuario"]==NULL){
-   header('Location: ../login/login.php?acao=5&tipo=2');
+	 header('Location: ../login/login.php?acao=5&tipo=2');
 }
 
 require_once("../../controller/relatorio.controller.class.php");
@@ -38,19 +38,16 @@ $query = new Query();
 <link href="../../css/geral.css" rel="stylesheet">
 <link rel="stylesheet" href="../../css/jquery-ui.css" />
 <link rel="stylesheet" href="../../css/datepicker.css" />
-<link rel="stylesheet" href="../../css/menu-relatorio.css" />
+
 </head>
 <body>
 <?php include_once("../../view/menu/menu.php");?>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-3 col-md-2 sidebar">
-      <?php include_once("../../view/menu/menuRelatorio.php");?>
-    </div>
-    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
-  <h2 class="text-info">Relatórios de Serviços finalizados</h2>
-  <small>Utilize os filtros para conferir a quantidade de serviços realizados por cada colaborador.</small></blockquote>
+<div class="container">
+<!-- Título -->
+<blockquote>
+  <h2>Relatórios de Serviços</h2>
+  <small>Confira abaixo as informações relacionadas aos Serviços realizados neste mês.</small></blockquote>
 
       <div class="row">
         <form class="navbar-form navbar-left" id="contact-form" action="servicos_por_tecnico.php" method="post" enctype="multipart/form-data">
@@ -64,9 +61,9 @@ $query = new Query();
             <select class="form-control" name="tecnico">
               <option value="">Selecione um Técnico</option>
               <?php
-            $listaTecnico = $query->listaTecnicos();
-                  while($listaTecnicos = sqlsrv_fetch_array($listaTecnico)){
-        ?>
+	  				$listaTecnico = $query->listaTecnicos();
+                	while($listaTecnicos = sqlsrv_fetch_array($listaTecnico)){
+				?>
               <option value="<?php echo $listaTecnicos["tec_id"]?>" <?php echo ($listaTecnicos["tec_id"] == $tecnico) ? 'Selected' : '' ?>><?php echo $listaTecnicos["tec_nome"]?></option>
               <?php } ?>
             </select>
@@ -78,12 +75,12 @@ $query = new Query();
       </div>
       <div class="row">
         <?php
-      $servicosPorTecnico = $controller->listaQtdServicos($tecnico,$dataini,$datafin);
-      $row_count = sqlsrv_num_rows( $servicosPorTecnico );
-    
-      if ($row_count > 0){
+			$servicosPorTecnico = $controller->listaQtdServicos($tecnico,$dataini,$datafin);
+			$row_count = sqlsrv_num_rows( $servicosPorTecnico );
+		
+			if ($row_count > 0){
 
-  ?>
+	?>
         <table class="table table-striped table-hover table-condensed" width="200" border="0" cellspacing="0" cellpadding="0">
           <thead>
             <tr>
@@ -91,11 +88,11 @@ $query = new Query();
               <th><b>QTD de OS</b></th>
             </tr>
           </thead>
-          <?php 
-            $totalQuantidadeOS ='';
-                  while($servicos = sqlsrv_fetch_array($servicosPorTecnico)){
-            $totalQuantidadeOS = $totalQuantidadeOS+$servicos["quantidade"];
-        ?>
+          <?php	
+						$totalQuantidadeOS ='';
+                	while($servicos = sqlsrv_fetch_array($servicosPorTecnico)){
+						$totalQuantidadeOS = $totalQuantidadeOS+$servicos["quantidade"];
+				?>
           <tr onClick="location.href='../os/lista.php?idtecnico=<?php echo $servicos["tec_id"]; ?>&dataini=<?php echo $dataini ?>&datafin=<?php echo $datafin ?>&status=4&nometecnico=<?php echo $servicos["tec_nome"] ?>'">
             <td><?php echo $servicos["tec_nome"]; ?></td>
             <td><?php echo $servicos["quantidade"]; ?></td>
@@ -107,35 +104,47 @@ $query = new Query();
           </tr>
         </table>
         <?php
-    }else{
-    ?>
+		}else{
+		?>
         <div class="text-center">
           <h2>Opsss!!!</h2>
           <p>Sua pesquisa não retornou nenhum resultado válido.</p>
         </div>
         <?php
-    }
-    ?>
+		}
+		?>
       </div>
-  </div>
+
+  <!--/row-->
+  <?php include_once("../../view/footer/footer.php");?>
 </div>
+<!-- /container --> 
 
 <!-- Javascript --> 
 <script src="../../js/jquery.validate.min.js"></script> 
 <script src="../../js/bootstrap-datepicker.js"></script> 
 <script src="../../js/bootstrap.min.js"></script>
+
 <script>
 $('#dataini').datepicker()
   .on('changeDate', function(ev){
-  $('#dataini').datepicker("hide");
+	$('#dataini').datepicker("hide");
   });
   
   $('#datafin').datepicker()
   .on('changeDate', function(ev){
-  $('#datafin').datepicker("hide");
+	$('#datafin').datepicker("hide");
   });  
 
 </script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+ 
+<script> 
+	$(document).ready(function () {
+  $('[data-toggle="offcanvas"]').click(function () {
+    $('.row-offcanvas').toggleClass('active')
+  });
+});</script> 
 </body>
 </html>

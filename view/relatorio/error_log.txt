@@ -12212,3 +12212,69 @@
 [21-Sep-2014 21:39:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\fortress\view\relatorio\servicos_por_tecnico.php:0
 [21-Sep-2014 21:39:45 America/Sao_Paulo] PHP   2. RelatorioController->listaQtdServicos() C:\wamp\www\fortress\view\relatorio\servicos_por_tecnico.php:114
 [21-Sep-2014 21:39:45 America/Sao_Paulo] PHP   3. Crud->execute_query() C:\wamp\www\fortress\controller\relatorio.controller.class.php:41
+[06-Oct-2014 22:57:24 Europe/Paris] PHP Notice:  Undefined index: idusuario in C:\wamp\www\Fortress\view\relatorio\ordem_servico.php on line 8
+[06-Oct-2014 22:57:24 Europe/Paris] PHP Stack trace:
+[06-Oct-2014 22:57:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\ordem_servico.php:0
+[06-Oct-2014 22:57:24 Europe/Paris] PHP Notice:  Undefined index: nivuser in C:\wamp\www\Fortress\view\menu\menu.php on line 23
+[06-Oct-2014 22:57:24 Europe/Paris] PHP Stack trace:
+[06-Oct-2014 22:57:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\ordem_servico.php:0
+[06-Oct-2014 22:57:24 Europe/Paris] PHP   2. include_once() C:\wamp\www\Fortress\view\relatorio\ordem_servico.php:137
+[07-Oct-2014 00:01:30 Europe/Paris] PHP Fatal error:  Class 'cliente' not found in C:\wamp\www\Fortress\view\relatorio\cliente.php on line 21
+[07-Oct-2014 00:01:30 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 00:01:30 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\cliente.php:0
+[07-Oct-2014 00:02:04 Europe/Paris] PHP Notice:  Undefined variable: cidade in C:\wamp\www\Fortress\controller\relatorio.controller.class.php on line 31
+[07-Oct-2014 00:02:04 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 00:02:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\cliente.php:0
+[07-Oct-2014 00:02:04 Europe/Paris] PHP   2. RelatorioController->QtdClientesPorEmpresa() C:\wamp\www\Fortress\view\relatorio\cliente.php:22
+[07-Oct-2014 00:02:04 Europe/Paris] PHP Notice:  Trying to get property of non-object in C:\wamp\www\Fortress\view\relatorio\cliente.php on line 53
+[07-Oct-2014 00:02:04 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 00:02:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\cliente.php:0
+[07-Oct-2014 00:20:27 Europe/Paris] PHP Notice:  Undefined variable: qtdClientes in C:\wamp\www\Fortress\view\relatorio\cliente.php on line 63
+[07-Oct-2014 00:20:27 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 00:20:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\cliente.php:0
+[07-Oct-2014 00:20:27 Europe/Paris] PHP Notice:  Undefined variable: qtdClientes in C:\wamp\www\Fortress\view\relatorio\cliente.php on line 63
+[07-Oct-2014 00:20:27 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 00:20:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\cliente.php:0
+[07-Oct-2014 00:20:30 Europe/Paris] PHP Notice:  Undefined variable: qtdClientes in C:\wamp\www\Fortress\view\relatorio\cliente.php on line 63
+[07-Oct-2014 00:20:30 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 00:20:30 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\cliente.php:0
+[07-Oct-2014 00:20:30 Europe/Paris] PHP Notice:  Undefined variable: qtdClientes in C:\wamp\www\Fortress\view\relatorio\cliente.php on line 63
+[07-Oct-2014 00:20:30 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 00:20:30 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\cliente.php:0
+[07-Oct-2014 00:31:50 Europe/Paris] PHP Fatal error:  Call to undefined method RelatorioController::totalClientesMonitorados() in C:\wamp\www\Fortress\view\relatorio\cliente.php on line 65
+[07-Oct-2014 00:31:50 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 00:31:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\cliente.php:0
+[07-Oct-2014 01:08:28 Europe/Paris] PHP Notice:  Undefined variable: controller in C:\wamp\www\Fortress\view\relatorio\relatorios.php on line 43
+[07-Oct-2014 01:08:28 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 01:08:28 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\relatorios.php:0
+[07-Oct-2014 01:08:28 Europe/Paris] PHP Fatal error:  Call to a member function qtdClientesPorEmpresa() on a non-object in C:\wamp\www\Fortress\view\relatorio\relatorios.php on line 43
+[07-Oct-2014 01:08:28 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 01:08:28 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\relatorios.php:0
+[07-Oct-2014 01:10:01 Europe/Paris] PHP Notice:  Undefined variable: controller in C:\wamp\www\Fortress\view\relatorio\relatorios.php on line 43
+[07-Oct-2014 01:10:01 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 01:10:01 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\relatorios.php:0
+[07-Oct-2014 01:10:01 Europe/Paris] PHP Fatal error:  Call to a member function qtdClientesPorEmpresa() on a non-object in C:\wamp\www\Fortress\view\relatorio\relatorios.php on line 43
+[07-Oct-2014 01:10:01 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 01:10:01 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\relatorios.php:0
+[07-Oct-2014 01:10:02 Europe/Paris] PHP Notice:  Undefined variable: controller in C:\wamp\www\Fortress\view\relatorio\relatorios.php on line 43
+[07-Oct-2014 01:10:02 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 01:10:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\relatorios.php:0
+[07-Oct-2014 01:10:02 Europe/Paris] PHP Fatal error:  Call to a member function qtdClientesPorEmpresa() on a non-object in C:\wamp\www\Fortress\view\relatorio\relatorios.php on line 43
+[07-Oct-2014 01:10:02 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 01:10:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\relatorios.php:0
+[07-Oct-2014 01:10:05 Europe/Paris] PHP Notice:  Undefined variable: controller in C:\wamp\www\Fortress\view\relatorio\relatorios.php on line 43
+[07-Oct-2014 01:10:05 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 01:10:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\relatorios.php:0
+[07-Oct-2014 01:10:05 Europe/Paris] PHP Fatal error:  Call to a member function qtdClientesPorEmpresa() on a non-object in C:\wamp\www\Fortress\view\relatorio\relatorios.php on line 43
+[07-Oct-2014 01:10:05 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 01:10:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\relatorios.php:0
+[06-Oct-2014 21:19:50 America/Sao_Paulo] PHP Notice:  Array to string conversion in C:\wamp\www\Fortress\functions\crud.class.php on line 213
+[06-Oct-2014 21:19:50 America/Sao_Paulo] PHP Stack trace:
+[06-Oct-2014 21:19:50 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\servicos_por_tecnico.php:0
+[06-Oct-2014 21:19:50 America/Sao_Paulo] PHP   2. RelatorioController->listaQtdServicos() C:\wamp\www\Fortress\view\relatorio\servicos_por_tecnico.php:81
+[06-Oct-2014 21:19:50 America/Sao_Paulo] PHP   3. Crud->execute_query() C:\wamp\www\Fortress\controller\relatorio.controller.class.php:54
+[06-Oct-2014 21:20:01 America/Sao_Paulo] PHP Notice:  Array to string conversion in C:\wamp\www\Fortress\functions\crud.class.php on line 213
+[06-Oct-2014 21:20:01 America/Sao_Paulo] PHP Stack trace:
+[06-Oct-2014 21:20:01 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\Fortress\view\relatorio\servicos_por_tecnico.php:0
+[06-Oct-2014 21:20:01 America/Sao_Paulo] PHP   2. RelatorioController->listaQtdServicos() C:\wamp\www\Fortress\view\relatorio\servicos_por_tecnico.php:81
+[06-Oct-2014 21:20:01 America/Sao_Paulo] PHP   3. Crud->execute_query() C:\wamp\www\Fortress\controller\relatorio.controller.class.php:49

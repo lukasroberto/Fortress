@@ -45,3 +45,7 @@ body {
 	max-width:100%;
 }
 }
+.centralizado {
+    margin: 0 auto;
+    float: none;
+}

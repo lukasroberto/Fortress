@@ -18,7 +18,6 @@ $cidade = (isset($_POST['cidade']) )? $_POST['cidade']:'';
 
 $controller = new RelatorioController();
 $query = new Query();
-
 ?>
 
 <!DOCTYPE html>
@@ -45,27 +44,31 @@ $query = new Query();
       <?php include_once("../../view/menu/menuRelatorio.php");?>
     </div>
     <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-      <h1 class="page-header">Quantidade de Clientes por empresa</h1>
+      <h2 class="page-header text-info">Quantidade de clientes por empresa</h2>
       <div class="row placeholders">
-        <div class="col-xs-6 col-sm-2 placeholder"> <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
-          <h4>1234</h4>
-          <span class="text-muted">Fortress</span> </div>
-        <div class="col-xs-6 col-sm-2 placeholder"> <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
-          <h4>458</h4>
-          <span class="text-muted">Logus</span> </div>
-        <div class="col-xs-6 col-sm-2 placeholder"> <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
-          <h4>45</h4>
-          <span class="text-muted">Eletrônica Asa</span> </div>
-        <div class="col-xs-6 col-sm-2 placeholder"> <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
-          <h4>12</h4>
-          <span class="text-muted">Fortress Guardian</span> </div>
-        <div class="col-xs-6 col-sm-2 placeholder"> <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
-          <h4>158</h4>
-          <span class="text-muted">Não Monitorado</span> </div>
+        <div class="col-xs-6 col-sm-2"> <img src="../../img/fortress.jpg" width="200px" height="200px" class="img-responsive centralizado" title="Fortress">
+          <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('fortress'); echo($qtdClientesEmpresa->quantidade);?></h4>
+          <span class="text-muted"><a href='../cliente/lista.php?empresa=fortress'>Fortress</a></span> </div>
+        <div class="col-xs-6 col-sm-2 "> <img src="../../img/logus.jpg" width="200px" height="200px" class="img-responsive centralizado" alt="Logus">
+          <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('logus'); echo($qtdClientesEmpresa->quantidade);?></h4>
+          <span class="text-muted"><a href='../cliente/lista.php?empresa=logus'>Logus</a></span> </div>
+        <div class="col-xs-6 col-sm-2 "> <img src="../../img/asa.jpg" width="200px" height="200px" class="img-responsive centralizado" alt="Eletrônica ASA">
+          <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('asa'); echo($qtdClientesEmpresa->quantidade);?></h4>
+          <span class="text-muted"><a href='../cliente/lista.php?empresa=asa'>Eletrônica Asa</a></span> </div>
+        <div class="col-xs-6 col-sm-2 "> <img src="../../img/fortressguardian.jpg" width="200px" height="200px" class="img-responsive centralizado" alt="Fortess Guardian">
+          <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('guardian'); echo($qtdClientesEmpresa->quantidade);?></h4>
+          <span class="text-muted"><a href='../cliente/lista.php?empresa=guardian'>Fortress Guardian</a></span> </div>
+        <div class="col-xs-6 col-sm-2 "> <img src="../../img/tm.jpg" width="200px" height="200px" class="img-responsive centralizado" alt="Não Monitorado">
+          <h4><?php $qtdClientesMonitorados = $controller->totalClientesMonitorados(); echo($qtdClientesMonitorados->quantidade);?></h4>
+          <span class="text-muted">Total clientes monitorados</span> </div>
+        <div class="col-xs-6 col-sm-2 "> <img src="../../img/nm.jpg" width="200px" height="200px" class="img-responsive centralizado" alt="Não Monitorado">
+          <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('nm'); echo($qtdClientesEmpresa->quantidade);?></h4>
+          <span class="text-muted"><a href='../cliente/lista.php?empresa=nm'>Não Monitorado</a></span> </div>
+
       </div>
-      <h2 class="sub-header">Quantidade de Clientes por cidade</h2>
+      <h3 class="sub-header text-info">Quantidade de clientes por cidade</h3>
       <div class="row">
-        <form class="navbar-form navbar-left" id="contact-form" action="ordem_servico.php" method="post" enctype="multipart/form-data">
+        <form class="navbar-form navbar-left" id="contact-form" action="cliente.php" method="post" enctype="multipart/form-data">
           <div class="form-group">
             <select class="form-control" name="cidade">
               <option value="">Selecione uma Cidade</option>

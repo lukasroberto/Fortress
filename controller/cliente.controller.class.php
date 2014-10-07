@@ -30,8 +30,11 @@ class ClienteController extends Crud {
 	}
 		public function listaClientesDoRelatorio($cidade=NULL,$empresa=NULL){
 		
+			if($cidade){
 			return $this->execute_query("SELECT * FROM CLIENTE WHERE CLI_CIDADE = '".$cidade."' AND CLI_EMPRESA = '". $empresa."'");
-		
+			}else{
+			return $this->execute_query("SELECT * FROM CLIENTE WHERE CLI_EMPRESA = '". $empresa."'");	
+			}
 	}
 
 }
