@@ -4956,3 +4956,12 @@
 [07-Oct-2014 13:34:06 Europe/Paris] PHP Notice:  Undefined index: acesso in C:\wamp\www\Fortress\view\login\login.php on line 16
 [07-Oct-2014 13:34:06 Europe/Paris] PHP Stack trace:
 [07-Oct-2014 13:34:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\login\login.php:0
+[07-Oct-2014 13:42:12 Europe/Paris] PHP Notice:  Undefined index: acesso in C:\wamp\www\Fortress\view\login\login.php on line 16
+[07-Oct-2014 13:42:12 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 13:42:12 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\login\login.php:0
+[07-Oct-2014 13:42:44 Europe/Paris] PHP Notice:  Undefined index: acesso in C:\wamp\www\Fortress\view\login\login.php on line 16
+[07-Oct-2014 13:42:44 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 13:42:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\login\login.php:0
+[07-Oct-2014 13:44:08 Europe/Paris] PHP Notice:  Undefined index: acesso in C:\wamp\www\Fortress\view\login\login.php on line 16
+[07-Oct-2014 13:44:08 Europe/Paris] PHP Stack trace:
+[07-Oct-2014 13:44:08 Europe/Paris] PHP   1. {main}() C:\wamp\www\Fortress\view\login\login.php:0
