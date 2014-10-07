@@ -3,7 +3,7 @@
 class Connection{	
 	private $connection;
 	
-	//Local  DB
+	//Local DB
 	private $parameters = array("host"=>"192.168.0.6","user"=>"sa","password"=>"spotGF2008","database"=>"monitoramento", "characterSet" => "UTF-8");
 	
 	
