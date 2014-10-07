@@ -25,6 +25,19 @@ class RelatorioController extends Crud{
 			return $this->execute_query("SELECT cli_empresa, cli_cidade, COUNT(cli_cidade) AS quantidade FROM CLIENTE GROUP BY cli_cidade, cli_empresa ORDER BY cli_empresa");
 		}
 	}
+	//Clientes.php
+		public function qtdClientesPorEmpresa($empresa=NULL){
+		
+			$SQL = "SELECT COUNT(cli_empresa) AS quantidade FROM CLIENTE WHERE(cli_empresa = '".$empresa."')";
+			return sqlsrv_fetch_object($this->execute_query($SQL));
+			}
+
+	//Clientes.php
+	public function totalClientesMonitorados(){
+	
+		$SQL = "SELECT COUNT(cli_empresa) AS quantidade FROM CLIENTE WHERE(cli_empresa != 'nm')";
+		return sqlsrv_fetch_object($this->execute_query($SQL));
+		}
 	
 		//servicos_por_tecnico.php
 	public function listaQtdServicos($tecnico=NULL,$dataini=NULL,$datafin=NULL){

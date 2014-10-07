@@ -4,7 +4,7 @@ class Connection{
 	private $connection;
 	
 	//Local DB
-	private $parameters = array("host"=>"192.168.0.6","user"=>"sa","password"=>"spotGF2008","database"=>"monitoramento", "characterSet" => "UTF-8");
+	private $parameters = array("host"=>"lukas-pc\servo","user"=>"sa","password"=>"spotGF2008","database"=>"monitoramento", "characterSet" => "UTF-8");
 	
 	
 	//Cloud DB

@@ -37,13 +37,7 @@ class Functions {
 						  <li><a href=\"".$contextoDeMenu."/view/login/logoff.php?confirma=NAO\"><i class=\"icon-share\"></i> Efetuar Logoff</a></li>
 						</ul>
 					  </li>
-					  <li class=\"dropdown\">
-						<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Relatórios<b class=\"caret\"></b></a>
-						<ul class=\"dropdown-menu\">
-						  <li><a href=\"".$contextoDeMenu."/view/relatorio/cliente.php\"><i class=\"icon-share\"></i> Clientes</a></li>
-						  <li><a href=\"".$contextoDeMenu."/view/relatorio/servicos_por_tecnico.php\"><i class=\"icon-share\"></i> Serviços Realizados</a></li>
-						</ul>
-					  </li>
+						<li><a href=\"".$contextoDeMenu."/view/relatorio/relatorios.php\">Relatórios</a></li>
 					  <li class=\"dropdown\">
 						<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Sistema<b class=\"caret\"></b></a>
 						<ul class=\"dropdown-menu\">

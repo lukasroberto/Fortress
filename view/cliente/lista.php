@@ -32,7 +32,7 @@ if(isset($_POST['submit'])) {
 $cidade = (isset($_GET['cidade']) )? $_GET['cidade']:'';
 $empresa = (isset($_GET['empresa']) )? $_GET['empresa']:'';
 
-if(isset($_GET['cidade'])) {
+if(isset($_GET['empresa'])) {
 	
 	$registros 	= $cliente->listaClientesDoRelatorio($cidade,$empresa);
 }
