@@ -2,3 +2,4 @@
 *.txt
 *.txt
 .functions/connection.class.php
+functions/connection.class.php
