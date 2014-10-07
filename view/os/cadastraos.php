@@ -131,8 +131,7 @@ if(isset($_GET['submit']) == 'Buscar') {
     <div class="form-group alinha-left" style="width:80%; padding-left:5px">
       <label for="tipoos">Tipo da OS</label>
       <select class="form-control" required id="ostipo" name="ostipo">
-        <option value="">Selecione o tipo da OS</option>
-        <option value="1">Selecione o Tipo da OS</option>
+        <option value="">Selecione o Tipo da OS</option>
         <option value="3">Administrativo</option>
         <option value="5">Alarmes</option>
         <option value="8">Cancelamento de Monitoramento</option>
@@ -141,6 +140,7 @@ if(isset($_GET['submit']) == 'Buscar') {
         <option value="10">Manuten&ccedil;&atilde;o t&eacute;cnica (Ricardo)</option>
         <option value="2">Or&ccedil;amentos (Vendas)</option>
         <option value="6">Port&atilde;o</option>
+        <option value="11">Vale</option>
         <option value="9">Outros</option>
       </select>
     </div>

@@ -53,9 +53,7 @@ class RelatorioController extends Crud{
 										CONVERT(VARCHAR(10),'".$dataini."',103) AND  CONVERT(VARCHAR(10),'".$datafin."',103))
 										GROUP BY OS_TECNICO.tec_id, TECNICO.tec_nome ORDER BY quantidade DESC");
 			}
-		
-	}
-		
+		}				
 	}
 
 ?>
