@@ -15,14 +15,16 @@ require_once("../../controller/relatorio.controller.class.php");
 include_once("../../functions/functions.class.php");
 include_once("../../functions/query.class.php");
 
+$functions  = new Functions;
 $tecnico = (isset($_POST['tecnico']))? $_POST['tecnico']:'';
-$dataini = (isset($_POST['dataini']))? $_POST['dataini']:date((date('d'))+1-(date('d')).'-m-Y');
-$datafin = (isset($_POST['datafin']))? $_POST['datafin']:date('d-m-Y');
+$dataini = (isset($_POST['dataini']))? $_POST['dataini']:date((date('d'))+1-(date('d')).'/m/Y');
+$datafin = (isset($_POST['datafin']))? $_POST['datafin']:date('d/m/Y');
 
 $controller = new RelatorioController();
 $query = new Query();
 
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -55,10 +57,10 @@ $query = new Query();
       <div class="row">
         <form class="navbar-form navbar-left" id="contact-form" action="servicos_por_tecnico.php" method="post" enctype="multipart/form-data">
           <div class="form-group datepicker">
-            <input type="text" class="form-control" name="dataini" id="dataini" value="<?php echo (!$dataini == NULL) ?  $dataini  :  date((date('d'))+1-(date('d')).'-m-Y'); ?>" data-date="12-02-2014" data-date-format="dd-mm-yyyy">
+            <input type="text" class="form-control" name="dataini" id="dataini" value="<?php echo $dataini ?>" data-date="12/02/2014" data-date-format="dd/mm/yyyy">
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" name="datafin" id="datafin" value="<?php echo (!$datafin == NULL) ?  $datafin  :  date('d-m-Y'); ?>" data-date="12-02-2014" data-date-format="dd-mm-yyyy">
+            <input type="text" class="form-control" name="datafin" id="datafin" value="<?php echo $datafin?>" data-date="12/02/2014" data-date-format="dd/mm/yyyy">
           </div>
           <div class="form-group">
             <select class="form-control" name="tecnico">
@@ -89,21 +91,30 @@ $query = new Query();
             <tr>
               <th><b>Técnico</b></th>
               <th><b>QTD de OS</b></th>
+              <th><b>Média por dia</b></th>
             </tr>
           </thead>
           <?php 
             $totalQuantidadeOS ='';
+            //CHAMADA DA FUNCAO PARA CALCULAR DIAS UTEIS
+               $DataInicial = "18/10/2010";
+                $DataFinal = "27/10/2010";
+            $diasUteis = $functions->DiasUteis($dataini, $datafin);
                   while($servicos = sqlsrv_fetch_array($servicosPorTecnico)){
-            $totalQuantidadeOS = $totalQuantidadeOS+$servicos["quantidade"];
+                        $totalQuantidadeOS = $totalQuantidadeOS+$servicos["quantidade"];
+                    
+                        $media = $servicos["quantidade"] / $diasUteis;
         ?>
           <tr onClick="location.href='../os/lista.php?idtecnico=<?php echo $servicos["tec_id"]; ?>&dataini=<?php echo $dataini ?>&datafin=<?php echo $datafin ?>&status=4&nometecnico=<?php echo $servicos["tec_nome"] ?>'">
             <td><?php echo $servicos["tec_nome"]; ?></td>
             <td><?php echo $servicos["quantidade"]; ?></td>
+            <td><?php echo number_format($media,1,",","."); ?></td>
           </tr>
           <?php } ?>
           <tr class="info">
             <td><b>Total</b></td>
             <td><b><?php echo $totalQuantidadeOS; ?></b></td>
+            <td><?php echo number_format(($totalQuantidadeOS/$diasUteis),1,",","."); ?></td>
           </tr>
         </table>
         <?php
@@ -115,10 +126,11 @@ $query = new Query();
         </div>
         <?php
     }
-    ?>
+        ?>
       </div>
   </div>
 </div>
+
 
 <!-- Javascript --> 
 <script src="../../js/jquery.validate.min.js"></script> 
