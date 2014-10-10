@@ -14,9 +14,7 @@ class RelatorioController extends Crud{
 	public function listaQtdClientes($empresa=NULL,$cidade=NULL){
 		
 		if($cidade && $empresa){
-			return $this->execute_query("SELECT cli_empresa, cli_cidade, COUNT(cli_cidade) AS quantidade FROM CLIENTE WHERE(cli_empresa = '".$empresa."') and (cli_cidade = '".$cidade."')GROUP BY cli_cidade, cli_empresa ORDER BY cli_empresa");
-
-				  
+			return $this->execute_query("SELECT cli_empresa, cli_cidade, COUNT(cli_cidade) AS quantidade FROM CLIENTE WHERE(cli_empresa = '".$empresa."') and (cli_cidade = '".$cidade."')GROUP BY cli_cidade, cli_empresa ORDER BY cli_empresa");				  
 		}else if(!$empresa ==NULL){
 			return $this->execute_query("SELECT cli_empresa, cli_cidade, COUNT(cli_cidade) AS quantidade FROM CLIENTE WHERE(cli_empresa = '".$empresa."')GROUP BY cli_cidade, cli_empresa ORDER BY cli_empresa");
 		}else if(!$cidade ==NULL){
@@ -52,6 +50,34 @@ class RelatorioController extends Crud{
 										ON TECNICO.tec_id = OS_TECNICO.tec_id INNER JOIN OS ON OS_TECNICO.os_id = OS.os_id WHERE (OS.os_data_ini BETWEEN 
 										CONVERT(VARCHAR(10),'".$dataini."',103) AND  CONVERT(VARCHAR(10),'".$datafin."',103))
 										GROUP BY OS_TECNICO.tec_id, TECNICO.tec_nome ORDER BY quantidade DESC");
+			}
+		}
+
+				//qtd_os_mensal.php
+	public function listaQtdOSMensal($dataini=NULL,$datafin=NULL){
+		
+			if($dataini && $datafin){
+			return $this->execute_query("SELECT YEAR = YEAR(OS_DATA_INI),
+												       MONTH = MONTH(OS_DATA_INI),  
+												       QUANTIDADE = CONVERT(VARCHAR,FLOOR(COUNT(OS_TIPO)),1) 
+												FROM   OS
+												WHERE OS.os_data_ini BETWEEN CONVERT(VARCHAR(10),'".$dataini."',103) AND CONVERT(VARCHAR(10),'".$datafin."',103)
+												GROUP BY YEAR(OS_DATA_INI), 
+												         MONTH(OS_DATA_INI)
+												ORDER BY YEAR, 
+														 MONTH
+												");	
+			}else{
+			return $this->execute_query("SELECT YEAR = YEAR(OS_DATA_INI),
+												       MONTH = MONTH(OS_DATA_INI),  
+												       QUANTIDADE = CONVERT(VARCHAR,FLOOR(COUNT(OS_TIPO)),1) 
+												FROM   OS
+												GROUP BY YEAR(OS_DATA_INI), 
+												         MONTH(OS_DATA_INI)
+												ORDER BY YEAR, 
+														 MONTH
+
+												");	
 			}
 		}				
 	}
