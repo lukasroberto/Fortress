@@ -17,7 +17,7 @@ include_once("../../functions/query.class.php");
 
 $functions  = new Functions;
 $tecnico = (isset($_POST['tecnico']))? $_POST['tecnico']:'';
-$dataini = (isset($_POST['dataini']))? $_POST['dataini']:date((date('d'))+1-(date('d')).'/m/Y');
+$dataini = (isset($_POST['dataini']))? $_POST['dataini']:'01'.date('/m/Y');
 $datafin = (isset($_POST['datafin']))? $_POST['datafin']:date('d/m/Y');
 
 $controller = new RelatorioController();
