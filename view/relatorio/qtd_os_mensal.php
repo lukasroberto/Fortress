@@ -90,7 +90,7 @@ $controller = new RelatorioController();
             <td><?php echo $qtdOS["YEAR"]; ?></td>
             <td><?php echo $qtdOS["MONTH"]; ?></td>
             <td><?php echo $qtdOS["QUANTIDADE"]; ?></td>
-            <td><?php echo number_format(($qtdOS["QUANTIDADE"]/22),1,",","."); ?></td>
+            <td><?php echo number_format(($qtdOS["QUANTIDADE"]/30),1,",","."); ?></td>
           </tr>
           <?php } ?>
         </table>
