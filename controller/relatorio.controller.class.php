@@ -79,6 +79,16 @@ class RelatorioController extends Crud{
 
 												");	
 			}
+		}
+
+
+				//grafico.php
+	public function grafico(){
+		
+			return $this->execute_query("SELECT OS_TECNICO.tec_id, COUNT(OS_TECNICO.os_id) AS quantidade FROM TECNICO INNER JOIN OS_TECNICO 
+										ON TECNICO.tec_id = OS_TECNICO.tec_id INNER JOIN OS ON OS_TECNICO.os_id = OS.os_id 
+										GROUP BY OS_TECNICO.tec_id");
+			
 		}				
 	}
 

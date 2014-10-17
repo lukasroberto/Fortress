@@ -1,51 +1,80 @@
-@charset "utf-8";
-/* CSS Document */
+					@charset "utf-8";
+					/* CSS Document */
+					
+					body {
+					/*background-image: url("../img/background_geral.jpg") !important;*/
+					background-position: top right !important;
+					background-repeat: no-repeat !important;
+					background-attachment: fixed !important;
+					background-clip: border-box !important;
+					padding-top: 60px !important;
+					padding-bottom: 40px !important;
+					background-color: #FFF !important;
+					color: #333;
+					}
+					.nav {
+					}
+					/* cor dos Icones Gerenciameto cliente */
+					.verdemaps:link, .verdemaps:visited {
+					color: #0C0;
+					}
+					.verdemaps:hover {
+					color: #090;
+					}
+					.laranja-os:link, .laranja-os:visited {
+					color: #F90;
+					}
+					.laranja-os:hover {
+					color: #F60;
+					}
+					.vermelho-excluir:link, .vermelho-excluir:visited {
+					color: #F00;
+					}
+					.vermelho-excluir:hover {
+					color: #900;
+					}
+					
+					@media (min-width: 550px) {
+					
+					.alinha-rigth{
+					float:right;
+					}
+					
+					.alinha-left{
+					float:left;
+					max-width:100%;
+					}
+					}
+					.centralizado {
+					margin: 0 auto;
+					float: none;
+					}
+					/* CSS para ordernar as tabelas confome clique no TH */
 
-body {
-	/*background-image: url("../img/background_geral.jpg") !important;*/
-	background-position: top right !important;
-	background-repeat: no-repeat !important;
-	background-attachment: fixed !important;
-	background-clip: border-box !important;
-	padding-top: 60px !important;
-	padding-bottom: 40px !important;
-	background-color: #FFF !important;
-	color: #333;
-}
-.nav {
-}
-/* cor dos Icones Gerenciameto cliente */
-.verdemaps:link, .verdemaps:visited {
-	color: #0C0;
-}
-.verdemaps:hover {
-	color: #090;
-}
-.laranja-os:link, .laranja-os:visited {
-	color: #F90;
-}
-.laranja-os:hover {
-	color: #F60;
-}
-.vermelho-excluir:link, .vermelho-excluir:visited {
-	color: #F00;
-}
-.vermelho-excluir:hover {
-	color: #900;
-}
+					.tablesorter {
+					font-family:arial;
+					font-size: 9pt;
+					}
+					.tablesorter thead tr th{
+					background-color:#E9E9E9;
+					}
+					.iconorder {
+					background-image: url(../img/tableorder/bg.gif);
+					background-repeat: no-repeat;
+					background-position: center right;
+					cursor: pointer;
+					}
+					
+					.headerSortUp {
+					background-image: url(../img/tableorder/asc.gif);
+					}
+					.headerSortDown {
+					background-image: url(../img/tableorder/desc.gif);
+					}
+					.tablesorter thead tr .headerSortDown, .tablesorter thead tr .headerSortUp {
+					background-color: #E0DEE0;
+					}
+					/* Fim - CSS para ordernar as tabelas confome clique no TH */
 
-@media (min-width: 550px) {
-
-.alinha-rigth{
-	float:right;
-}
-
-.alinha-left{
-	float:left;
-	max-width:100%;
-}
-}
-.centralizado {
-    margin: 0 auto;
-    float: none;
-}
+					
+				
