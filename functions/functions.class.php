@@ -43,6 +43,7 @@ class Functions {
 						<ul class=\"dropdown-menu\">
 						  <li><a href=\"".$contextoDeMenu."/view/os/lista.php\">Gerenciar Ordens de Serviço</a></li>
 						  <li><a href=\"".$contextoDeMenu."/view/cliente/lista.php\">Gerenciar Clientes</a></li>
+						  <li><a href=\"".$contextoDeMenu."/view/chip/lista.php\">Gerenciar Chips</a></li>
 						  <li><a href=\"".$contextoDeMenu."/view/funcionarios/lista.php\">Listagem de Contra Senhas</a></li>
 						</ul>
 					  </li>

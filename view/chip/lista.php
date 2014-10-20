@@ -73,7 +73,7 @@
 					<option value="cli_codigo" <?php echo (isset($coluna) && $coluna == 'cli_codigo') ? 'Selected' : ''; ?>>Cliente</option>
 					<option value="chip_status" <?php echo (isset($coluna) && $coluna == 'chip_status') ? 'Selected' : ''; ?>>Status</option>
 					</select>
-					<input class="form-control" placeholder="Filtrar Chipes" type="text" name="filtro" id="filtro" required value="<?php echo ($filtro) ? : $filtro; ?>">
+					<input class="form-control" placeholder="Filtrar Chips" type="text" name="filtro" id="filtro" required value="<?php echo ($filtro) ? : $filtro; ?>">
 					</div>
 					<input type="submit" class="btn btn-warning btn-large" value="Buscar" name="submit">
 					<a href="edita.php" class="btn btn-primary btn-large">Cadastrar um novo Chip</a>
@@ -91,24 +91,30 @@
 					<th class="iconorder">Data de Envio</th>
 					<th class="iconorder">Cliente</th>
 					<th class="iconorder">Status</th>
+					<th style="text-align:center"><i class="glyphicon glyphicon-pencil"></i></th>
 
 					</tr>
 					</thead>
 					<tbody>
 					<?php
 					while($reg = sqlsrv_fetch_array($registros)){
-						($reg["chip_status"] == 1 ? $status = "Ativo" : '');
-						($reg["chip_status"] == 2 ? $status = "Estoque" : '');
-						($reg["chip_status"] == 3 ? $status = "Cancelado" : '');
-						($reg["chip_status"] == 4 ? $status = "Cancelar" : '');
+						($reg["chip_status"] == 1 ? $status = "Ativo" and $class='success' : '');
+						($reg["chip_status"] == 2 ? $status = "Estoque" and $class='info' : '');
+						($reg["chip_status"] == 3 ? $status = "Cancelado" and $class='danger' : '');
+						($reg["chip_status"] == 4 ? $status = "Cancelar" and $class='warning' : '');
+
+						($reg["chip_operadora"] == 'CLARO' ? $icone = '<img border="0" src="../../img/claro.png">' : '');
+						($reg["chip_operadora"] == 'VIVO' ? $icone = '<img border="0" src="../../img/vivo.png">' : '');
+						($reg["chip_operadora"] == 'TIM(DATORA)' ? $icone = '<img border="0" src="../../img/tim.png">' : '');
 					?>
 					<tr>
 					<td><?php echo $reg["chip_codigo"]; ?></td>
 					<td><?php echo $reg["chip_imei"]; ?></td>
-					<td><?php echo $reg["chip_operadora"]; ?></td>
+					<td><?php echo $icone; ?></td>
 					<td><?php echo $reg["chip_data_envio"]; ?></td>
 					<td><?php echo $reg["cli_codigo"]; ?></td>
-					<td><?php echo $status; ?></td>
+					<td class= "<?php echo $class ?>"><?php echo $status; ?></td>
+					<td style="text-align:center"><a type="button" title="Editar" href="edita.php?operacao=update&chipcodigo=<?php echo $reg["chip_codigo"] ?>"><i class="glyphicon glyphicon-pencil"></i></a></td>
 					</tr>
 					<?php
 					}
