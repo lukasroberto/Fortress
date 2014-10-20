@@ -118,7 +118,7 @@
 					</div>
 					</div>
 					-->
-					<form class="navbar-form navbar-left" id="contact-form" action="lista.php" method="post" enctype="multipart/form-data">
+					<form class="navbar-form navbar-left" id="contact-form" action="#" method="post" enctype="multipart/form-data">
 					<div class="form-group">
 					<select class="form-control" name="coluna">
 					<option value="cli_codigo" <?php echo (isset($coluna) && $coluna == 'cli_codigo') ? 'Selected' : ''; ?>>Código</option>
