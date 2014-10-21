@@ -2,11 +2,18 @@
 
 class Functions {
 
-	public function converterData($original='', $format="%d/%m/%Y") { 
+	public function converterData($original='', $format="%d-%m-%Y") { 
 
 		// Converte a data de aaaa-mm-dd para dd-mm-aaaa com a opção de mostrar a hora ou não.
 	    $format = ($format=='date' ? "%d-%m-%Y" : $format); 
 	    $format = ($format=='datetime' ? "%d-%m-%Y %H:%M:%S" : $format); 
+		return (!empty($original) ? strftime($format, strtotime($original)) : "" ); 
+} 
+	public function removeTime($original='', $format="%Y-%m-%d") { 
+
+		// Converte a data para aaaa-mm-dd e remove a hora
+	    $format = ($format=='date' ? "%Y-%m-%d" : $format); 
+	    $format = ($format=='datetime' ? "%Y-%m-%d %H:%M:%S" : $format); 
 		return (!empty($original) ? strftime($format, strtotime($original)) : "" ); 
 } 
 	
