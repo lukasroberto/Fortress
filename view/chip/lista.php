@@ -111,7 +111,7 @@
 					<td><?php echo $reg["chip_codigo"]; ?></td>
 					<td><?php echo $reg["chip_imei"]; ?></td>
 					<td><?php echo $icone; ?></td>
-					<td><?php echo $reg["chip_data_envio"]; ?></td>
+					<td><?php echo $functions->converterData($reg["chip_data_envio"]); ?></td>
 					<td><?php echo $reg["cli_codigo"]; ?></td>
 					<td class= "<?php echo $class ?>"><?php echo $status; ?></td>
 					<td style="text-align:center"><a type="button" title="Editar" href="edita.php?operacao=update&chipcodigo=<?php echo $reg["chip_codigo"] ?>"><i class="glyphicon glyphicon-pencil"></i></a></td>

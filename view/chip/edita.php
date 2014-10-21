@@ -12,8 +12,8 @@
         require_once("../../model/chip.class.php");
         include_once("../../functions/functions.class.php");
         
-        $controller = new ChipController();
-        $chip = new Chip();
+        $controller     = new ChipController();
+        $chip           = new Chip();
         $functions	= new Functions;
         
         if(isset($_POST['submit'])) {
@@ -97,7 +97,7 @@
         </div>
         <div class="form-group">
         <label for="tel-secundario">Data de envio Fulltime</label>
-        <input class="form-control" type="text" name="dataenvio" id="dataenvio" required value="<?php echo ($chip->getCodigo() > 0 ) ? $newDate = date("d-m-Y", strtotime($chip->getDataEnvio()))   : ''; ?>">
+        <input class="form-control" type="text" name="dataenvio" id="dataenvio" required value="<?php echo ($chip->getCodigo() > 0 ) ? $functions->converterData($chip->getDataEnvio()) : ''; ?>">
         </div>
         <div class="form-group">
         <label for="sublocality">Cód. Cliente</label>

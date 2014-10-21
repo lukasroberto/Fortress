@@ -1,20 +1,14 @@
 <?php 
 
 class Functions {
-	
-	public function converterData($strData) {
-	
-		// Converte a data de dd/mm/aaaa para o formato: aaaa-mm-dd
-		$strDataFinal = implode('-', array_reverse(explode('/',$strData)));
-		return $strDataFinal;
-	}
-	
-	public function converterDataPadrao($strData) {
-	
-		// Converte a data de aaaa-mm-dd para o formato: dd/mm/aaaa
-		$strDataFinal = implode('/', array_reverse(explode('-',$strData)));
-		return $strDataFinal;
-	}
+
+	public function converterData($original='', $format="%d/%m/%Y") { 
+
+		// Converte a data de aaaa-mm-dd para dd-mm-aaaa com a opção de mostrar a hora ou não.
+	    $format = ($format=='date' ? "%d-%m-%Y" : $format); 
+	    $format = ($format=='datetime' ? "%d-%m-%Y %H:%M:%S" : $format); 
+		return (!empty($original) ? strftime($format, strtotime($original)) : "" ); 
+} 
 	
 	
 	public function geraMenu($tipoDeUsuario){

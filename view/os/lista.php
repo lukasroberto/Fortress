@@ -112,7 +112,7 @@
           
           <td><div><strong style="color:#F93"><?php echo $os["os_id"]?></strong></div></td>
           <td><div><?php echo $os["cli_nome"] ?></div></td>
-          <td><div><?php echo $os["os_data_ini"]?></div></td>
+          <td><div><?php echo $functions->converterData($os["os_data_ini"]);?></div></td>
           <td><div><?php echo $os["os_solicitada_por"]?></div></td>
           <td style="text-align:center"><a type="button" title="<?php echo $contextoDoALT; ?>" href="<?php echo $contextoDoLink; ?>.php?osid=<?php echo $os["os_id"]; ?>"><i class="glyphicon <?php echo $contextoDoIcone; ?>"></i></a></td>
           </tr>
