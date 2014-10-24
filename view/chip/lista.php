@@ -15,20 +15,14 @@
 		
 		include_once("../../functions/functions.class.php");
 		
-		$chip	= new ChipController;
 		$functions	= new Functions;
 		
 		$filtro  = (isset($_POST['filtro']) )? $_POST['filtro']:'';
 		$coluna  = (isset($_POST['coluna']) )? $_POST['coluna']:'';
 		
 		
-		if(isset($_POST['submit'])) {
 		
-		$registros 	= $chip->listObjectsGroup($coluna,$filtro);
 		
-		}else{
-		$registros 	= $chip->listObjectsGroup($coluna,$filtro);
-		}
 		
 		?>
 		<!DOCTYPE html>
@@ -52,9 +46,33 @@
 		<div class="container"> 
 		
 		<!-- Título -->
-		<blockquote>
+		<blockquote class="alinha-left">
 		<h2>Gerenciar Chips</h2>
 		<small>Utilize os campos abaixo para gerenciar os Chips.</small> </blockquote>
+		
+		<div class="row">
+		<div class="alinha-rigth col-xs-6 col-sm-3">
+		<?php
+		$chipQtd	= new ChipController;
+		$qtdChips	= $chipQtd->qtqChips();
+		while($reg  = sqlsrv_fetch_array($qtdChips)){
+		($reg["chip_status"] == 1 ? $status = "Ativo" and $class='success' : '');
+		($reg["chip_status"] == 2 ? $status = "Estoque" and $class='info' : '');
+		($reg["chip_status"] == 3 ? $status = "Cancelado" and $class='danger' : '');
+		($reg["chip_status"] == 4 ? $status = "Cancelar" and $class='warning' : '');
+		?>
+		<ul class="nav">
+		<li class="active">
+		<a href="#">
+		<span class="badge pull-right"><?php echo $reg["quantidade"]; ?></span>
+		<?php echo $status; ?>
+		</a>
+		</li>
+		</ul>
+		
+		<?php }?>
+		</div>
+		</div>		
 		
 		<!-- Mensagem de Retorno -->
 		<?php
@@ -79,6 +97,12 @@
 		<a href="edita.php" class="btn btn-primary btn-large">Cadastrar um novo Chip</a>
 		</form>
 		<?php
+		$chip	= new ChipController;
+		if(isset($_POST['submit'])) {
+		$registros 	= $chip->listObjectsGroup($coluna,$filtro);
+		}else{
+		$registros 	= $chip->listObjectsGroup($coluna,$filtro);
+		}
 		if($registros){
 		?>
 		<!-- Lista -->
@@ -106,6 +130,7 @@
 		($reg["chip_operadora"] == 'CLARO' ? $icone = '<img border="0" src="../../img/claro.png">' : '');
 		($reg["chip_operadora"] == 'VIVO' ? $icone = '<img border="0" src="../../img/vivo.png">' : '');
 		($reg["chip_operadora"] == 'TIM(DATORA)' ? $icone = '<img border="0" src="../../img/tim.png">' : '');
+		
 		?>
 		<tr>
 		<td><?php echo $reg["chip_codigo"]; ?></td>
@@ -114,7 +139,7 @@
 		<td><?php echo $functions->removeTime($reg["chip_data_envio"]); ?></td>
 		<td><?php echo $reg["cli_codigo"]; ?></td>
 		<td class= "<?php echo $class ?>"><?php echo $status; ?></td>
-		<td style="text-align:center"><a type="button" title="Editar" href="edita.php?operacao=update&chipcodigo=<?php echo $reg["chip_codigo"] ?>"><i class="glyphicon glyphicon-pencil"></i></a></td>
+		<td onClick="location.href='edita.php?operacao=update&chipcodigo=<?php echo $reg["chip_codigo"] ?>'" class="glyphiconDetalhes"><i class="glyphicon glyphicon-pencil danger"></i></td>
 		</tr>
 		<?php
 		}

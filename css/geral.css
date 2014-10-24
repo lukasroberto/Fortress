@@ -77,4 +77,11 @@
 					/* Fim - CSS para ordernar as tabelas confome clique no TH */
 
 					
+					.glyphiconDetalhes{/* alinha muda a cor e o cursor dos icones glyphicon */
+					text-align:center;
+					cursor: pointer;
+					color:#1284BA;
+				}
+
+					
 				

@@ -28,6 +28,10 @@ class ChipController extends Crud {
 			return $this->execute_query("SELECT * FROM CHIP" );
 		}
 	}
+			public function qtqChips(){
+			return $this->execute_query("SELECT chip_status, COUNT(chip_codigo) AS quantidade FROM CHIP GROUP BY chip_status");
+			}
+
 }
 
 ?>
