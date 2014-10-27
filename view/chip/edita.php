@@ -100,8 +100,13 @@
         <input class="form-control" type="text" name="dataenvio" id="dataenvio" required value="<?php echo ($chip->getCodigo() > 0 ) ? $functions->converterData($chip->getDataEnvio()) : ''; ?>">
         </div>
         <div class="form-group">
-        <label for="sublocality">Cód. Cliente</label>
+        <label for="sublocality">Cliente que esta instalado</label>       
+        <div class="input-group">
         <input class="form-control" type="text" name="clicodigo" id="clicodigo" value="<?php echo ($chip->getCodigo() > 0 ) ? $chip->getCliCodigo() : ''; ?>">
+        <span class="input-group-btn">
+        <button class="btn btn-primary" type="button" data-toggle="modal" data-target=".bs-example-modal-lg">Selecionar Cliente</button>
+        </span>
+        </div>
         </div>
         <div class="form-group">
         <label for="empresa">Status</label>
@@ -119,6 +124,31 @@
         </div>
         </form>
         </div>
+
+        <!--modal -->      
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div style="padding:30px;"> 
+        
+        <!-- Título -->
+        <blockquote>
+        <h2>Selecionar Chip</h2>
+        <small>Selecione abaixo em qual cliente esta instalado este chip</small> </blockquote>
+      <form id="form-pesquisa" action="" method="post">
+      <input class="form-control" type="text" name="pesquisa" id="pesquisa" placeholder="Digite um nome para Filtrar">
+      <br>
+  </form>
+  <div class="resultados"> </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+      </div>
+</div>
+  </div>
+</div>
+        <!--Fim modal -->
+
         <?php include_once("../../view/footer/footer.php");?>
         </div>
         <!-- /container --> 
@@ -127,5 +157,46 @@
         <script src="../../js/jquery.validate.min.js"></script> 
         <script src="../../js/bootstrap.min.js"></script> 
         <script src="../../js/jquery-ui.js"></script> 
+
+<script type="text/javascript">
+function passarParametro(parametro) {
+document.getElementById('clicodigo').value=document.getElementById(parametro).id;
+}
+</script>
+
+        <script type="text/javascript">
+$(function(){
+                        //LISTA TODOS ANTES DE FILTRAR
+                        $.post('buscaClientesInst.class.php', function(retorna){     $(".resultados").html(retorna);
+                        });
+        
+        //PESQUISA INSTANTANEA PELO INPUT
+        $("#pesquisa").keyup(function(){
+                //Recupera oque está sendo digitado no input de pesquisa
+                var pesquisa    = $(this).val();
+
+                //Recupera oque foi selecionado
+                var campo               = $("#campo").val();
+
+                //Verifica se foi digitado algo
+                if(pesquisa != ''){
+                        //Cria um objeto chamado de 'dados' e guarda na propriedade 'palavra' a pesquisa e na propriedade campo o campo a ser pesquisado
+                        var dados = {
+                                palavra : pesquisa,
+                                campo   : campo
+                        }
+                        
+                        //Envia por AJAX pelo metodo post, a pequisa para o arquivo 'busca.php'
+                        //O paremetro 'retorna' é responsável por recuperar oque vem do arquivo 'busca.php'
+                        $.post('buscaClientesInst.class.php', dados, function(retorna){
+                                //Mostra dentro da ul com a class 'resultados' oque foi retornado
+                                $(".resultados").html(retorna);
+                        });
+                }else{
+                        $(".resultados").html('');
+                }
+        });
+        });
+</script>
         </body>
         </html>

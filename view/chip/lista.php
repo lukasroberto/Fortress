@@ -51,26 +51,25 @@
 		<small>Utilize os campos abaixo para gerenciar os Chips.</small> </blockquote>
 		
 		<div class="row">
-		<div class="alinha-rigth col-xs-6 col-sm-3">
+		<div style='position:absolute; left:70%;'>
+		<ul class="list-group">
 		<?php
 		$chipQtd	= new ChipController;
 		$qtdChips	= $chipQtd->qtqChips();
 		while($reg  = sqlsrv_fetch_array($qtdChips)){
-		($reg["chip_status"] == 1 ? $status = "Ativo" and $class='success' : '');
-		($reg["chip_status"] == 2 ? $status = "Estoque" and $class='info' : '');
-		($reg["chip_status"] == 3 ? $status = "Cancelado" and $class='danger' : '');
-		($reg["chip_status"] == 4 ? $status = "Cancelar" and $class='warning' : '');
+		($reg["chip_status"] == 1 ? $status = "Chips Ativo " and $class='success' : '');
+		($reg["chip_status"] == 2 ? $status = "Chips em Estoque " and $class='info' : '');
+		($reg["chip_status"] == 3 ? $status = "Chips Cancelados " and $class='danger' : '');
+		($reg["chip_status"] == 4 ? $status = "Chips para Cancelar " and $class='warning' : '');
 		?>
-		<ul class="nav">
-		<li class="active">
-		<a href="#">
-		<span class="badge pull-right"><?php echo $reg["quantidade"]; ?></span>
+		<li class="list-group-item list-group-item-<?php echo $class; ?>">		
 		<?php echo $status; ?>
-		</a>
+			<span class="label label-<?php echo $class; ?> alinha-rigth">
+			<?php echo $reg["quantidade"]; ?>
+		</span>
 		</li>
-		</ul>
-		
 		<?php }?>
+		</ul>
 		</div>
 		</div>		
 		
@@ -87,9 +86,7 @@
 		<select class="form-control" name="coluna">
 		<option value="chip_imei" <?php echo (isset($coluna) && $coluna == 'chip_imei') ? 'Selected' : ''; ?>>Imei</option>
 		<option value="chip_operadora" <?php echo (isset($coluna) && $coluna == 'chip_operadora') ? 'Selected' : ''; ?>>Operadora</option>
-		<option value="chip_data_envio" <?php echo (isset($coluna) && $coluna == 'chip_data_envio') ? 'Selected' : ''; ?>>Data de Envio</option>
 		<option value="cli_codigo" <?php echo (isset($coluna) && $coluna == 'cli_codigo') ? 'Selected' : ''; ?>>Cliente</option>
-		<option value="chip_status" <?php echo (isset($coluna) && $coluna == 'chip_status') ? 'Selected' : ''; ?>>Status</option>
 		</select>
 		<input class="form-control" placeholder="Filtrar Chips" type="text" name="filtro" id="filtro" required value="<?php echo ($filtro) ? : $filtro; ?>">
 		</div>

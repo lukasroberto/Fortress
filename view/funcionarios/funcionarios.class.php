@@ -2,10 +2,7 @@
 
 
 /*
- * 	Descrição do Arquivo
- * 	@author Vanessa Rossi
- * 	@data de criação - 29/09/2013
- * 	@arquivo - usuario.controller.class.php
+Controller especifico para busca instantanea
  */
 
 require_once("../../functions/crud.class.php");

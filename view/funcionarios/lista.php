@@ -43,11 +43,8 @@ include_once("../../functions/functions.class.php");
 </div>
 
 <!-- Javascript --> 
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
-<script src="../../js/jquery.validate.min.js"></script> 
 <script src="../../js/bootstrap.min.js"></script> 
 <script src="../../js/jquery-ui.js"></script> 
-<script src="../../js/tab.js"></script> 
 <script type="text/javascript">
 $(function(){
 			//LISTA TODOS ANTES DE FILTRAR
