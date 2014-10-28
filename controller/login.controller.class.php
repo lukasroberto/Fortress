@@ -23,6 +23,7 @@ class LoginController extends Crud {
 		$_SESSION["grupo"] 			= NULL;
 		$_SESSION["nome"] 			= NULL;
 		$_SESSION["nivuser"] 		= NULL;
+		$_SESSION["ip"]         	= NULL;
 		
 		session_unset();
 		session_destroy();

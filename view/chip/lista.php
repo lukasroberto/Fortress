@@ -20,10 +20,6 @@
 		$filtro  = (isset($_POST['filtro']) )? $_POST['filtro']:'';
 		$coluna  = (isset($_POST['coluna']) )? $_POST['coluna']:'';
 		
-		
-		
-		
-		
 		?>
 		<!DOCTYPE html>
 		<html lang="en">

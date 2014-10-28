@@ -27,6 +27,11 @@ class Query extends Crud {
 			return $this->execute_query("SELECT tec_id,tec_nome from TECNICO WHERE tec_status = '0' ORDER BY tec_nome");
 		}
 
+		public function log($acao){
+		
+			$this->execute_query("INSERT INTO LOGER(log_user, log_ip, log_acao) VALUES ('".$_SESSION["idusuario"]."','".$_SESSION["ip"]."','".$acao."')");
+		}
+
 }
 
 ?>

@@ -11,10 +11,13 @@
         require_once("../../controller/chip.controller.class.php");
         require_once("../../model/chip.class.php");
         include_once("../../functions/functions.class.php");
+        include_once("../../functions/query.class.php");
+
         
         $controller     = new ChipController();
         $chip           = new Chip();
-        $functions	= new Functions;
+        $functions	    = new Functions;
+        $query          = new query();
         
         if(isset($_POST['submit'])) {
         
@@ -26,12 +29,14 @@
         $chip->setStatus($_POST['status']);
         
         
-        $operaçao = $_POST['update'];
+            $operaçao = $_POST['update'];
         if($operaçao == "update"){
-        $controller->update($chip, 'chip_codigo',$chip->getCodigo());
-        header('Location: lista.php?acao=2&tipo=1');
+            $controller->update($chip, 'chip_codigo',$chip->getCodigo());
+            $query->log("Update Chip id: ".$_POST['codigo']);
+            header('Location: lista.php?acao=2&tipo=1');
         }else{
-        $controller->save($chip, 'chip_codigo');
+            $controller->save($chip, 'chip_codigo');
+            $query->log("Cadastrado Chip imei: ".$_POST['imei']);
         header('Location: lista.php?acao=1&tipo=1');
         }
         }

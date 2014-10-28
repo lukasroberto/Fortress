@@ -24,9 +24,10 @@ if (isset($_GET["login"]) ||  isset($_GET["senha"])){
 
 		//Declara as variáveis de sessão que serão utilizadas no sistema
 		session_start();
-		$_SESSION["idusuario"] 		= $usuario["log_id"];
+		$_SESSION["idusuario"] 	= $usuario["log_id"];
 		$_SESSION["nome"] 			= $usuario["log_nome"];
 		$_SESSION["nivuser"] 		= $usuario["log_nivel"];
+    $_SESSION["ip"]         = $_SERVER['REMOTE_ADDR'];
 		
 		
 		//Grava o log de acesso
