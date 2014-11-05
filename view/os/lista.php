@@ -18,7 +18,6 @@
           $tecnico = (isset($_GET['idtecnico']))? $_GET['idtecnico']:'';
           $dataini = (isset($_GET['dataini']))? $_GET['dataini']:'';
           $datafin = (isset($_GET['datafin']))? $_GET['datafin']:'';
-          $datafin = (isset($_GET['datafin']))? $_GET['datafin']:'';
           $busca = (isset($_GET['busca']))? $_GET['busca']:'';
           $status = (isset($_GET['status']))? $_GET['status']:'2';
           
@@ -88,7 +87,7 @@
           </div>
           <input class="btn btn-warning" name="submit" type="submit" id="busca" value="Buscar"/>
           <a class="btn btn-default" href="javascript:print();"><i class="glyphicon glyphicon-print" style="font-size:16px"></i></a> <a class="btn btn-primary" href="cadastraos.php">Abrir Nova OS</a>
-          <p>
+          </form>
           <table id="tabela" class="tablesorter table table-hover table-striped">
           <thead>
           <tr>
@@ -96,6 +95,7 @@
           <th class="iconorder">Cliente</th>
           <th class="iconorder">Aberta em</th>
           <th class="iconorder">Solicitada por</th>
+          <th class="iconorder">Aberta por</th>
           <th class="iconorder">Status</th>
           </thead>
           </tr>
@@ -107,15 +107,16 @@
           $conta = $conta + 1;
           
           ?>
-          <tr <?php if ($os["os_tipo"] == 2) { ?> class="success" title="Orçamento"	<?php } if ($os["os_tipo"] == 8) { ?>
-          class="danger" title="Cancelamento"<?php } ?> onClick="location.href='<?php echo $contextoDoLink; ?>.php?osid=<?php echo $os["os_id"]?>'">
-          
-          
+          <tr <?php if ($os["os_tipo"] == 2) { ?> class="success" title="Orçamento"	alt="teste"
+          	<?php } if ($os["os_tipo"] == 8) { ?> class="danger" title="Cancelamento"
+          	<?php } ?> onClick="location.href='<?php echo $contextoDoLink; ?>.php?osid=<?php echo $os["os_id"]?>'">
+
           <td><div><strong style="color:#F93"><?php echo $os["os_id"]?></strong></div></td>
-          <td><div><?php echo $os["cli_nome"] ?></div></td>
+          <td><div><?php echo $os["cli_codigo"]." - ". $os["cli_nome"] ?></div></td>
           <td><div><?php echo date("Y/m/d H:m", strtotime($os["os_data_ini"]));?>
           </div></td>
           <td><div><?php echo $os["os_solicitada_por"]?></div></td>
+          <td><div><?php echo $os["os_expedidor"]?></div></td>
           <td style="text-align:center"><a type="button" title="<?php echo $contextoDoALT; ?>" href="<?php echo $contextoDoLink; ?>.php?osid=<?php echo $os["os_id"]; ?>"><i class="glyphicon <?php echo $contextoDoIcone; ?>"></i></a></td>
           </tr>
           <?php } ?>

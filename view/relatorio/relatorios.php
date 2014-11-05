@@ -39,10 +39,10 @@ include_once("../../functions/functions.class.php");
     <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
       <blockquote>
       <h3 class="page-header text-info">Olá <?php echo $_SESSION["nome"] ?></h3>
-      <small>Bem vindo aos reladorios do Grupo Fortress.<br><br>
-      No menu ao lada etão as opções para gerar os relatórios.<br>
-      Usando corretamente esta ferramenta será possível extrair algumas informações muito importantes para a getão e logistica da empresa.<br><br>
-      Não existe manual explicando o uso, porem qualquer duvida falar com Dep Informática ou mandar um E-mail para <a href="mailto:lukas@grupofortess.br">lukas@grupofortess.br</a><br>
+      <small>Bem vindo aos relatórios do Grupo Fortress.<br><br>
+      No menu ao lado estão as opções para gerar os relatórios.<br>
+      Usando corretamente esta ferramenta será possível extrair algumas informações muito importantes para a gestão e logística da empresa.<br><br>
+      Não existe manual explicando o uso, porem qualquer duvida falar com Dep Informática ou mandar um E-mail para <a href="mailto:lukas@grupofortress.br">lukas@grupofortress.br</a><br>
       Os Relatórios ainda estão em desenvolvimento e com o tempo e ajuda de todos vamos melhorando.
     </small></blockquote>
 </blockquote>
