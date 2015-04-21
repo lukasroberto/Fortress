@@ -95,6 +95,9 @@ if(isset($_GET['submit']) == 'Buscar') {
         }
 			}
         if($cliente){
+        					if($cliente->getMonitorado() == 1){
+				$functions->mensagemDeRetornoPersonalizada('4',"Trocar o CHIP deste Cliente! Pois o CHIP atual foi cancelado e em breve ficará Offline (Importante) ");
+			}
 		?>
   <div class="panel panel-info">
     <div class="panel-heading"> Dados do Cliente.<a class="btn btn-sm btn-info alinha-rigth" href="../cliente/lista.php">Busca Avançada</a></div>

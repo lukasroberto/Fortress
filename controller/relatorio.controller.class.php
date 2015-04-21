@@ -61,7 +61,7 @@ class RelatorioController extends Crud{
 												       MONTH = MONTH(OS_DATA_INI),  
 												       QUANTIDADE = CONVERT(VARCHAR,FLOOR(COUNT(OS_TIPO)),1) 
 												FROM   OS
-												WHERE OS.os_data_ini BETWEEN CONVERT(VARCHAR(10),'".$dataini."',103) AND CONVERT(VARCHAR(10),'".$datafin."',103)
+												WHERE os.os_cliente != '78' and os.os_tipo != '3' and OS.os_data_ini BETWEEN CONVERT(VARCHAR(10),'".$dataini."',103) AND CONVERT(VARCHAR(10),'".$datafin."',103)
 												GROUP BY YEAR(OS_DATA_INI), 
 												         MONTH(OS_DATA_INI)
 												ORDER BY YEAR, 
@@ -72,6 +72,7 @@ class RelatorioController extends Crud{
 												       MONTH = MONTH(OS_DATA_INI),  
 												       QUANTIDADE = CONVERT(VARCHAR,FLOOR(COUNT(OS_TIPO)),1) 
 												FROM   OS
+												WHERE os.os_cliente != '78' and os.os_tipo != '3'
 												GROUP BY YEAR(OS_DATA_INI), 
 												         MONTH(OS_DATA_INI)
 												ORDER BY YEAR, 
