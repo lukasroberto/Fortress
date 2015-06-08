@@ -28,15 +28,16 @@ if(isset($_POST['submit'])) {
 	$cliente->setEstado($_POST['estado']);
 	$cliente->setTelefone($_POST['tel']);
 	$cliente->setTelefonSecundario($_POST['tel-secundario']);
-	//$cliente->setMonitorado($_POST['monitorado']);
+	$cliente->setMonitorado($_POST['monitorado']);
 	$cliente->setCadastradoPor($_SESSION["nome"]);
+
+
 	//$cliente->setComunicacao($_POST['comunicacao']);
 
 	$operaçao = $_POST['update'];
 	if($operaçao == "update"){
 		if($_SESSION["nivuser"]==1){
 			$controller->update($cliente, 'cli_codigo',$cliente->getCodigo());
-			header('Location: lista.php?acao=2&tipo=1');
 		}else{
 		header('Location: lista.php?tipo=2');
 		}
@@ -112,6 +113,14 @@ if(isset($_GET['clicodigo'])){
           <option value="Guardian" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == 'Guardian') ? 'Selected' : ''; ?>>Fortress Guardian</option>
           <option value="Logus" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == 'Logus') ? 'Selected' : ''; ?>>Logus</option>
           <option value="nm" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == 'nm') ? 'Selected' : ''; ?>>Não Monitorado</option>
+        </select>
+      </div>
+           <div class="form-group">
+        <label for="monitorado">Cliente Monitorado</label>
+        <select class="form-control" name="monitorado"id="monitorado" required>
+                  <option>Selecionar</option>
+          <option value="1" <?php echo ($cliente->getMonitorado() == '1') ? 'Selected' : ''; ?>>Monitorado</option>
+          <option value="0" <?php echo ($cliente->getMonitorado() == '0') ? 'Selected' : ''; ?>>Não Monitorado</option>
         </select>
       </div>
       <div class="form-group">

@@ -144,6 +144,7 @@
 					<th class="iconorder">Nome</th>
 					<th class="iconorder">Rua</th>
 					<th class="iconorder">Bairro</th>
+					<th class="iconorder">Monitorado</th>
 					<th style="text-align:center"><i class="glyphicon glyphicon-wrench"></i></th>
 					<th style="text-align:center"><i class="glyphicon glyphicon-globe"></i></th>
 					<th style="text-align:center"><i class="glyphicon glyphicon-pencil"></i></th>
@@ -152,13 +153,22 @@
 					</thead>
 					<tbody>
 					<?php
-					while($reg = sqlsrv_fetch_array($registros)){
+					while($reg = sqlsrv_fetch_array($registros)){		
 					?>
 					<tr>
 					<td><?php echo $reg["cli_codigo"]; ?></td>
 					<td><?php echo $reg["cli_nome"]; ?></td>
 					<td><?php echo $reg["cli_rua"]." - N°". $reg["cli_numero"]; ?></td>
 					<td><?php echo $reg["cli_bairro"]; ?></td>
+
+					<?php 
+						if ($reg["cli_monitorado"] == 1){
+							echo $monitorado = "<td style='text-align:center'><strong class='text-success'>Sim</strong></td>";
+						}
+						else{
+							echo $monitorado = "<td style='text-align:center'><strong class='text-danger'>Não</strong></td>";
+						}
+					?>
 					<td style="text-align:center"><a type="button" title="Abrir Ordem de Serviço" class="laranja-os" href="../os/cadastraos.php?clicodigo=<?php echo $reg["cli_codigo"]?>&submit=Buscar"><i class="glyphicon glyphicon-wrench"></i></a></td>
 					
 					<td style="text-align:center"><a type="button" title="Visualizar no Mapa" class="verdemaps" href="mapa.php?localizacao=<?php echo $reg["cli_rua"].", ".$reg["cli_numero"].", ". $reg["cli_cidade"]?>"><i class="glyphicon glyphicon-globe"></i></a></td>
