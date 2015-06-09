@@ -162,7 +162,7 @@
 					<td><?php echo $reg["cli_bairro"]; ?></td>
 
 					<?php 
-						if ($reg["cli_monitorado"] == 1){
+						if ($reg["cli_monitorado"] == true){
 							echo $monitorado = "<td style='text-align:center'><strong class='text-success'>Sim</strong></td>";
 						}
 						else{

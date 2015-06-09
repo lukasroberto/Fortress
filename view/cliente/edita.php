@@ -38,6 +38,7 @@ if(isset($_POST['submit'])) {
 	if($operaçao == "update"){
 		if($_SESSION["nivuser"]==1){
 			$controller->update($cliente, 'cli_codigo',$cliente->getCodigo());
+      header('Location: lista.php?tipo=1&acao=2');
 		}else{
 		header('Location: lista.php?tipo=2');
 		}
@@ -119,8 +120,8 @@ if(isset($_GET['clicodigo'])){
         <label for="monitorado">Cliente Monitorado</label>
         <select class="form-control" name="monitorado"id="monitorado" required>
                   <option>Selecionar</option>
-          <option value="1" <?php echo ($cliente->getMonitorado() == '1') ? 'Selected' : ''; ?>>Monitorado</option>
-          <option value="0" <?php echo ($cliente->getMonitorado() == '0') ? 'Selected' : ''; ?>>Não Monitorado</option>
+          <option value="true" <?php echo ($cliente->getMonitorado() == 'true') ? 'Selected' : ''; ?>>Monitorado</option>
+          <option value="false" <?php echo ($cliente->getMonitorado() == 'false') ? 'Selected' : ''; ?>>Não Monitorado</option>
         </select>
       </div>
       <div class="form-group">

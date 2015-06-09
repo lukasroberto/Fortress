@@ -15,7 +15,6 @@ private $cli_cad_por;
 private $cli_data_cad;
 private $cli_telefone1;
 private $cli_empresa;
-private $cli_comunicacao;
 private $cli_monitorado;
 
 //getters e setters
@@ -113,14 +112,6 @@ return $this->cli_empresa;
 
 public function setEmpresa($cli_empresa) {
 $this->cli_empresa = $cli_empresa;
-}
-
-public function getComunicacao() {
-return $this->cli_comunicacao;
-}
-
-public function setComunicacao($cli_comunicacao) {
-$this->cli_comunicacao = $cli_comunicacao;
 }
 
 public function getMonitorado() {
