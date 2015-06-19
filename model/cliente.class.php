@@ -16,6 +16,8 @@ private $cli_data_cad;
 private $cli_telefone1;
 private $cli_empresa;
 private $cli_monitorado;
+private $cli_obs;
+
 
 //getters e setters
 public function getCodigo() {
@@ -120,6 +122,14 @@ return $this->cli_monitorado;
 
 public function setMonitorado($cli_monitorado) {
 $this->cli_monitorado = $cli_monitorado;
+}
+
+public function getObs() {
+return $this->cli_obs;
+}
+
+public function setObs($cli_obs) {
+$this->cli_obs = $cli_obs;
 }
 
 }

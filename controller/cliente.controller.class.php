@@ -22,18 +22,20 @@ class ClienteController extends Crud {
 	public function listObjectsGroup($coluna=NULL,$filtro=NULL){
 		
 		if($filtro){
-			return $this->execute_query("SELECT top 50 * FROM CLIENTE WHERE " . $coluna . " like '%" . $filtro . "%'");
+			return $this->execute_query("SELECT top 50 * FROM CLIENTE WHERE " . $coluna . " like '%" . $filtro . "%' ");
 			
 		}else{
 			return $this->execute_query("SELECT top 100 * FROM CLIENTE" );
 		}
 	}
-		public function listaClientesDoRelatorio($cidade=NULL,$empresa=NULL){
+		public function listaClientesDoRelatorio($cidade=NULL,$empresa=NULL,$monitorado=NULL){
 		
 			if($cidade){
-			return $this->execute_query("SELECT * FROM CLIENTE WHERE CLI_CIDADE = '".$cidade."' AND CLI_EMPRESA = '". $empresa."'");
+				return $this->execute_query("SELECT * FROM CLIENTE WHERE CLI_CIDADE = '".$cidade."' AND CLI_EMPRESA = '". $empresa."' AND CLI_MONITORADO = '".$monitorado."'");
+			}else if($monitorado == 'False' && $empresa == NULL){
+				return $this->execute_query("SELECT * FROM CLIENTE WHERE CLI_MONITORADO = '".$monitorado."'");	
 			}else{
-			return $this->execute_query("SELECT * FROM CLIENTE WHERE CLI_EMPRESA = '". $empresa."'");	
+				return $this->execute_query("SELECT * FROM CLIENTE WHERE CLI_EMPRESA = '". $empresa."' AND CLI_MONITORADO = '".$monitorado."'");
 			}
 	}
 

@@ -22,6 +22,7 @@
 					$coluna  = (isset($_POST['coluna']) )? $_POST['coluna']:'';
 					$cidade  = (isset($_GET['cidade']) )? $_GET['cidade']:'';
 					$empresa = (isset($_GET['empresa']) )? $_GET['empresa']:'';
+					$monitorado = (isset($_GET['monitorado']) )? $_GET['monitorado']:'';
 					//$order = (isset($_GET['order']) )? $_GET['order']:'cli_codigo';
 					
 					
@@ -33,9 +34,9 @@
 					$registros 	= $cliente->listObjectsGroup($coluna,$filtro);
 					}
 					
-					if(isset($_GET['empresa'])) {
+					if(isset($_GET['monitorado'])) {
 					
-					$registros 	= $cliente->listaClientesDoRelatorio($cidade,$empresa);
+					$registros 	= $cliente->listaClientesDoRelatorio($cidade,$empresa,$monitorado);
 					}
 					
 					?>
@@ -140,11 +141,12 @@
 					<table id="tabela" class="tablesorter table table-hover table-striped">
 					<thead>
 					<tr>
-					<th class="iconorder">Código</th>
+					<th class="iconorder">Código   </th>
 					<th class="iconorder">Nome</th>
 					<th class="iconorder">Rua</th>
 					<th class="iconorder">Bairro</th>
-					<th class="iconorder">Monitorado</th>
+					<th class="iconorder">Ult. Comunicação   </th>
+					<th class="iconorder">Monitorado   </th>
 					<th style="text-align:center"><i class="glyphicon glyphicon-wrench"></i></th>
 					<th style="text-align:center"><i class="glyphicon glyphicon-globe"></i></th>
 					<th style="text-align:center"><i class="glyphicon glyphicon-pencil"></i></th>
@@ -160,6 +162,7 @@
 					<td><?php echo $reg["cli_nome"]; ?></td>
 					<td><?php echo $reg["cli_rua"]." - N°". $reg["cli_numero"]; ?></td>
 					<td><?php echo $reg["cli_bairro"]; ?></td>
+					<td><?php echo $functions->converterData($reg["cli_ultima_comunicacao"],'datetime'); ?></td>
 
 					<?php 
 						if ($reg["cli_monitorado"] == true){

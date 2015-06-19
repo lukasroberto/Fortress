@@ -29,14 +29,16 @@ if(isset($_POST['submit'])) {
 	$cliente->setTelefone($_POST['tel']);
 	$cliente->setTelefonSecundario($_POST['tel-secundario']);
 	$cliente->setMonitorado($_POST['monitorado']);
+  $cliente->setObs($_POST['obs']);
 	$cliente->setCadastradoPor($_SESSION["nome"]);
+
 
 
 	//$cliente->setComunicacao($_POST['comunicacao']);
 
 	$operaçao = $_POST['update'];
 	if($operaçao == "update"){
-		if($_SESSION["nivuser"]==1){
+		if($_SESSION["nivuser"]==1 || $_SESSION["nivuser"]==2){
 			$controller->update($cliente, 'cli_codigo',$cliente->getCodigo());
       header('Location: lista.php?tipo=1&acao=2');
 		}else{
@@ -108,7 +110,6 @@ if(isset($_GET['clicodigo'])){
         <label for="empresa">Empresa</label>
         <select class="form-control" name="empresa"id="empresa" required>
                   <option>Selecionar</option>
-
           <option value="ASA" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == 'ASA') ? 'Selected' : ''; ?>>Eletrônica ASA</option>
           <option value="Fortress" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == 'Fortress') ? 'Selected' : ''; ?>>Fortress</option>
           <option value="Guardian" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == 'Guardian') ? 'Selected' : ''; ?>>Fortress Guardian</option>
@@ -120,8 +121,8 @@ if(isset($_GET['clicodigo'])){
         <label for="monitorado">Cliente Monitorado</label>
         <select class="form-control" name="monitorado"id="monitorado" required>
                   <option>Selecionar</option>
-          <option value="true" <?php echo ($cliente->getMonitorado() == 'true') ? 'Selected' : ''; ?>>Monitorado</option>
-          <option value="false" <?php echo ($cliente->getMonitorado() == 'false') ? 'Selected' : ''; ?>>Não Monitorado</option>
+          <option value="True" <?php echo ($cliente->getMonitorado() == true) ? 'Selected' : ''; ?>>Monitorado</option>
+          <option value="False" <?php echo ($cliente->getMonitorado() == false) ? 'Selected' : ''; ?>>Não Monitorado</option>
         </select>
       </div>
       <div class="form-group">

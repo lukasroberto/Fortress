@@ -14,26 +14,26 @@ class RelatorioController extends Crud{
 	public function listaQtdClientes($empresa=NULL,$cidade=NULL){
 		
 		if($cidade && $empresa){
-			return $this->execute_query("SELECT cli_empresa, cli_cidade, COUNT(cli_cidade) AS quantidade FROM CLIENTE WHERE(cli_empresa = '".$empresa."') and (cli_cidade = '".$cidade."')GROUP BY cli_cidade, cli_empresa ORDER BY cli_empresa");				  
+			return $this->execute_query("SELECT cli_empresa, cli_cidade, COUNT(cli_cidade) AS quantidade FROM CLIENTE WHERE(cli_empresa = '".$empresa."') and (cli_cidade = '".$cidade."') and cli_monitorado = 'True' GROUP BY cli_cidade, cli_empresa ORDER BY cli_empresa");				  
 		}else if(!$empresa ==NULL){
-			return $this->execute_query("SELECT cli_empresa, cli_cidade, COUNT(cli_cidade) AS quantidade FROM CLIENTE WHERE(cli_empresa = '".$empresa."')GROUP BY cli_cidade, cli_empresa ORDER BY cli_empresa");
+			return $this->execute_query("SELECT cli_empresa, cli_cidade, COUNT(cli_cidade) AS quantidade FROM CLIENTE WHERE(cli_empresa = '".$empresa."') and cli_monitorado = 'True' GROUP BY cli_cidade, cli_empresa ORDER BY cli_empresa");
 		}else if(!$cidade ==NULL){
-			return $this->execute_query("SELECT cli_empresa, cli_cidade, COUNT(cli_cidade) AS quantidade FROM CLIENTE WHERE(cli_cidade = '".$cidade."')GROUP BY cli_cidade, cli_empresa ORDER BY cli_empresa");
+			return $this->execute_query("SELECT cli_empresa, cli_cidade, COUNT(cli_cidade) AS quantidade FROM CLIENTE WHERE(cli_cidade = '".$cidade."') and cli_monitorado = 'True' GROUP BY cli_cidade, cli_empresa ORDER BY cli_empresa");
 		}else{
-			return $this->execute_query("SELECT cli_empresa, cli_cidade, COUNT(cli_cidade) AS quantidade FROM CLIENTE GROUP BY cli_cidade, cli_empresa ORDER BY cli_empresa");
+			return $this->execute_query("SELECT cli_empresa, cli_cidade, COUNT(cli_cidade) AS quantidade FROM CLIENTE Where cli_monitorado = 'True' GROUP BY cli_cidade, cli_empresa ORDER BY cli_empresa");
 		}
 	}
 	//Clientes.php
 		public function qtdClientesPorEmpresa($empresa=NULL){
 		
-			$SQL = "SELECT COUNT(cli_empresa) AS quantidade FROM CLIENTE WHERE(cli_empresa = '".$empresa."')";
+			$SQL = "SELECT COUNT(cli_empresa) AS quantidade FROM CLIENTE WHERE(cli_empresa = '".$empresa."') and cli_monitorado = 'True'";
 			return sqlsrv_fetch_object($this->execute_query($SQL));
 			}
 
 	//Clientes.php
-	public function totalClientesMonitorados(){
+	public function totalClientes($monitorado){
 	
-		$SQL = "SELECT COUNT(cli_empresa) AS quantidade FROM CLIENTE WHERE(cli_empresa != 'nm')";
+		$SQL = "SELECT COUNT(cli_empresa) AS quantidade FROM CLIENTE WHERE cli_monitorado = '".$monitorado."'";
 		return sqlsrv_fetch_object($this->execute_query($SQL));
 		}
 	
@@ -89,6 +89,24 @@ class RelatorioController extends Crud{
 			return $this->execute_query("SELECT OS_TECNICO.tec_id, COUNT(OS_TECNICO.os_id) AS quantidade FROM TECNICO INNER JOIN OS_TECNICO 
 										ON TECNICO.tec_id = OS_TECNICO.tec_id INNER JOIN OS ON OS_TECNICO.os_id = OS.os_id 
 										GROUP BY OS_TECNICO.tec_id");
+			
+		}	
+
+						//cliente_sem_comunicacao.php
+	public function listaClientesSemComunicacao(){
+
+
+
+
+			$dia = date('d');
+			$mes = date('m');
+			$ano = date('Y');
+			$data = mktime(0,0,0,$mes,$dia,$ano);
+			echo "ontem: ".date('d/m/Y',$data);
+
+		
+			return $this->execute_query("Select * FROM Cliente WHERE (cli_empresa <> 'guardian') AND (cli_monitorado = 'true') 
+				AND (cli_ultima_comunicacao < '".date('d/m/Y',$data)." 06:00') ORDER BY cli_ultima_comunicacao DESC");
 			
 		}				
 	}

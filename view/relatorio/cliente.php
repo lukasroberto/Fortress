@@ -48,22 +48,22 @@
                   <div class="row placeholders">
                   <div class="col-xs-6 col-sm-2"> <img src="../../img/fortress.jpg" width="200px" height="200px" class="img-responsive centralizado" title="Fortress">
                   <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('fortress'); echo($qtdClientesEmpresa->quantidade);?></h4>
-                  <span class="text-muted"><a href='../cliente/lista.php?empresa=fortress'>Fortress</a></span> </div>
+                  <span class="text-muted"><a href='../cliente/lista.php?empresa=fortress&monitorado=True'>Fortress</a></span> </div>
                   <div class="col-xs-6 col-sm-2 "> <img src="../../img/logus.jpg" width="200px" height="200px" class="img-responsive centralizado" alt="Logus">
                   <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('logus'); echo($qtdClientesEmpresa->quantidade);?></h4>
-                  <span class="text-muted"><a href='../cliente/lista.php?empresa=logus'>Logus</a></span> </div>
+                  <span class="text-muted"><a href='../cliente/lista.php?empresa=logus&monitorado=True'>Logus</a></span> </div>
                   <div class="col-xs-6 col-sm-2 "> <img src="../../img/asa.jpg" width="200px" height="200px" class="img-responsive centralizado" alt="Eletrônica ASA">
                   <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('asa'); echo($qtdClientesEmpresa->quantidade);?></h4>
-                  <span class="text-muted"><a href='../cliente/lista.php?empresa=asa'>Eletrônica Asa</a></span> </div>
+                  <span class="text-muted"><a href='../cliente/lista.php?empresa=asa&monitorado=True'>Eletrônica Asa</a></span> </div>
                   <div class="col-xs-6 col-sm-2 "> <img src="../../img/fortressguardian.jpg" width="200px" height="200px" class="img-responsive centralizado" alt="Fortess Guardian">
                   <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('guardian'); echo($qtdClientesEmpresa->quantidade);?></h4>
-                  <span class="text-muted"><a href='../cliente/lista.php?empresa=guardian'>Fortress Guardian</a></span> </div>
+                  <span class="text-muted"><a href='../cliente/lista.php?empresa=guardian&monitorado=True'>Fortress Guardian</a></span> </div>
                   <div class="col-xs-6 col-sm-2 "> <img src="../../img/tm.jpg" width="200px" height="200px" class="img-responsive centralizado" alt="Não Monitorado">
-                  <h4><?php $qtdClientesMonitorados = $controller->totalClientesMonitorados(); echo($qtdClientesMonitorados->quantidade);?></h4>
+                  <h4><?php $totalClientes = $controller->totalClientes('True'); echo($totalClientes->quantidade);?></h4>
                   <span class="text-muted">Total clientes monitorados</span> </div>
                   <div class="col-xs-6 col-sm-2 "> <img src="../../img/nm.jpg" width="200px" height="200px" class="img-responsive centralizado" alt="Não Monitorado">
-                  <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('nm'); echo($qtdClientesEmpresa->quantidade);?></h4>
-                  <span class="text-muted"><a href='../cliente/lista.php?empresa=nm'>Não Monitorado</a></span> </div>
+                  <h4><?php $totalClientes = $controller->totalClientes('False'); echo($totalClientes->quantidade);?></h4>
+                  <span class="text-muted"><a href='../cliente/lista.php?monitorado=False'>Não Monitorado</a></span> </div>
                   
                   </div>
                   <h3 class="sub-header text-info">Quantidade de clientes por cidade</h3>
@@ -129,7 +129,7 @@
                   
                   
                   ?>
-                  <tr onClick="location.href='../cliente/lista.php?cidade=<?php echo $qtdClientes['cli_cidade'];?>&empresa=<?php echo $qtdClientes['cli_empresa']?>'">
+                  <tr onClick="location.href='../cliente/lista.php?cidade=<?php echo $qtdClientes['cli_cidade'];?>&empresa=<?php echo $qtdClientes['cli_empresa']?>&monitorado=True'">
                   <td><?php echo $qtdClientes["cli_cidade"]; ?></td>
                   <td><?php echo $nomeEmpresa ?></td>
                   <td><?php echo $qtdClientes["quantidade"]; ?></td>
