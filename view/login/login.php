@@ -9,7 +9,7 @@ $functions	= new Functions;
 
 if (isset($_GET["login"]) ||  isset($_GET["senha"])){
    
-   	require_once("../../controller/login.controller.class.php");
+  require_once("../../controller/login.controller.class.php");
 		  
 	$loginController = new LoginController;
 	 
@@ -37,8 +37,12 @@ if (isset($_GET["login"]) ||  isset($_GET["senha"])){
 		//$logDeAcesso->setDataAcesso(date('Y/m/d H:i:s'));
 		//$logDeAcessoController->save($logDeAcesso);
 		
+    if(!$_SESSION["link"] == NULL){
+        header("Location: ".$_SESSION["link"]);
+    }else{
 		//Sucesso, redireciona para a tela principal
 		header("Location: ../home/home.php");
+    }
 	}else{
 		//Erro, redireciona para a tela de login novamente
 		header("Location: login.php?acao=5&tipo=2'");

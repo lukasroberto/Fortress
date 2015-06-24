@@ -18,9 +18,8 @@ class Functions {
 	
 	public function geraMenu($tipoDeUsuario){
 	
-		$contextoDeMenu = "http://192.168.0.198/fortress";
-		//$contextoDeMenu = "http://feob.tempsite.ws/2013/tanbook";
-		
+		$contextoDeMenu = "http://localhost/fortress";
+	
 				//if($tipoDeUsuario==1){
 			
 			$menu = "
@@ -284,4 +283,56 @@ return $calculoDias - $diaFDS;
 }
 
 }
+?>
+
+<?php
+/**
+* Função para converter segundos em dias,horas,minutos
+*/
+function converte_segundos($total_segundos, $inicio = 'Y') {
+/**
+* @autor: Carlos H. Reche
+* @data: 11/08/2004
+*/
+
+/* Devido à variação de dias entre os meses (pode ter 28, 29, 30 ou 31), o cálculo com diferenças entre timestamps nunca poderá ser exato, a não ser que o cálculo comece pelo número de dias (ou horas, minutos, segundos). Para minimizar ao máximo essa diferença, eu criei esta constante para utilizar durante o cálculo:
+*/
+
+$comecou = false;
+
+if ($inicio == 'Y')
+{
+$array['anos'] = floor( $total_segundos / (60*60*24* dias_por_mes *12) );
+$total_segundos = ($total_segundos % (60*60*24* dias_por_mes *12));
+$comecou = true;
+}
+if (($inicio == 'm') || ($comecou == true))
+{
+$array['meses'] = floor( $total_segundos / (60*60*24* dias_por_mes ) );
+$total_segundos = ($total_segundos % (60*60*24* dias_por_mes ));
+$comecou = true;
+}
+if (($inicio == 'd') || ($comecou == true))
+{
+$array['dias'] = floor( $total_segundos / (60*60*24) );
+$total_segundos = ($total_segundos % (60*60*24));
+$comecou = true;
+}
+if (($inicio == 'H') || ($comecou == true))
+{
+$array['horas'] = floor( $total_segundos / (60*60) );
+$total_segundos = ($total_segundos % (60*60));
+$comecou = true;
+}
+if (($inicio == 'i') || ($comecou == true))
+{
+$array['minutos'] = floor($total_segundos / 60);
+$total_segundos = ($total_segundos % 60);
+$comecou = true;
+}
+$array['segundos'] = $total_segundos;
+
+return $array;
+}
+
 ?>

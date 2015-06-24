@@ -16,17 +16,31 @@
 		
 		include_once("../../functions/functions.class.php");
 
-			$dia = date('d')-1;
+	//subtrai as horas pela data atual gerando a data para busca dos ATNRs
+			ini_set('date.timezone', 'America/Sao_Paulo');
+			$horasBuscaAtnr = (isset($_POST['horas']))? $_POST['horas']:'24';
+
+			$array = converte_segundos((($horasBuscaAtnr*60)*60), 'd');
+			//print_r($array);
+
+			$diasAtnr = $array['dias'];
+			$horasAtnr = $array['horas'];
+
+			$dia = date('d') - $diasAtnr;
+			$horaAtual = date('H');
+			$horaBuscaAtnr = $horaAtual - $horasAtnr;
+
+			if($horaBuscaAtnr < 0){
+			$dia = $dia - 1;
+			$horaBuscaAtnr = 24 + $horaBuscaAtnr;
+			}
+
 			$mes = date('m');
 			$ano = date('Y');
-			$hora = time('h');
-			$dataOntem = mktime(0,0,0,$mes,$dia,$ano);
-			echo $dataOntem;
+			$dataAtnr = mktime(0,0,0,$mes,$dia,$ano);
 
-			echo "teste".$dataOntem = date('d-m-Y',$dataOntem);
-
-      $datetime = (isset($_POST['datetime']))? $_POST['datetime']:$dataOntem;
-		
+			$dataAtnr = date('d-m-Y',$dataAtnr).' '.$horaBuscaAtnr.':00';
+	//Fim Atnr
 		$functions	= new Functions;		
 		?>
 		<!DOCTYPE html>
@@ -50,49 +64,36 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-3 col-md-2 sidebar">
-      <?php include_once("../../view/menu/menuRelatorio.php");?>
+      <?php include_once("../../view/menu/menuRelatorio.php"); ?>
     </div>
     <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 		<!-- Título -->
 		<blockquote>
 		<h2>Clientes sem Comunicação</h2>
-		<small>Especifique no campo abaixo a data e hora que será verificada a Falha de comunicação.</small> </blockquote>
-		
-      <div class="row">
-      <form class="navbar-form navbar-left" id="contact-form" action="lista_cliente_sem_comunicacao.php" method="post" enctype="multipart/form-data">
-      <div class="form-group datepicker">
-      <input type="text" class="form-control" name="datetime" id="datetime" value="<?php echo $datetime ?>" data-date="12-02-2014" data-date-format="dd-mm-yyyy">
-      </div>
-      <div class="form-group">
-      <input type="submit" class="btn btn-warning btn-large" value="Buscar" name="submit">
-      </div>
-      </form>
-      </div>
-			
-		<div class="container">
-    <div class="row">
-        <div class='col-sm-6'>
-            <input type='text' class="form-control" id='datetimepicker4' />
-        </div>
-        <script type="text/javascript">
-            $(function () {
-                $('#datetimepicker4').datetimepicker();
-            });
-        </script>
-    </div>
-</div>
-		<!-- Mensagem de Retorno -->
+		<small>Especifique no campo abaixo a partir de quantas horas será verificada a Falha de comunicação.</small> </blockquote>
+				<!-- Mensagem de Retorno -->
 		<?php
 		if(!empty($_GET["tipo"])){
 		$functions->mensagemDeRetorno($_GET["tipo"],$_GET["acao"]);
 		}
 		?>
 		
-		
-
+      <div class="row">
+      <form class="navbar-form navbar-left" id="contact-form" action="lista_cliente_sem_comunicacao.php" method="post" enctype="multipart/form-data">
+       <div class="form-group">
+    	<div class="input-group col-xs-4">
+      <input type="text" class="form-control" name="horas" id="horas" value="<?php echo $horasBuscaAtnr ?>">
+      <div class="input-group-addon">H</div>
+  		</div>
+      <div class="form-group">
+      <input type="submit" class="btn btn-warning btn-large" value="Buscar" name="submit">
+      </div>
+      </form>
+      </div>
+			
 		<?php
         $controller = new RelatorioController();
-		$registros 	= $controller->listaClientesSemComunicacao($datetime);
+		$registros 	= $controller->listaClientesSemComunicacao($dataAtnr);
 		if($registros){
 		?>
 		<!-- Lista -->
@@ -115,7 +116,7 @@
 		<td><?php echo $reg["cli_nome"]; ?></td>
 		<td><?php echo $reg["cli_ultima_comunicacao"]; ?></td>
 		<td><?php echo $reg["cli_obs"]; ?></td>
-		<td onClick="location.href='../cliente/edita_obs.php?operacao=update&clicodigo=<?php echo $reg["cli_codigo"] ?>'" class="glyphiconDetalhes"><i class="glyphicon glyphicon-pencil danger"></i></td>
+		<td title="Editar Observação" onClick="location.href='../cliente/edita_obs.php?operacao=update&clicodigo=<?php echo $reg["cli_codigo"] ?>'" class="glyphiconDetalhes"><i class="glyphicon glyphicon-pencil danger"></i></td>
 		</tr>
 		<?php
 		}
@@ -151,12 +152,6 @@
       <script type="text/javascript">
       $(document).ready(function() { 
       $("#tabela").tablesorter()
-      });
-      </script>
-      <script>
-      $('#datetime').datepicker()
-      .on('changeDate', function(ev){
-      $('#datetime').datepicker("hide");
       });
       </script>
 

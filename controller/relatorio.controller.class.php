@@ -94,8 +94,6 @@ class RelatorioController extends Crud{
 
 						//cliente_sem_comunicacao.php
 	public function listaClientesSemComunicacao($datetime){
-	
-	$datetime = $datetime.' 06:00:00';
 			return $this->execute_query("Select * FROM Cliente WHERE (cli_empresa <> 'guardian') AND (cli_monitorado = 'true') 
 				AND (cli_ultima_comunicacao < '".$datetime."') ORDER BY cli_ultima_comunicacao DESC");
 			
