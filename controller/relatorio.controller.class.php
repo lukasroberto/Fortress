@@ -93,20 +93,11 @@ class RelatorioController extends Crud{
 		}	
 
 						//cliente_sem_comunicacao.php
-	public function listaClientesSemComunicacao(){
-
-
-
-
-			$dia = date('d');
-			$mes = date('m');
-			$ano = date('Y');
-			$data = mktime(0,0,0,$mes,$dia,$ano);
-			echo "ontem: ".date('d/m/Y',$data);
-
-		
+	public function listaClientesSemComunicacao($datetime){
+	
+	$datetime = $datetime.' 06:00:00';
 			return $this->execute_query("Select * FROM Cliente WHERE (cli_empresa <> 'guardian') AND (cli_monitorado = 'true') 
-				AND (cli_ultima_comunicacao < '".date('d/m/Y',$data)." 06:00') ORDER BY cli_ultima_comunicacao DESC");
+				AND (cli_ultima_comunicacao < '".$datetime."') ORDER BY cli_ultima_comunicacao DESC");
 			
 		}				
 	}

@@ -15,6 +15,17 @@
 		require_once("../../model/cliente.class.php");
 		
 		include_once("../../functions/functions.class.php");
+
+			$dia = date('d')-1;
+			$mes = date('m');
+			$ano = date('Y');
+			$hora = time('h');
+			$dataOntem = mktime(0,0,0,$mes,$dia,$ano);
+			echo $dataOntem;
+
+			echo "teste".$dataOntem = date('d-m-Y',$dataOntem);
+
+      $datetime = (isset($_POST['datetime']))? $_POST['datetime']:$dataOntem;
 		
 		$functions	= new Functions;		
 		?>
@@ -42,17 +53,34 @@
       <?php include_once("../../view/menu/menuRelatorio.php");?>
     </div>
     <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-    
-
-
-	
 		<!-- Título -->
-		<blockquote class="alinha-left">
+		<blockquote>
 		<h2>Clientes sem Comunicação</h2>
-		<small></small> </blockquote>
+		<small>Especifique no campo abaixo a data e hora que será verificada a Falha de comunicação.</small> </blockquote>
 		
+      <div class="row">
+      <form class="navbar-form navbar-left" id="contact-form" action="lista_cliente_sem_comunicacao.php" method="post" enctype="multipart/form-data">
+      <div class="form-group datepicker">
+      <input type="text" class="form-control" name="datetime" id="datetime" value="<?php echo $datetime ?>" data-date="12-02-2014" data-date-format="dd-mm-yyyy">
+      </div>
+      <div class="form-group">
+      <input type="submit" class="btn btn-warning btn-large" value="Buscar" name="submit">
+      </div>
+      </form>
+      </div>
 			
-		
+		<div class="container">
+    <div class="row">
+        <div class='col-sm-6'>
+            <input type='text' class="form-control" id='datetimepicker4' />
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker4').datetimepicker();
+            });
+        </script>
+    </div>
+</div>
 		<!-- Mensagem de Retorno -->
 		<?php
 		if(!empty($_GET["tipo"])){
@@ -64,7 +92,7 @@
 
 		<?php
         $controller = new RelatorioController();
-		$registros 	= $controller->listaClientesSemComunicacao();
+		$registros 	= $controller->listaClientesSemComunicacao($datetime);
 		if($registros){
 		?>
 		<!-- Lista -->
@@ -96,11 +124,7 @@
 		</table>
 		
 		<?php
-					$dia = date('d') - 1;
-			$mes = date('m');
-			$ano = date('Y');
-			$data = mktime(0,0,0,$mes,$dia,$ano);
-			echo "ontem: ".date('d/m/Y',$data);
+
 		}else{
 		?>
 		<div class="text-center">
@@ -111,30 +135,30 @@
 		}
 		?>
 
-
-
-
-
-</blockquote>
-      <div class="row placeholders">
-
-
-      </div>    
-  </div>
-</div>
-		
-		</div>
+			  </div>
+			</div>
+		  </div>
 		<!-- /container --> 
 		
-		<script src="../../js/jquery.validate.min.js"></script> 
-		<script src="../../js/bootstrap.min.js"></script> 
-		<script src="../../js/jquery-ui.js"></script>
-		<script src="../../js/jquery.tablesorter.js"></script>
-		
-		<script type="text/javascript">
-		$(document).ready(function() { 
-		$("#tabela").tablesorter()
-		});
-		</script>
+	<!-- Javascript -->
+      <script src="../../js/jquery.validate.min.js"></script> 
+      <script src="../../js/teste.js"></script> 
+            <script src="../../js/moment.js"></script>
+
+      <script src="../../js/bootstrap.min.js"></script>
+      <script src="../../js/jquery.tablesorter.js"></script>
+      
+      <script type="text/javascript">
+      $(document).ready(function() { 
+      $("#tabela").tablesorter()
+      });
+      </script>
+      <script>
+      $('#datetime').datepicker()
+      .on('changeDate', function(ev){
+      $('#datetime').datepicker("hide");
+      });
+      </script>
+
 		</body>
 		</html>
