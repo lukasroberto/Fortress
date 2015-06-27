@@ -16,6 +16,7 @@ private $cli_data_cad;
 private $cli_telefone1;
 private $cli_empresa;
 private $cli_monitorado;
+private $cli_ultima_comunicacao;
 private $cli_obs;
 
 
@@ -132,4 +133,11 @@ public function setObs($cli_obs) {
 $this->cli_obs = $cli_obs;
 }
 
+public function getUltimaComunicacao() {
+return $this->cli_ultima_comunicacao;
+}
+
+public function setUltimaComunicacao($cli_ultima_comunicacao) {
+$this->cli_ultima_comunicacao = $cli_ultima_comunicacao;
+}
 }

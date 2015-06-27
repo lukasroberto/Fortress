@@ -18,7 +18,7 @@
 
 	//subtrai as horas pela data atual gerando a data para busca dos ATNRs
 			ini_set('date.timezone', 'America/Sao_Paulo');
-			$horasBuscaAtnr = (isset($_POST['horas']))? $_POST['horas']:'24';
+			$horasBuscaAtnr = (isset($_POST['horas']))? $_POST['horas']:'26';
 
 			$array = converte_segundos((($horasBuscaAtnr*60)*60), 'd');
 			//print_r($array);
@@ -109,7 +109,9 @@
 		</thead>
 		<tbody>
 		<?php
+        $conta = 0;
 		while($reg = sqlsrv_fetch_array($registros)){
+			$conta = $conta + 1;
 		?>
 		<tr>
 		<td><?php echo $reg["cli_codigo"]; ?></td>
@@ -121,6 +123,10 @@
 		<?php
 		}
 		?>
+		<td colspan="2"><strong>Total de Clientes Sem Comunicação: <?php echo $conta; ?></strong></td>
+		<td></td>
+		<td></td>
+		<td></td>
 		</tbody>
 		</table>
 		

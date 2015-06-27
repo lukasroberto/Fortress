@@ -29,7 +29,8 @@ if(isset($_POST['submit'])) {
 	$cliente->setTelefone($_POST['tel']);
 	$cliente->setTelefonSecundario($_POST['tel-secundario']);
 	$cliente->setMonitorado($_POST['monitorado']);
-  $cliente->setObs($_POST['obs']);
+  	$cliente->setObs($_POST['obs']);
+ 	$cliente->setUltimaComunicacao('2000-11-11 11:11:11.110');
 	$cliente->setCadastradoPor($_SESSION["nome"]);
 
 
