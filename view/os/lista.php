@@ -28,14 +28,14 @@
 
           
           if ($tecnico && $dataini && $datafin) {
-          $listaDeOs 	= $oslist->listOsPorTecnico($tecnico,$dataini,$datafin);
+                $listaDeOs 	= $oslist->listOsPorTecnico($tecnico,$dataini,$datafin);
           }else{
           	if($submit == 'tipoCliente'){
           		$listaDeOs 	= $oslist->listOsBuscaPorCliente78($busca,$status);
-          }else{
-          	$listaDeOs 	= $oslist->listOsBusca($busca,$status);
-          }
-      		}
+               }else{
+          	    $listaDeOs 	= $oslist->listOsBusca($busca,$status);
+               }
+      	}
           
           if($status == 2){//aberta
           $contextoDoLink = "ospendente";
@@ -90,6 +90,7 @@
           $functions->mensagemDeRetornoPersonalizada($_GET["tipo"],"Nada encontrado! Por favor, Selecione uma Ordem se de serviço.");
           }}}
           ?>
+          <div class="row">
           <form class="form-inline" role="form" id="relatorio-form" action="lista.php" method="get">
           <select class="form-control" name="status" id="status">
           <option value="2">OS em Aberto</option>
@@ -104,25 +105,29 @@
 		  <a class="btn btn-default  btn-xs" title="Exibe as Ordens de Serviço Técnicas abertas em seu plantão." href="lista.php?status=<?php echo $status ?>&busca=&submit=tipoCliente">Mostrar OS Técnica</a>
 		  <a class="btn btn-default  btn-xs" title="Exibe todas as Ordens de Serviço em Aberto." href="lista.php">Mostrar Todas</a>
           </form>
-          <table id="tabela" class="tablesorter table table-hover table-striped">
-          <thead>
-          <tr>
-          <th class="iconorder">Cod. OS</th>
-          <th class="iconorder">Cliente</th>
-          <th class="iconorder">Aberta em</th>
-          <th class="iconorder">Solicitada por</th>
-          <th class="iconorder">Aberta por</th>
-          <th class="iconorder">Status</th>
-          </thead>
-          </tr>
-          
+          </div>
           <?php
           $contaOsAberta =0;
           $contaTotalOsAberta =0;
           $contaOsAbertaA3Dias =0;
           $contaOsAbertaA7Dias =0;
-
           $dados = "";
+
+          if(sqlsrv_num_rows($listaDeOs)){
+          ?>
+          <table class="tablesorter table table-hover table-striped">
+          <thead>
+          <tr>
+          <th>Cod. OS</th>
+          <th>Cliente</th>
+          <th>Aberta em</th>
+          <th>Solicitada por</th>
+          <th>Aberta por</th>
+          <th>Status</th>
+          </thead>
+          </tr>
+          
+          <?php
           while($os = sqlsrv_fetch_array($listaDeOs)){
           $contaTotalOsAberta = $contaTotalOsAberta + 1;
           
@@ -149,14 +154,26 @@
           <tr>
           <td></td>
           <td colspan="5"><div><?php echo $os["os_serv_sol"]?></div></td>
-
-
           </tr>
+
           <?php
            } ?>
           </table>
+          <hr>
+          <?php
+
+          }else{
+          ?>
           <div class="row">
-          <div style='position:absolute; left:70%;'>
+          <div class="text-center">
+          <h2>Opsss!!!</h2>
+          <p>Sua pesquisa não retornou nenhum resultado válido.</p>
+          </div>
+          </div>
+          <?php } ?>
+
+          <div class="row alinha-rigth">
+          <div style='width:300px;'>
           <ul class="list-group">
           <li class="list-group-item list-group-item-info">         
           OS aberta a menos de 3 Dias: 
@@ -262,21 +279,22 @@ $tabela ="
            }
            $dados = $tabela.$dados."</table>";
            ?>
-          </table>
-          </form>
-          <hr>
+           <div class="row">
+          </form>    
           <form class="form-inline" method="post" action="../mail/mail.php">
           <input style="visibility:hidden;" name="tipoOS" type="text" id="tipoOS" value="<?php echo $tipoOS ?>"/>
           <textarea style="visibility:hidden;" name="dados" id="dados"><?php echo $dados ?> </textarea>
           <div>Selecione o Turno</div>
           <select class="form-control" name="turno" id="turno">
-          <option value="1">06:00 até 18:00</option>
-          <option value="2">18:00 até 06:00</option>
+          <option value="1">06:00 até 14:00</option>
+          <option value="2">14:00 até 22:00</option>
+          <option value="2">22:00 até 06:00</option>
           </select>
           <div class="form-group has-feedback">
           <input class="btn btn-warning" name="submit" type="submit" id="busca" value="Enviar E-mail"/>
           </div>
           </form>
+          </div>
 
           <?php include_once("../../view/footer/footer.php");?>
           </div>
@@ -289,10 +307,5 @@ $tabela ="
           <script src="../../js/tab.js"></script>
           <script src="../../js/jquery.tablesorter.js"></script>
           
-          <script type="text/javascript">
-          $(document).ready(function() { 
-          $("#tabela").tablesorter()
-          });
-          </script>
           </body>
           </html>

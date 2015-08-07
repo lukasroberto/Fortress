@@ -97,7 +97,24 @@ class RelatorioController extends Crud{
 			return $this->execute_query("Select * FROM Cliente WHERE (cli_empresa <> 'guardian') AND (cli_monitorado = 'true') 
 				AND (cli_ultima_comunicacao < '".$datetime."') ORDER BY cli_ultima_comunicacao DESC");
 			
-		}				
+		}	
+
+								//cliente_log_sem_comunicacao.php
+	public function listaLogClientesSemComunicacao($coluna,$filtro){
+		if($coluna){
+			if($coluna == "com_cli_codigo"){
+				$condicao = $coluna." ='".$filtro."'";
+			}else{
+				$condicao = $coluna." LIKE'%".$filtro."%'";
+			}
+			return $this->execute_query("SELECT * FROM RELAT_COMUNICACAO INNER JOIN CLIENTE ON
+			 RELAT_COMUNICACAO.com_cli_codigo = CLIENTE.cli_codigo WHERE ".$condicao);
+		}else{
+			return $this->execute_query("SELECT * FROM RELAT_COMUNICACAO INNER JOIN CLIENTE ON 
+				RELAT_COMUNICACAO.com_cli_codigo = CLIENTE.cli_codigo");
+			}
+
+		}
 	}
 
 ?>

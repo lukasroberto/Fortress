@@ -15,9 +15,11 @@ $turno = (isset($_POST['turno']))? $_POST['turno']:'';
 $tipoOS = (isset($_POST['tipoOS']))? $_POST['tipoOS']:'';
 
  if($turno == 1){
- 	$turno = "06:00 as 18:00";
+ 	$turno = "06:00 as 14:00";
  }else if($turno == 2){
- 	$turno = "18:00 as 06:00"; 
+ 	$turno = "14:00 as 22:00"; 
+ }else if($turno == 3){
+ 	$turno = "22:00 as 06:00"; 
  }else{
  	$turno ="Turno não Cadastrado!";
  	}

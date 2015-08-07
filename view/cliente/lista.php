@@ -119,6 +119,7 @@
 					</div>
 					</div>
 					-->
+					<div class="row">
 					<form class="navbar-form navbar-left" id="contact-form" action="#" method="post" enctype="multipart/form-data">
 					<div class="form-group">
 					<select class="form-control" name="coluna">
@@ -129,13 +130,14 @@
 					<option value="cli_bairro" <?php echo (isset($coluna) && $coluna == 'cli_bairro') ? 'Selected' : ''; ?>>Bairro</option>
 					<option value="cli_telefone" <?php echo (isset($coluna) && $coluna == 'cli_telefone') ? 'Selected' : ''; ?>>Telefone</option>
 					</select>
-					<input class="form-control" placeholder="Filtrar Clientes" type="text" name="filtro" id="filtro" required value="<?php echo ($filtro) ? : $filtro; ?>">
+					<input class="form-control" placeholder="Filtrar Clientes" type="text" name="filtro" id="filtro" value="<?php echo ($filtro) ? : $filtro; ?>">
 					</div>
 					<input type="submit" class="btn btn-warning btn-large" value="Buscar" name="submit">
 					<a href="edita.php" class="btn btn-primary btn-large">Cadastrar um novo Cliente</a>
 					</form>
+					</div>
 					<?php
-					if($registros){
+					if(sqlsrv_num_rows($registros)){
 					?>
 					<!-- Lista -->
 					<table id="tabela" class="tablesorter table table-hover table-striped">

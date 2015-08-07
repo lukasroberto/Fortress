@@ -51,7 +51,6 @@ if(isset($_GET['idusuario'])){
 	$usuario = $controller->loadObject($_GET['idusuario'], 'log_id');
 }
 
-$usuarios = $controller->listObjects();
 
 
 ?>

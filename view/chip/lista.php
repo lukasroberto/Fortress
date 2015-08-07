@@ -79,7 +79,7 @@
 		}
 		?>
 		
-		
+		<div class="row">
 		<form class="navbar-form navbar-left" id="contact-form" action="#" method="post" enctype="multipart/form-data">
 		<div class="form-group">
 		<select class="form-control" name="coluna">
@@ -92,6 +92,7 @@
 		<input type="submit" class="btn btn-warning btn-large" value="Buscar" name="submit">
 		<a href="edita.php" class="btn btn-primary btn-large">Cadastrar um novo Chip</a>
 		</form>
+		</div>
 		<?php
 		$chip	= new ChipController;
 		if(isset($_POST['submit'])) {
@@ -99,7 +100,7 @@
 		}else{
 		$registros 	= $chip->listObjectsGroup($coluna,$filtro);
 		}
-		if($registros){
+		if(sqlsrv_num_rows($registros)){
 		?>
 		<!-- Lista -->
 		<table id="tabela" class="tablesorter table table-hover table-striped">
