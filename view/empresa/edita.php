@@ -34,6 +34,7 @@ if(isset($_POST['submit'])) {
   $empresa->setCnpj($_POST['cnpj']);
   $empresa->setCep($_POST['cep']);
   $empresa->setUf($_POST['uf']);
+  $empresa->setUf($_POST['True']);
 
 
 	if($empresa->getId() > 0){

@@ -28,17 +28,6 @@ class EmpresaController extends Crud {
 		}
 	}
 
-		public function listObjectsGroup2($where=NULL){
-		
-
-			$foto = sqlsrv_fetch_object($this->execute_query("SELECT emp_logo FROM EMPRESA WHERE EMP_STATUS = 'True'"));
-			// Definindo tipo do retorno
-        header('Content-Type: image/png');
-        
-        // Retornando conteudo
-        return $foto->emp_logo;
-	}
-
 }
 
 ?>

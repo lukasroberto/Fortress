@@ -18,7 +18,9 @@ class Functions {
 	
 	public function geraMenu($tipoDeUsuario){
 	
-		$contextoDeMenu = "http://192.168.0.198/fortress";
+		//$contextoDeMenu = "http://192.168.0.198/fortress";
+		$contextoDeMenu = "http://localhost:8080/fortress";
+
 	
 				//if($tipoDeUsuario==1){
 			
@@ -30,6 +32,7 @@ class Functions {
 					  <li class=\"dropdown\">
 						<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Fortress<b class=\"caret\"></b></a>
 						<ul class=\"dropdown-menu\">
+						  <li><a href=\"".$contextoDeMenu."/view/empresa/lista.php\"><i class=\"icon-share\"></i> Gerenciar Empresas</a></li>
 						  <li><a href=\"".$contextoDeMenu."/view/usuario/lista.php\"><i class=\"icon-share\"></i> Gerenciar Usuários</a></li>
 						  <li><a href=\"".$contextoDeMenu."/view/login/edita.php\"><i class=\"icon-user\"></i> Gerenciar Minha Conta</a></li>
 						  <li><a href=\"".$contextoDeMenu."/view/login/logoff.php?confirma=NAO\"><i class=\"icon-share\"></i> Efetuar Logoff</a></li>
