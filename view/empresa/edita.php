@@ -26,6 +26,8 @@ if(isset($_POST['submit'])) {
 
 	$empresa->setId($_POST['idempresa']);
 	$empresa->setRazaoSocial($_POST['razaosocial']);
+  $empresa->setNomeFantasia($_POST['nomefantasia']);
+  $empresa->setDataAbertura($_POST['dataabertura']);
 	$empresa->setEndereco($_POST['endereco']);
 	$empresa->setBairro($_POST['bairro']);
 	$empresa->setCidade($_POST['cidade']);
@@ -34,14 +36,15 @@ if(isset($_POST['submit'])) {
   $empresa->setCnpj($_POST['cnpj']);
   $empresa->setCep($_POST['cep']);
   $empresa->setUf($_POST['uf']);
-  $empresa->setUf($_POST['True']);
+  $empresa->setStatus("True");
+  $empresa->setDataAbertura($_POST['dataabertura']);
 
 
 	if($empresa->getId() > 0){
 			$controller->update($empresa, 'emp_id', $empresa->getId());
 			header('Location: lista.php?acao=2&tipo=1');
 	}else{
-		$controller->save($empresa, 'emp_id');
+		$controller->save($empresa);
 		header('Location: lista.php?acao=1&tipo=1');
 	}
 
@@ -97,6 +100,14 @@ if(isset($_GET['idempresa'])){
       <label for="razaosocial">Razao Social</label>
         <input class="form-control" type="text" name="razaosocial" id="razaosocial" required value="<?php echo ($empresa->getId() > 0 ) ? $empresa->getRazaoSocial() : ''; ?>">
     </div>
+    <div class="form-group">
+      <label for="nomefantasia">Nome Fantasia</label>
+        <input class="form-control" type="text" name="nomefantasia" id="nomefantasia" required value="<?php echo ($empresa->getId() > 0 ) ? $empresa->getNomeFantasia() : ''; ?>">
+    </div>
+          <div class="form-group">
+      <label for="dataabertura">Data Abertura</label>
+        <input class="form-control" type="text" name="dataabertura" id="dataabertura"  value="<?php echo ($empresa->getId() > 0 ) ? $functions->converterData($empresa->getDataAbertura()) : ''; ?>">
+      </div>
 <div class="form-group">
       <label for="endereco">Endereco</label>
         <input class="form-control" type="text" name="endereco" id="endereco" required value="<?php echo ($empresa->getId() > 0 ) ? $empresa->getEndereco() : ''; ?>">

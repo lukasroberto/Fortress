@@ -13,7 +13,7 @@ class RelatorioController extends Crud{
 	//Clientes.php
 	public function listaQtdClientes($empresa=NULL,$cidade=NULL){
 		
-		if($cidade && $empresa){
+		if($cidade && $empresa){//CLIENTE.cli_cidade, EMPRESA.emp_nome_fantasia FROM CLIENTE INNER JOIN EMPRESA ON CLIENTE.cli_empresa = EMPRESA.emp_id
 			return $this->execute_query("SELECT cli_empresa, cli_cidade, COUNT(cli_cidade) AS quantidade FROM CLIENTE WHERE(cli_empresa = '".$empresa."') and (cli_cidade = '".$cidade."') and cli_monitorado = 'True' GROUP BY cli_cidade, cli_empresa ORDER BY cli_empresa");				  
 		}else if(!$empresa ==NULL){
 			return $this->execute_query("SELECT cli_empresa, cli_cidade, COUNT(cli_cidade) AS quantidade FROM CLIENTE WHERE(cli_empresa = '".$empresa."') and cli_monitorado = 'True' GROUP BY cli_cidade, cli_empresa ORDER BY cli_empresa");
@@ -94,7 +94,7 @@ class RelatorioController extends Crud{
 
 						//cliente_sem_comunicacao.php
 	public function listaClientesSemComunicacao($datetime){
-			return $this->execute_query("Select * FROM Cliente WHERE (cli_empresa <> 'guardian') AND (cli_monitorado = 'true') 
+			return $this->execute_query("Select * FROM Cliente WHERE (cli_empresa <> '9') AND (cli_monitorado = 'true') 
 				AND (cli_ultima_comunicacao < '".$datetime."') ORDER BY cli_ultima_comunicacao DESC");
 			
 		}	

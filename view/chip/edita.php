@@ -39,7 +39,7 @@
             $query->log("Update Chip id: ".$_POST['codigo']);
             header('Location: lista.php?acao=2&tipo=1');
         }else{
-            $controller->save($chip, 'chip_codigo');
+            $controller->save($chip);
             $query->log("Cadastrado Chip imei: ".$_POST['imei']);
         header('Location: lista.php?acao=1&tipo=1');
         }

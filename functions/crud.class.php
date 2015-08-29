@@ -3,8 +3,8 @@
 /**
 <<<<<<< HEAD
  *
- * Projeto : Tanbook
- * Projeto Interdisciplinar : UNIFeob - Fundação de Ensino Octávio Bastos
+ * Projeto : Gerenciador Fortress
+ * Baseado em um projeto Interdisciplinar da : UNIFeob - Fundação de Ensino Octávio Bastos
  * Turma III - Análise e Desenvolvimento de Sistema
  * 
  * Objetivo
@@ -62,7 +62,7 @@ abstract class Crud {
      * @return true || false
      *
      * */
-    public function save($object) {
+    public function save($object, $campoEncrypt = NULL) {
 
         $ref = new Reflections();
         $values = $ref->convert($object);
@@ -74,7 +74,13 @@ abstract class Crud {
         $loop = 1;
 
         for ($j = 0; $j < $size; $j++) {
-            $sql .= $ref->get_value_by_type($values['values'][$j]);
+
+            if($values['fields'][$j] == $campoEncrypt){
+                    $sql .= ' Convert(varbinary(100), pwdEncrypt(' . $ref->get_value_by_type($values['values'][$j])."))";
+            }else{
+                    $sql .= $ref->get_value_by_type($values['values'][$j]);
+            }
+
             $sql .= ($loop < $size) ? "," : "";
             $loop++;
         }
@@ -92,7 +98,7 @@ abstract class Crud {
      * @return true || false
      *
      * */
-    public function update($object, $attr, $attribute) {
+    public function update($object, $attr, $attribute, $campoEncrypt) {
 
         if (empty($attr))
             return false;
@@ -108,7 +114,11 @@ abstract class Crud {
         for ($j = 0; $j < $size; $j++) {
 
             if ($values['fields'][$j] != $attr) {
-                $sql .= $values['fields'][$j] . ' = ' . $ref->get_value_by_type($values['values'][$j]);
+                if($values['fields'][$j] == 'log_senha'){
+                    $sql .= $values['fields'][$j] . ' = Convert(varbinary(100), pwdEncrypt(' . $ref->get_value_by_type($values['values'][$j])."))";
+                }else{
+                    $sql .= $values['fields'][$j] . ' = ' . $ref->get_value_by_type($values['values'][$j]);
+                }
                 $sql .= ($loop < $size) ? ", " : " ";
             }
             $loop++;

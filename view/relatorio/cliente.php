@@ -51,17 +51,17 @@
                   <h2 class="page-header text-info">Quantidade de clientes por empresa</h2>
                   <div class="row placeholders">
                   <div class="col-xs-6 col-sm-2"> <img src="../../img/fortress.jpg" width="200px" height="200px" class="img-responsive centralizado" title="Fortress">
-                  <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('fortress'); echo($qtdClientesEmpresa->quantidade);?></h4>
-                  <span class="text-muted"><a href='../cliente/lista.php?empresa=fortress&monitorado=True'>Fortress</a></span> </div>
+                  <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('3'); echo($qtdClientesEmpresa->quantidade);?></h4>
+                  <span class="text-muted"><a href='../cliente/lista.php?empresa=3&monitorado=True'>Monitorado Fortress</a></span> </div>
                   <div class="col-xs-6 col-sm-2 "> <img src="../../img/logus.jpg" width="200px" height="200px" class="img-responsive centralizado" alt="Logus">
-                  <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('logus'); echo($qtdClientesEmpresa->quantidade);?></h4>
-                  <span class="text-muted"><a href='../cliente/lista.php?empresa=logus&monitorado=True'>Logus</a></span> </div>
+                  <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('6'); echo($qtdClientesEmpresa->quantidade);?></h4>
+                  <span class="text-muted"><a href='../cliente/lista.php?empresa=6&monitorado=True'>Monitorado Logus</a></span> </div>
                   <div class="col-xs-6 col-sm-2 "> <img src="../../img/asa.jpg" width="200px" height="200px" class="img-responsive centralizado" alt="Eletrônica ASA">
-                  <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('asa'); echo($qtdClientesEmpresa->quantidade);?></h4>
-                  <span class="text-muted"><a href='../cliente/lista.php?empresa=asa&monitorado=True'>Eletrônica Asa</a></span> </div>
+                  <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('8'); echo($qtdClientesEmpresa->quantidade);?></h4>
+                  <span class="text-muted"><a href='../cliente/lista.php?empresa=8&monitorado=True'>Monitorado Eletrônica Asa</a></span> </div>
                   <div class="col-xs-6 col-sm-2 "> <img src="../../img/fortressguardian.jpg" width="200px" height="200px" class="img-responsive centralizado" alt="Fortess Guardian">
-                  <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('guardian'); echo($qtdClientesEmpresa->quantidade);?></h4>
-                  <span class="text-muted"><a href='../cliente/lista.php?empresa=guardian&monitorado=True'>Fortress Guardian</a></span> </div>
+                  <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('9'); echo($qtdClientesEmpresa->quantidade);?></h4>
+                  <span class="text-muted"><a href='../cliente/lista.php?empresa=9&monitorado=True'>Monitorado Fortress Guardian</a></span> </div>
                   <div class="col-xs-6 col-sm-2 "> <img src="../../img/tm.jpg" width="200px" height="200px" class="img-responsive centralizado" alt="Não Monitorado">
                   <h4><?php $totalClientes = $controller->totalClientes('True'); echo($totalClientes->quantidade);?></h4>
                   <span class="text-muted">Total clientes monitorados</span> </div>
@@ -91,9 +91,10 @@
                   $listaEmpresa = $query->listaEmpresa();
                   while($listaEmpresas = sqlsrv_fetch_array($listaEmpresa)){
                   $nomeEmpresa = '';
-                  if($listaEmpresas["cli_empresa"] == 'Guardian'){$nomeEmpresa="Fortress Guardian";}
-                  if($listaEmpresas["cli_empresa"] == 'ASA'){$nomeEmpresa="Eletrônica ASA";}
-                  if($listaEmpresas["cli_empresa"] == 'nm'){$nomeEmpresa="Não Monitorado";}
+                  if($listaEmpresas["cli_empresa"] == '9'){$nomeEmpresa="Fortress Guardian";}
+                  if($listaEmpresas["cli_empresa"] == '3'){$nomeEmpresa="Fortress";}
+                  if($listaEmpresas["cli_empresa"] == '6'){$nomeEmpresa="Logus Alarmes";}
+                  if($listaEmpresas["cli_empresa"] == '8'){$nomeEmpresa="Eletrônica ASA";}
                   if(!$nomeEmpresa){$nomeEmpresa=$listaEmpresas["cli_empresa"];}
                   ?>
                   <option value="<?php echo $listaEmpresas["cli_empresa"]?>" <?php echo ($listaEmpresas["cli_empresa"] == $empresa) ? 'Selected' : '' ?>><?php echo ($nomeEmpresa)?></option>
@@ -126,9 +127,10 @@
                   while($qtdClientes = sqlsrv_fetch_array($qtdClientesCidades)){
                   $totalQuantidadeClientes = $totalQuantidadeClientes+$qtdClientes["quantidade"];
                   $nomeEmpresa = '';
-                  if($qtdClientes["cli_empresa"] == 'Guardian'){$nomeEmpresa="Fortress Guardian";}
-                  if($qtdClientes["cli_empresa"] == 'ASA'){$nomeEmpresa="Eletrônica ASA";}
-                  if($qtdClientes["cli_empresa"] == 'nm'){$nomeEmpresa="Não Monitorado";}
+                  if($qtdClientes["cli_empresa"] == '9'){$nomeEmpresa="Fortress Guardian";}
+                  if($qtdClientes["cli_empresa"] == '3'){$nomeEmpresa="Fortress";}
+                  if($qtdClientes["cli_empresa"] == '6'){$nomeEmpresa="Logus Alarmes";}
+                  if($qtdClientes["cli_empresa"] == '8'){$nomeEmpresa="Eletrônica ASA";}
                   if(!$nomeEmpresa){$nomeEmpresa=$qtdClientes["cli_empresa"];}
                   
                   

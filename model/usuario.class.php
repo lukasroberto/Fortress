@@ -9,7 +9,10 @@ private $log_pass;
 private $log_nome;
 private $log_senha_falada;
 private $log_acesso_sistema;
+private $log_senha;
 private $log_nivel;
+private $cli_codigo;
+
 
 //getters e setters
 public function getId() {
@@ -26,14 +29,6 @@ return $this->log_user;
 
 public function setUser($log_user) {
 $this->log_user = $log_user;
-}
-
-public function getSenha() {
-return $this->log_pass;
-}
-
-public function setSenha($log_pass) {
-$this->log_pass = $log_pass;
 }
 
 public function getNome() {
@@ -60,12 +55,28 @@ public function setAcessoSistema($log_acesso_sistema) {
 $this->log_acesso_sistema = $log_acesso_sistema;
 }
 
+public function getSenha() {
+return $this->log_senha;
+}
+
+public function setSenha($log_senha) {
+$this->log_senha = $log_senha;
+}
+
 public function getNivel() {
 return $this->log_nivel;
 }
 
 public function setNivel($log_nivel) {
 $this->log_nivel = $log_nivel;
+}
+
+public function getCliCodigo() {
+return $this->cli_codigo;
+}
+
+public function setCliCodigo($cli_codigo) {
+$this->cli_codigo = $cli_codigo;
 }
 
 }

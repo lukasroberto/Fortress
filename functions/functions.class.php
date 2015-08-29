@@ -18,8 +18,8 @@ class Functions {
 	
 	public function geraMenu($tipoDeUsuario){
 	
-		//$contextoDeMenu = "http://192.168.0.198/fortress";
-		$contextoDeMenu = "http://localhost:8080/fortress";
+		$contextoDeMenu = "http://192.168.0.198/fortress";
+		//$contextoDeMenu = "http://localhost:8080/fortress";
 
 	
 				//if($tipoDeUsuario==1){

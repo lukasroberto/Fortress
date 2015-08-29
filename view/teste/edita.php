@@ -33,16 +33,15 @@ if(isset($_POST['submit'])) {
 	$usuario->setNivel($_POST['tipodeusuario']);
 
 
-
 	if($usuario->getId() > 0){
 		if($_SESSION["nivuser"]==1){
-			$controller->update($usuario, 'log_id',$usuario->getId(), 'log_senha');//especificando Campo criptografado
+			$controller->update($usuario, 'log_id',$usuario->getId());
 			header('Location: lista.php?acao=2&tipo=1');
 		}else{
 		header('Location: lista.php?tipo=2');
 		}
 	}else{
-		$controller->save($usuario, 'log_senha');//especificando Campo criptografado
+		$controller->save($usuario, 'log_id');
 		header('Location: lista.php?acao=1&tipo=1');
 	}
 

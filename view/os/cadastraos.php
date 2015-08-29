@@ -42,7 +42,7 @@ if(isset($_POST['submit']) == 'Salvar') {
 		$os->setStatus(2);
 		
 	if(isset($_POST['osclicodigo'])){
-		$controller->save($os, 'os_id');
+		$controller->save($os);
 		header('Location: cadastraos.php?&tipo=1&oscodigo='.$imprimeOsCodigo);
 	}else{
 				header('Location: cadastraos.php?tipo=3');

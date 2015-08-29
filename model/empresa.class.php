@@ -5,6 +5,7 @@ class empresa {
 //atributos
 private $emp_id;
 private $emp_razao_social;
+private $emp_nome_fantasia;
 private $emp_endereco;
 private $emp_bairro;
 private $emp_cidade;
@@ -14,6 +15,10 @@ private $emp_cnpj;
 private $emp_cep;
 private $emp_uf;
 private $emp_status;
+private $emp_data_abertura;
+
+
+
 //getters e setters
 public function getId() {
 return $this->emp_id;
@@ -29,6 +34,14 @@ return $this->emp_razao_social;
 
 public function setRazaoSocial($emp_razao_social) {
 $this->emp_razao_social = $emp_razao_social;
+}
+
+public function getNomeFantasia() {
+return $this->emp_nome_fantasia;
+}
+
+public function setNomeFantasia($emp_nome_fantasia) {
+$this->emp_nome_fantasia = $emp_nome_fantasia;
 }
 
 public function getEndereco() {
@@ -101,6 +114,14 @@ return $this->emp_status;
 
 public function setStatus($emp_status) {
 $this->emp_status = $emp_status;
+}
+
+public function getDataAbertura() {
+return $this->emp_data_abertura;
+}
+
+public function setDataAbertura($emp_data_abertura) {
+$this->emp_data_abertura = $emp_data_abertura;
 }
 
 }

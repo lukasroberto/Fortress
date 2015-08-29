@@ -10,24 +10,30 @@ $functions	= new Functions;
 if (isset($_GET["login"]) ||  isset($_GET["senha"])){
    
   require_once("../../controller/login.controller.class.php");
-		  
-	$loginController = new LoginController;
-	 
-	$result = $loginController->autentica($_GET['login'],$_GET['senha'],$_GET['acesso']);
-	$quantidadeDeDados = sqlsrv_num_rows($result);
-	
-	
-	if (!$quantidadeDeDados == false) {        
+
+	$usuario = $_GET['login'];
+	$senha = $_GET['senha'];
+	$acesso = $_GET['acesso'];
+
+	$loginController = new LoginController; 
+
+	$result = $loginController->autentica($usuario,$senha);
+
+	if (($result->autenticacao) == 1) {   
+		$loginControllerAutenticado = new LoginController;
+
+		$result = $loginControllerAutenticado->dadosUsuario($usuario);
+		$quantidadeDeDados = sqlsrv_num_rows($result);
+
 		$usuario = sqlsrv_fetch_array($result);
 		
-		//echo "O código do usuário é: ". $usuario["id"];
 
 		//Declara as variáveis de sessão que serão utilizadas no sistema
 		session_start();
 		$_SESSION["idusuario"] 	= $usuario["log_id"];
-		$_SESSION["nome"] 			= $usuario["log_nome"];
-		$_SESSION["nivuser"] 		= $usuario["log_nivel"];
-    $_SESSION["ip"]         = $_SERVER['REMOTE_ADDR'];
+		$_SESSION["nome"] 		= $usuario["log_nome"];
+		$_SESSION["nivuser"] 	= $usuario["log_nivel"];
+   		$_SESSION["ip"]         = $_SERVER['REMOTE_ADDR'];
 		
 		
 		//Grava o log de acesso

@@ -9,12 +9,12 @@
 
 require_once("../../functions/crud.class.php");
 
-class UsuarioController extends Crud {
+class TesteController extends Crud {
 
 	//Método construtor
 
 	public function __construct(){
-		parent::__construct("LOGIN");	
+		parent::__construct("TESTE");	
 	}
 	
 	//Método específico da classe
@@ -27,5 +27,7 @@ class UsuarioController extends Crud {
 			return $this->execute_query("SELECT * FROM LOGIN" );
 		}
 	}
+
 }
+
 ?>

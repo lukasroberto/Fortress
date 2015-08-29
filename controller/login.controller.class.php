@@ -10,11 +10,18 @@ class LoginController extends Crud {
 		parent::__construct("LOGIN");
 	}
 
-	public function autentica($login,$senha){
-		//echo "Passei aqui";
-		return $this->execute_query("SELECT * FROM " . $this->getTabela() .  " WHERE log_user = '" . $login . "' 
-		AND log_pass = '" . $senha . "' AND log_acesso_sistema = 'True' ;" );
+	public function dadosUsuario($usuario){
+		echo "Passei aqui";
+		return $this->execute_query("SELECT * FROM " . $this->getTabela() .  " WHERE log_user = '" . $usuario . "' 
+		AND log_acesso_sistema = 'True' ;" );
 	}
+
+		public function autentica($login,$senha){
+		echo "Passei aqui";
+		return sqlsrv_fetch_object($this->execute_query("declare @senhaBD varbinary(100)
+						SELECT @senhaBD = log_senha FROM LOGIN WHERE log_user = '" . $login . "' AND log_acesso_sistema = 'True';
+						select pwdCompare('" . $senha . "', @senhaBD, 0) as autenticacao"));
+	}	
 	
 	public function logoff(){
 		

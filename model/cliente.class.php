@@ -18,6 +18,7 @@ private $cli_empresa;
 private $cli_monitorado;
 private $cli_ultima_comunicacao;
 private $cli_obs;
+private $cli_data_cancelado_mon;
 
 
 //getters e setters
@@ -139,5 +140,13 @@ return $this->cli_ultima_comunicacao;
 
 public function setUltimaComunicacao($cli_ultima_comunicacao) {
 $this->cli_ultima_comunicacao = $cli_ultima_comunicacao;
+}
+
+public function getCliDataCanceladoMon() {
+return $this->cli_data_cancelado_mon;
+}
+
+public function setCliDataCanceladoMon($cli_data_cancelado_mon) {
+$this->cli_data_cancelado_mon = $cli_data_cancelado_mon;
 }
 }

@@ -8,6 +8,7 @@ session_start();
 if($_SESSION["idusuario"]==NULL){
 	 header('Location: ../login/login.php?acao=5&tipo=2');
 }
+ini_set('date.timezone', 'America/Sao_Paulo');
 require_once("../../controller/cliente.controller.class.php");
 require_once("../../model/cliente.class.php");
 include_once("../../functions/functions.class.php");
@@ -29,13 +30,13 @@ if(isset($_POST['submit'])) {
 	$cliente->setTelefone($_POST['tel']);
 	$cliente->setTelefonSecundario($_POST['tel-secundario']);
 	$cliente->setMonitorado($_POST['monitorado']);
-  	$cliente->setObs($_POST['obs']);
- 	$cliente->setUltimaComunicacao('2000-11-11 11:11:11.110');
+//$cliente->setObs($_POST['obs']);
+ 	$cliente->setUltimaComunicacao('2015-06-01 00:00:00.000');
+  if($_POST['monitorado'] == "False"){
+      $cliente->setCliDataCanceladoMon(date('d/m/y H:i:s'));
+  }
 	$cliente->setCadastradoPor($_SESSION["nome"]);
 
-
-
-	//$cliente->setComunicacao($_POST['comunicacao']);
 
 	$operaçao = $_POST['update'];
 	if($operaçao == "update"){
@@ -46,7 +47,7 @@ if(isset($_POST['submit'])) {
 		header('Location: lista.php?tipo=2');
 		}
 	}else{
-		$controller->save($cliente, 'cli_codigo');
+		$controller->save($cliente);
 		header('Location: lista.php?acao=1&tipo=1');
 	}
 
@@ -110,18 +111,16 @@ if(isset($_GET['clicodigo'])){
       <div class="form-group">
         <label for="empresa">Empresa</label>
         <select class="form-control" name="empresa"id="empresa" required>
-                  <option>Selecionar</option>
-          <option value="ASA" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == 'ASA') ? 'Selected' : ''; ?>>Eletrônica ASA</option>
-          <option value="Fortress" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == 'Fortress') ? 'Selected' : ''; ?>>Fortress</option>
-          <option value="Guardian" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == 'Guardian') ? 'Selected' : ''; ?>>Fortress Guardian</option>
-          <option value="Logus" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == 'Logus') ? 'Selected' : ''; ?>>Logus</option>
-          <option value="nm" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == 'nm') ? 'Selected' : ''; ?>>Não Monitorado</option>
+          <option value="">Selecionar</option>
+          <option value="8" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == '8') ? 'Selected' : ''; ?>>Eletrônica ASA</option>
+          <option value="3" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == '3') ? 'Selected' : ''; ?>>Fortress</option>
+          <option value="6" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == '6') ? 'Selected' : ''; ?>>Logus</option>
         </select>
       </div>
            <div class="form-group">
         <label for="monitorado">Cliente Monitorado</label>
         <select class="form-control" name="monitorado"id="monitorado" required>
-                  <option>Selecionar</option>
+                  <option value="">Selecionar</option>
           <option value="True" <?php echo ($cliente->getMonitorado() == true) ? 'Selected' : ''; ?>>Monitorado</option>
           <option value="False" <?php echo ($cliente->getMonitorado() == false) ? 'Selected' : ''; ?>>Não Monitorado</option>
         </select>
@@ -141,7 +140,7 @@ if(isset($_GET['clicodigo'])){
       <div class="form-group">
         <label for="locality">Cidade</label>
         <select class="form-control" name="cidade" id="locality" required>
-          <option>Selecione a Cidade</option>
+          <option value="">Selecione a Cidade</option>
           <option value="Andradas" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Andradas') ? 'Selected' : ''; ?>>Andradas</option>
           <option value="Aguaí" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Aguaí') ? 'Selected' : ''; ?>>Aguaí</option>
           <option value="Águas da Prata" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Águas da Prata') ? 'Selected' : ''; ?>>Águas da Prata</option>
