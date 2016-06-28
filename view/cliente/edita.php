@@ -30,6 +30,7 @@ if(isset($_POST['submit'])) {
 	$cliente->setTelefone($_POST['tel']);
 	$cliente->setTelefonSecundario($_POST['tel-secundario']);
 	$cliente->setMonitorado($_POST['monitorado']);
+  $cliente->setDataCadastro(date('d/m/y H:i:s'));
 //$cliente->setObs($_POST['obs']);
  	$cliente->setUltimaComunicacao('2015-06-01 00:00:00.000');
   if($_POST['monitorado'] == "False"){
@@ -44,11 +45,21 @@ if(isset($_POST['submit'])) {
 			$controller->update($cliente, 'cli_codigo',$cliente->getCodigo());
       header('Location: lista.php?tipo=1&acao=2');
 		}else{
-		header('Location: lista.php?tipo=2');
+		header('Location: lista.php?tipo=2&modelo=permissao');
 		}
-	}else{
-		$controller->save($cliente);
-		header('Location: lista.php?acao=1&tipo=1');
+	}else{    
+
+          $registros  = $controller->listObjectsGroup("cli_codigo","=",$cliente->getCodigo());
+          $row_count = sqlsrv_num_rows( $registros );
+
+          if($row_count > 0){
+        header('Location: lista.php?tipo=2&modelo=jacadastrado&cod_cliente='.$cliente->getCodigo());  
+
+      }else{
+            $controller->save($cliente);
+            header('Location: lista.php?acao=1&tipo=1');  
+      }
+          
 	}
 
 }
@@ -115,6 +126,9 @@ if(isset($_GET['clicodigo'])){
           <option value="8" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == '8') ? 'Selected' : ''; ?>>Eletrônica ASA</option>
           <option value="3" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == '3') ? 'Selected' : ''; ?>>Fortress</option>
           <option value="6" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == '6') ? 'Selected' : ''; ?>>Logus</option>
+          <option value="9" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == '9') ? 'Selected' : ''; ?>>TelSeg</option>
+          <option value="10" <?php echo ($cliente->getCodigo() > 0 && $cliente->getEmpresa() == '10') ? 'Selected' : ''; ?>>Master</option>
+
         </select>
       </div>
            <div class="form-group">
@@ -141,22 +155,27 @@ if(isset($_GET['clicodigo'])){
         <label for="locality">Cidade</label>
         <select class="form-control" name="cidade" id="locality" required>
           <option value="">Selecione a Cidade</option>
+          <option value="Arceburgo" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Arceburgo') ? 'Selected' : ''; ?>>Arceburgo</option>
           <option value="Andradas" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Andradas') ? 'Selected' : ''; ?>>Andradas</option>
           <option value="Aguaí" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Aguaí') ? 'Selected' : ''; ?>>Aguaí</option>
           <option value="Águas da Prata" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Águas da Prata') ? 'Selected' : ''; ?>>Águas da Prata</option>
           <option value="Casa Branca" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Casa Branca') ? 'Selected' : ''; ?>>Casa Branca</option>
           <option value="Espírito Santo do Pinhal" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Espírito Santo do Pinhal') ? 'Selected' : ''; ?>>Espírito Santo do Pinhal</option>
+          <option value="Itobi" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Itobi') ? 'Selected' : ''; ?>>Itobi</option>
           <option value="Mogi Guaçu" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Mogi Guaçu') ? 'Selected' : ''; ?>>Mogi Guaçu</option>
+          <option value="Mococa" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Mococa') ? 'Selected' : ''; ?>>Mococa</option>
           <option value="Mogi Mirim" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Mogi Mirim') ? 'Selected' : ''; ?>>Mogi Mirim</option>
           <option value="Poços de Caldas" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Poços de Caldas') ? 'Selected' : ''; ?>>Poços de Caldas</option>
           <option value="Santo Antônio do Jardim" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Santo Antônio do Jardim') ? 'Selected' : ''; ?>>Santo Antônio do Jardim</option>
           <option value="São João da Boa Vista" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'São João da Boa Vista') ? 'Selected' : ''; ?>>São João da Boa Vista</option>
           <option value="São José do Rio Pardo" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'São José do Rio Pardo') ? 'Selected' : ''; ?>>São José do Rio Pardo</option>
           <option value="Sorocaba" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Sorocaba') ? 'Selected' : ''; ?>>Sorocaba</option>
-          <option value="Mococa" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Mococa') ? 'Selected' : ''; ?>>Mococa</option>
-          <option value="Arceburgo" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Arceburgo') ? 'Selected' : ''; ?>>Arceburgo</option>
           <option value="São Sebastião da Grama" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'São Sebastião da Grama') ? 'Selected' : ''; ?>>São Sebastião da Grama</option>
-          <option value="Itobi" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Itobi') ? 'Selected' : ''; ?>>Itobi</option>
+          <option value="Vargem Grande do Sul" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Vargem Grande do Sul') ? 'Selected' : ''; ?>>Vargem Grande do Sul</option>
+          <option value="Tambaú" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Tambaú') ? 'Selected' : ''; ?>>Tambaú</option>
+          <option value="Santa Cruz das Palmeiras" <?php echo ($cliente->getCodigo() > 0 && $cliente->getCidade() == 'Santa Cruz das Palmeiras') ? 'Selected' : ''; ?>>Santa Cruz das Palmeiras</option>
+
+
 
         </select>
       </div>

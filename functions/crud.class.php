@@ -216,7 +216,7 @@ abstract class Crud {
 		
        	global $conn;
 	    $params = array();
-		$options =  array( "Scrollable" => SQLSRV_CURSOR_KEYSET );
+		$options =  array( "Scrollable" => SQLSRV_CURSOR_KEYSET);
 		
 		$conn = new Connection;
         $conn->openConnection();

@@ -42,7 +42,6 @@
 <link href="../../css/geral.css" rel="stylesheet">
 <link rel="stylesheet" href="../../css/jquery-ui.css" />
 <link rel="stylesheet" href="../../css/datepicker.css" />
-<link rel="stylesheet" href="../../css/menu-relatorio.css" />
 </head>
 <body>
 <?php include_once("../../view/menu/menu.php");?>

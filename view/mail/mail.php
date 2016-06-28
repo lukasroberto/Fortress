@@ -15,11 +15,9 @@ $turno = (isset($_POST['turno']))? $_POST['turno']:'';
 $tipoOS = (isset($_POST['tipoOS']))? $_POST['tipoOS']:'';
 
  if($turno == 1){
- 	$turno = "06:00 as 14:00";
+ 	$turno = "06:00 as 18:00";
  }else if($turno == 2){
- 	$turno = "14:00 as 22:00"; 
- }else if($turno == 3){
- 	$turno = "22:00 as 06:00"; 
+ 	$turno = "18:00 as 06:00"; 
  }else{
  	$turno ="Turno não Cadastrado!";
  	}
@@ -33,7 +31,7 @@ $mail->Password = 'Fortress1'; // Senha da caixa postal utilizada
 
 //Define o remetente
 $mail->From = "monitoramento@grupofortress.br"; 
-$mail->FromName = "Monitoramento";
+$mail->FromName = "Monitoramento - ".$_SESSION["nome"];
 
 //Define os destinatário(s)
 $mail->AddAddress('marcelo@grupofortress.br', 'Marcelo Ribeiro');
@@ -66,7 +64,6 @@ if ($enviado) {
 header("location: ../os/lista.php?tipo=1&acao=mail");
 } else {
 echo "Não foi possível enviar o e-mail (informe o Dpartamento de Informatica...)";
-echo "Informações do erro: 
-" . $mail->ErrorInfo;
+echo "Informações do erro: " . $mail->ErrorInfo;
 }
 ?>

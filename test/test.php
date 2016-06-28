@@ -9,8 +9,6 @@
 .row {
   margin-right: 0;
   margin-left: 0;
-    padding-top: 10px;
-
 }
 /* 
     Sometimes the sub menus get too large for the page and prevent the menu from scrolling, limiting functionality
@@ -38,7 +36,7 @@
 
 .side-menu {
   position: fixed;
-  width: 270px;
+  width: 300px;
   height: 100%;
   background-color: #f8f8f8;
   border-right: 1px solid #e7e7e7;
@@ -127,12 +125,12 @@
 }
 .side-menu #search {
   position: relative;
-  z-index: 0;
+  z-index: 1000;
 }
-.side-menu .panel-body {
+.side-menu #search .panel-body {
   padding: 0;
 }
-.side-menu .panel-body .navbar-form {
+.side-menu #search .panel-body .navbar-form {
   padding: 0;
   padding-right: 50px;
   width: 100%;
@@ -140,18 +138,18 @@
   position: relative;
   border-top: 1px solid #e7e7e7;
 }
-.side-menu .panel-body .navbar-form .form-group {
+.side-menu #search .panel-body .navbar-form .form-group {
   width: 100%;
   position: relative;
 }
-.side-menu .panel-body .navbar-form input {
+.side-menu #search .panel-body .navbar-form input {
   border: 0;
   border-radius: 0;
   box-shadow: none;
   width: 100%;
   height: 50px;
 }
-.side-menu .panel-body .navbar-form .btn {
+.side-menu #search .panel-body .navbar-form .btn {
   position: absolute;
   right: 0;
   top: 0;
@@ -162,35 +160,25 @@
 }
 /* Main body section */
 .side-body {
-  margin-left: 270px;
+  margin-left: 310px;
 }
-
-
-
 /* small screen */
-  @media (min-width: 768px) {
-  .navbar-toggleRelatorio {
-    display: none;    
-  }
-}
-
 @media (max-width: 768px) {
   .side-menu {
     position: relative;
-    width: 10%;
+    width: 100%;
     height: 0;
     border-right: 0;
     border-bottom: 1px solid #e7e7e7;
-    background-color: #f8f8f8;
   }
   .side-menu .brand-name-wrapper .navbar-brand {
     display: inline-block;
-
   }
   /* Slide in animation */
   @-moz-keyframes slidein {
     0% {
-      left: -300px;    }
+      left: -300px;
+    }
     100% {
       left: 10px;
     }
@@ -262,12 +250,15 @@
     transform-style: preserve-3d;
   }
   /* Uncomment for scrollable menu -> see top comment */
-  .absolute-wrapper{
+  /*.absolute-wrapper{
+        width:285px;
+        -moz-animation: slideout 300ms forwards;
+        -o-animation: slideout 300ms forwards;
         -webkit-animation: slideout 300ms forwards;
         animation: slideout 300ms forwards;
         -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
-    }
+    }*/
   @-moz-keyframes bodyslidein {
     0% {
       left: 0;
@@ -336,7 +327,6 @@
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
   }
-
   /* Hamburger */
   .navbar-toggleRelatorio {
     border: 0;
@@ -345,13 +335,12 @@
     margin: 0;
     border-radius: 0;
     background-color: #f3f3f3;
-    
   }
   /* Search */
-   .panel-body .navbar-form {
+  #search .panel-body .navbar-form {
     border-bottom: 0;
   }
-   .panel-body .navbar-form .form-group {
+  #search .panel-body .navbar-form .form-group {
     margin: 0;
   }
   .navbar-headerRelatorio {
@@ -367,6 +356,8 @@
 }
     </style>
 
+</head>
+<body>
     <div class="row">
     <!-- uncomment code for absolute positioning tweek see top comment in css -->
      <div class="absolute-wrapper"> 
@@ -378,8 +369,11 @@
     <div class="navbar-headerRelatorio">
         <div class="brand-wrapper">
             <!-- Hamburger -->
-            <button type="button" class="navbar-toggleRelatorio teste">
-                <span style="font-size: 20px" aria-hidden="true"class="glyphicon glyphicon-align-justify"></span>
+            <button type="button" class="navbar-toggleRelatorio">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
 
             <!-- Brand -->
@@ -389,23 +383,24 @@
                 </a>
             </div>
         </div>
+
     </div>
 
     <!-- Main Menu -->
     <div class="side-menu-container">
         <ul class="nav navbar-nav">
 
-            <li><a href="cliente.php"><span class="glyphicon glyphicon-list-alt"></span> Quantidade Clientes</a></li>
-            <li><a href="lista_cliente_sem_comunicacao.php"><span class="glyphicon glyphicon-list-alt"></span> Clientes sem ComunicaÃ§Ã£o</a></li>
-            <li><a href="servicos_por_tecnico.php"><span class="glyphicon glyphicon-list-alt"></span> Quantidade ServiÃ§os finalizados</a></li>
-            <li><a href="qtd_os_mensal.php"><span class="glyphicon glyphicon-list-alt"></span> Quantidade de OS Mensal</a></li>
-            <li><a href="relat_eventos_alarme.php"><span class="glyphicon glyphicon-list-alt"></span> Eventos de Alarme</a></li>
+            <li><a href="cliente.php"><span class="glyphicon glyphicon-send"></span> Quantidade Clientes</a></li>
+            <li><a href="lista_cliente_sem_comunicacao.php"><span class="glyphicon glyphicon-send"></span> Clientes sem Comunicação</a></li>
+            <li><a href="servicos_por_tecnico.php"><span class="glyphicon glyphicon-send"></span> Quantidade Serviços finalizados</a></li>
+            <li><a href="qtd_os_mensal.php"><span class="glyphicon glyphicon-send"></span> Quantidade de OS Mensal</a></li>
+            <li><a href="relat_eventos_alarme.php"><span class="glyphicon glyphicon-send"></span> Eventos de Alarme</a></li>
 
 
             <!--<li class="active"><a href="#"><span class="glyphicon glyphicon-plane"></span> Active Link</a></li>-->
 
 
-            <!--<li class="panel panel-default" id="dropdown">
+            <li class="panel panel-default" id="dropdown">
                 <a data-toggle="collapse" href="#dropdown-lvl1">
                     <span class="glyphicon glyphicon-user"></span> Sub Level <span class="caret"></span>
                 </a>
@@ -434,7 +429,7 @@
                         </ul>
                     </div>
                 </div>
-            </li>-->
+            </li>
 
         </ul>
     </div><!-- /.navbar-collapse -->
@@ -450,18 +445,10 @@
         $('.navbar-nav').toggleClass('slide-in');
         $('.side-body').toggleClass('body-slide-in');
 
-
         /// uncomment code for absolute positioning tweek see top comment in css
-        $('.absolute-wrapper').toggleClass('slide-in');      
+        //$('.absolute-wrapper').toggleClass('slide-in');      
     });
 });
     </script>
-
-
-
-
-
-
-
 
 

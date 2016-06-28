@@ -1,4 +1,4 @@
-		<?php
+<?php
 		
 		ini_set('display_errors', 1);
 		ini_set('log_errors', 1);
@@ -57,20 +57,19 @@
 <link href="../../css/geral.css" rel="stylesheet">
 <link rel="stylesheet" href="../../css/jquery-ui.css" />
 <link rel="stylesheet" href="../../css/datepicker.css" />
-<link rel="stylesheet" href="../../css/menu-relatorio.css" />
 </head>
 <body>
 <?php include_once("../../view/menu/menu.php");?>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-3 col-md-2 sidebar">
       <?php include_once("../../view/menu/menuRelatorio.php"); ?>
-    </div>
-    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+
+    <div class="container-fluid">
+        <div class="side-body body-slide-out">
 		<!-- Título -->
 		<blockquote>
 		<h2>Clientes sem Comunicação</h2>
-		<small>Especifique no campo abaixo a partir de quantas horas será verificada a Falha de comunicação.</small> </blockquote>
+		<small>Especifique no campo abaixo a partir de quantas horas será verificada a Falha de comunicação.</small> 
+		</blockquote>
 				<!-- Mensagem de Retorno -->
 		<?php
 		if(!empty($_GET["tipo"])){
@@ -144,7 +143,6 @@
 
 			  </div>
 			</div>
-		  </div>
 		<!-- /container --> 
 		
 	<!-- Javascript -->

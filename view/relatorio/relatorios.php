@@ -31,16 +31,13 @@ include_once("../../functions/functions.class.php");
 <link href="../../css/geral.css" rel="stylesheet">
 <link rel="stylesheet" href="../../css/jquery-ui.css" />
 <link rel="stylesheet" href="../../css/datepicker.css" />
-<link rel="stylesheet" href="../../css/menu-relatorio.css" />
 </head>
 <body>
 <?php include_once("../../view/menu/menu.php");?>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-3 col-md-2 sidebar">
       <?php include_once("../../view/menu/menuRelatorio.php");?>
-    </div>
-    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+    <div class="container-fluid">
+        <div class="side-body body-slide-out">
       <blockquote>
       <h3 class="page-header text-info">Olá <?php echo $_SESSION["nome"] ?></h3>
       <small>Bem vindo aos relatórios do Grupo Fortress.<br><br>
@@ -50,10 +47,7 @@ include_once("../../functions/functions.class.php");
       Os Relatórios ainda estão em desenvolvimento e com o tempo e ajuda de todos vamos melhorando.
     </small></blockquote>
 </blockquote>
-      <div class="row placeholders">
 
-
-      </div>    
   </div>
 </div>
 

@@ -1,57 +1,57 @@
-          <?php
-          ini_set('display_errors', 1);
-          ini_set('log_errors', 1);
-          ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
-          error_reporting(E_ALL);
-          
-          session_start();
-          $server = $_SERVER['SERVER_NAME']; 
-          $endereco = $_SERVER ['REQUEST_URI'];
-          $_SESSION["link"] = "http://" . $server . $endereco;
+<?php
+ini_set('display_errors', 1);
+ini_set('log_errors', 1);
+ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
+error_reporting(E_ALL);
 
-          if($_SESSION["idusuario"]==NULL){
-          header('Location: ../login/login.php?acao=5&tipo=2');
-          }
-          
-          include_once("../../functions/functions.class.php");
-          require_once("../../controller/oslist.controller.class.php");
-          
-          $functions		= new Functions;
-          $oslist 	= new oslist;
-          
-          $tecnico = (isset($_GET['idtecnico']))? $_GET['idtecnico']:'';
-          $dataini = (isset($_GET['dataini']))? $_GET['dataini']:'';
-          $datafin = (isset($_GET['datafin']))? $_GET['datafin']:'';
-          $busca = (isset($_GET['busca']))? $_GET['busca']:'';
-          $status = (isset($_GET['status']))? $_GET['status']:'2';
-          $submit = (isset($_GET['submit']))? $_GET['submit']:'';
+session_start();
+$server = $_SERVER['SERVER_NAME']; 
+$endereco = $_SERVER ['REQUEST_URI'];
+$_SESSION["link"] = "http://" . $server . $endereco;
 
-          
-          if ($tecnico && $dataini && $datafin) {
-                $listaDeOs 	= $oslist->listOsPorTecnico($tecnico,$dataini,$datafin);
-          }else{
-          	if($submit == 'tipoCliente'){
-          		$listaDeOs 	= $oslist->listOsBuscaPorCliente78($busca,$status);
-               }else{
-          	    $listaDeOs 	= $oslist->listOsBusca($busca,$status);
-               }
-      	}
-          
-          if($status == 2){//aberta
-          $contextoDoLink = "ospendente";
-          $contextoDoTitulo = " em Aberto";
-          $contextoDoIcone = "glyphicon-wrench";
-          $contextoDoALT = "Editar";
-          };
-          if($status == 4){//finalizada
-          $contextoDoLink = "osfinalizada";
-          $contextoDoTitulo = "Finalizadas";
-          $contextoDoTecnico = (isset($_GET["nometecnico"]))? " pelo técnico ".$_GET["nometecnico"]:'';
-          $contextoDoIcone = "glyphicon-list-alt";
-          $contextoDoALT = "Visualizar";
-          };
-          
-          ?>
+if($_SESSION["idusuario"]==NULL){
+header('Location: ../login/login.php?acao=5&tipo=2');
+}
+
+include_once("../../functions/functions.class.php");
+require_once("../../controller/oslist.controller.class.php");
+
+$functions		= new Functions;
+$oslist 	= new oslist;
+
+$tecnico = (isset($_GET['idtecnico']))? $_GET['idtecnico']:'';
+$dataini = (isset($_GET['dataini']))? $_GET['dataini']:'';
+$datafin = (isset($_GET['datafin']))? $_GET['datafin']:'';
+$busca = (isset($_GET['busca']))? $_GET['busca']:'';
+$status = (isset($_GET['status']))? $_GET['status']:'2';
+$submit = (isset($_GET['submit']))? $_GET['submit']:'';
+
+
+if ($tecnico && $dataini && $datafin) {
+      $listaDeOs 	= $oslist->listOsPorTecnico($tecnico,$dataini,$datafin);
+}else{
+	if($submit == 'tipoCliente'){
+		$listaDeOs 	= $oslist->listOsBuscaPorCliente78($busca,$status);
+     }else{
+	    $listaDeOs 	= $oslist->listOsBusca($busca,$status);
+     }
+	}
+
+if($status == 2){//aberta
+$contextoDoLink = "ospendente";
+$contextoDoTitulo = " em Aberto";
+$contextoDoIcone = "glyphicon-wrench";
+$contextoDoALT = "Editar";
+};
+if($status == 4){//finalizada
+$contextoDoLink = "osfinalizada";
+$contextoDoTitulo = "Finalizadas";
+$contextoDoTecnico = (isset($_GET["nometecnico"]))? " pelo técnico ".$_GET["nometecnico"]:'';
+$contextoDoIcone = "glyphicon-list-alt";
+$contextoDoALT = "Visualizar";
+};
+
+?>
           
           <!DOCTYPE html>
           <html lang="en">
@@ -286,9 +286,8 @@ $tabela ="
           <textarea style="visibility:hidden;" name="dados" id="dados"><?php echo $dados ?> </textarea>
           <div>Selecione o Turno</div>
           <select class="form-control" name="turno" id="turno">
-          <option value="1">06:00 até 14:00</option>
-          <option value="2">14:00 até 22:00</option>
-          <option value="2">22:00 até 06:00</option>
+          <option value="1">06:00 até 18:00</option>
+          <option value="2">18:00 até 06:00</option>
           </select>
           <div class="form-group has-feedback">
           <input class="btn btn-warning" name="submit" type="submit" id="busca" value="Enviar E-mail"/>

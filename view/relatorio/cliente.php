@@ -1,28 +1,28 @@
-                  <?php
-                  ini_set('display_errors', 1);
-                  ini_set('log_errors', 1);
-                  ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
-                  error_reporting(E_ALL);
-                  
-                  session_start();
-                  $server = $_SERVER['SERVER_NAME']; 
-                  $endereco = $_SERVER ['REQUEST_URI'];
-                  $_SESSION["link"] = "http://" . $server . $endereco;
-                  
-                  if($_SESSION["idusuario"]==NULL){
-                  header('Location: ../login/login.php?acao=5&tipo=2');
-                  }
-                  
-                  require_once("../../controller/relatorio.controller.class.php");
-                  include_once("../../functions/functions.class.php");
-                  include_once("../../functions/query.class.php");
-                  
-                  $empresa = (isset($_POST['empresa']) )? $_POST['empresa']:'';
-                  $cidade = (isset($_POST['cidade']) )? $_POST['cidade']:'';
-                  
-                  $controller = new RelatorioController();
-                  $query = new Query();
-                  ?>
+<?php
+ini_set('display_errors', 1);
+ini_set('log_errors', 1);
+ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
+error_reporting(E_ALL);
+
+session_start();
+$server = $_SERVER['SERVER_NAME']; 
+$endereco = $_SERVER ['REQUEST_URI'];
+$_SESSION["link"] = "http://" . $server . $endereco;
+
+if($_SESSION["idusuario"]==NULL){
+header('Location: ../login/login.php?acao=5&tipo=2');
+}
+
+require_once("../../controller/relatorio.controller.class.php");
+include_once("../../functions/functions.class.php");
+include_once("../../functions/query.class.php");
+
+$empresa = (isset($_POST['empresa']) )? $_POST['empresa']:'';
+$cidade = (isset($_POST['cidade']) )? $_POST['cidade']:'';
+
+$controller = new RelatorioController();
+$query = new Query();
+?>
                   
                   <!DOCTYPE html>
                   <html lang="en">
@@ -38,18 +38,14 @@
                   <link href="../../css/geral.css" rel="stylesheet">
                   <link rel="stylesheet" href="../../css/jquery-ui.css" />
                   <link rel="stylesheet" href="../../css/datepicker.css" />
-                  <link rel="stylesheet" href="../../css/menu-relatorio.css" />
                   </head>
                   <body>
                   <?php include_once("../../view/menu/menu.php");?>
-                  <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-sm-3 col-md-2 sidebar">
                   <?php include_once("../../view/menu/menuRelatorio.php");?>
-                  </div>
-                  <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-                  <h2 class="page-header text-info">Quantidade de clientes por empresa</h2>
-                  <div class="row placeholders">
+                  <div class="container-fluid">
+                  <div class="side-body body-slide-out">
+                  <h3 class="page-header text-info">Quantidade de clientes por empresa</h3>
+                  <div align="center" class="row placeholders">
                   <div class="col-xs-6 col-sm-2"> <img src="../../img/fortress.jpg" width="200px" height="200px" class="img-responsive centralizado" title="Fortress">
                   <h4><?php $qtdClientesEmpresa = $controller->qtdClientesPorEmpresa('3'); echo($qtdClientesEmpresa->quantidade);?></h4>
                   <span class="text-muted"><a href='../cliente/lista.php?empresa=3&monitorado=True'>Monitorado Fortress</a></span> </div>
@@ -70,7 +66,7 @@
                   <span class="text-muted"><a href='../cliente/lista.php?monitorado=False'>Não Monitorado</a></span> </div>
                   
                   </div>
-                  <h3 class="sub-header text-info">Quantidade de clientes por cidade</h3>
+                  <h3 class="page-header text-info">Quantidade de clientes por cidade</h3>
                   <div class="row">
                   <form class="navbar-form navbar-left" id="contact-form" action="cliente.php" method="post" enctype="multipart/form-data">
                   <div class="form-group">
@@ -95,6 +91,9 @@
                   if($listaEmpresas["cli_empresa"] == '3'){$nomeEmpresa="Fortress";}
                   if($listaEmpresas["cli_empresa"] == '6'){$nomeEmpresa="Logus Alarmes";}
                   if($listaEmpresas["cli_empresa"] == '8'){$nomeEmpresa="Eletrônica ASA";}
+                  if($listaEmpresas["cli_empresa"] == '9'){$nomeEmpresa="Telseg";}
+                  if($listaEmpresas["cli_empresa"] == '10'){$nomeEmpresa="Master";}
+
                   if(!$nomeEmpresa){$nomeEmpresa=$listaEmpresas["cli_empresa"];}
                   ?>
                   <option value="<?php echo $listaEmpresas["cli_empresa"]?>" <?php echo ($listaEmpresas["cli_empresa"] == $empresa) ? 'Selected' : '' ?>><?php echo ($nomeEmpresa)?></option>
@@ -159,9 +158,7 @@
                   ?>
                   </div>
                   </div>
-                  </div>
-                  </div>
-                  
+
                   <!-- Javascript --> 
                   <script src="../../js/jquery.validate.min.js"></script> 
                   <script src="../../js/bootstrap-datepicker.js"></script> 

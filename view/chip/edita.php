@@ -41,7 +41,7 @@
         }else{
             $controller->save($chip);
             $query->log("Cadastrado Chip imei: ".$_POST['imei']);
-        header('Location: lista.php?acao=1&tipo=1');
+        header('Location: edita.php?acao=1&tipo=1');
         }
         }
         
@@ -176,7 +176,8 @@ document.getElementById('clicodigo').value=document.getElementById(parametro).id
         <script type="text/javascript">
 $(function(){
                         //LISTA TODOS ANTES DE FILTRAR
-                        $.post('buscaClientesInst.class.php', function(retorna){     $(".resultados").html(retorna);
+                        $.post('buscaClientesInst.class.php', function(retorna){     
+                        $(".resultados").html(retorna);
                         });
         
         //PESQUISA INSTANTANEA PELO INPUT

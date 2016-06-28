@@ -18,20 +18,25 @@
 					$cliente 	= new ClienteController;
 					$functions	= new Functions;
 					
-					$filtro  = (isset($_POST['filtro']) )? $_POST['filtro']:'';
-					$coluna  = (isset($_POST['coluna']) )? $_POST['coluna']:'';
+					$filtro  = (isset($_GET['filtro']) )? $_GET['filtro']:'';
 					$cidade  = (isset($_GET['cidade']) )? $_GET['cidade']:'';
+					$coluna  = (isset($_GET['coluna']) )? $_GET['coluna']:'';
+					$condicao  = (isset($_GET['condicao']) )? $_GET['condicao']:'';
 					$empresa = (isset($_GET['empresa']) )? $_GET['empresa']:'';
 					$monitorado = (isset($_GET['monitorado']) )? $_GET['monitorado']:'';
+					$cod_cliente = (isset($_GET['cod_cliente']) )? $_GET['cod_cliente']:'';
+					$modelo = (isset($_GET['modelo']) )? $_GET['modelo']:'';
+
+
 					//$order = (isset($_GET['order']) )? $_GET['order']:'cli_codigo';
 					
 					
-					if(isset($_POST['submit'])) {
+					if(isset($_GET['submit'])) {
 					
-					$registros 	= $cliente->listObjectsGroup($coluna,$filtro);
+					$registros 	= $cliente->listObjectsGroup($coluna,$condicao,$filtro);
 					
 					}else{
-					$registros 	= $cliente->listObjectsGroup($coluna,$filtro);
+					$registros 	= $cliente->listObjectsGroup($coluna,$condicao,$filtro);
 					}
 					
 					if(isset($_GET['monitorado'])) {
@@ -67,13 +72,19 @@
 					
 					<!-- Mensagem de Retorno -->
 					<?php
+
+					if($modelo == "jacadastrado"){
+						$functions->mensagemDeRetornoPersonalizada($_GET["tipo"],"Cliente ".$cod_cliente." ja cadastrado! para edita-lo clique <a href='edita.php?operacao=update&clicodigo=$cod_cliente'>aqui</a> ");
+					}
+					if($modelo == "permissao"){
+						$functions->mensagemDeRetornoPersonalizada($_GET["tipo"],"Você não tem Permissão para editar ou exluir este Cliente! Contate o Administrador em caso de duvidas.");
+					}
 					if(!empty($_GET["tipo"])){
-					if(!empty($_GET["acao"])){
-					$functions->mensagemDeRetorno($_GET["tipo"],$_GET["acao"]);
-					}else{
-					$functions->mensagemDeRetornoPersonalizada($_GET["tipo"],"Você não tem Permissão para editar ou exluir este Cliente! Contate o Administrador em caso de duvidas.");
+						if(!empty($_GET["acao"])){
+						$functions->mensagemDeRetorno($_GET["tipo"],$_GET["acao"]);
 					}
 					}
+
 					?>
 					
 					<!-- Confirma excluir -->
@@ -120,7 +131,7 @@
 					</div>
 					-->
 					<div class="row">
-					<form class="navbar-form navbar-left" id="contact-form" action="#" method="post" enctype="multipart/form-data">
+					<form class="navbar-form navbar-left" id="contact-form" action="#" method="get" enctype="multipart/form-data">
 					<div class="form-group">
 					<select class="form-control" name="coluna">
 					<option value="cli_codigo" <?php echo (isset($coluna) && $coluna == 'cli_codigo') ? 'Selected' : ''; ?>>Código</option>
@@ -129,6 +140,10 @@
 					<option value="cli_cidade" <?php echo (isset($coluna) && $coluna == 'cli_cidade') ? 'Selected' : ''; ?>>Cidade</option>
 					<option value="cli_bairro" <?php echo (isset($coluna) && $coluna == 'cli_bairro') ? 'Selected' : ''; ?>>Bairro</option>
 					<option value="cli_telefone" <?php echo (isset($coluna) && $coluna == 'cli_telefone') ? 'Selected' : ''; ?>>Telefone</option>
+					</select>
+					<select class="form-control" name="condicao">
+					<option value="=" <?php echo (isset($condicao) && $condicao == '=') ? 'Selected' : ''; ?>>Igual</option>
+					<option value="like" <?php echo (isset($condicao) && $condicao == 'like') ? 'Selected' : ''; ?>>Contenha</option>
 					</select>
 					<input class="form-control" placeholder="Filtrar Clientes" type="text" name="filtro" id="filtro" value="<?php echo ($filtro) ? : $filtro; ?>">
 					</div>

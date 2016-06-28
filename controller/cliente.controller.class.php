@@ -19,10 +19,20 @@ class ClienteController extends Crud {
 	
 	//Método específico da classe
 
-	public function listObjectsGroup($coluna=NULL,$filtro=NULL){
+	public function listObjectsGroup($coluna=NULL,$condicao=NULL,$filtro=NULL){
 		
+		$WHERE = $coluna . " like '%" . $filtro . "%'";
+
+		if($condicao == "like"){
+		$WHERE = $coluna . " like '%" . $filtro . "%'";
+		}		
+		if($condicao == "="){
+		$WHERE = $coluna . "= '" . $filtro."'";
+		}
+
+
 		if($filtro){
-			return $this->execute_query("SELECT top 50 * FROM CLIENTE WHERE " . $coluna . " like '%" . $filtro . "%' ");
+			return $this->execute_query("SELECT top 50 * FROM CLIENTE WHERE " . $WHERE);
 			
 		}else{
 			return $this->execute_query("SELECT top 100 * FROM CLIENTE" );

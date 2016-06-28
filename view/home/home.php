@@ -1,5 +1,16 @@
 <?php
 session_start();
+$server = $_SERVER['SERVER_NAME']; 
+$endereco = $_SERVER ['REQUEST_URI'];
+$_SESSION["link"] = "http://" . $server . $endereco;
+
+  require_once("../../controller/home.controller.class.php");
+  include_once("../../functions/functions.class.php");
+  include_once("../../functions/query.class.php");
+
+  $controller = new HomeController();
+
+
 ?>
 
 <!DOCTYPE html>
@@ -12,60 +23,43 @@ session_start();
 <meta name="author" content="">
 
 <!-- Estilos -->
-<link href="../../css/bootstrap.css" rel="stylesheet">
 <link href="../../css/bootstrap.min.css" rel="stylesheet">
 <link href="../../css/geral.css" rel="stylesheet">
-<link href="../../css/validation.css" rel="stylesheet">
 <link rel="stylesheet" href="../../css/jquery-ui.css" />
+<link rel="stylesheet" href="../../css/datepicker.css" />
 </head>
 <body>
 <?php include_once("../../view/menu/menu.php");?>
+
 <div class="container"> 
   
   <!-- Título -->
   <blockquote>
-    <h2>Bem-vindo</h2>
-    <small>Confira abaixo os serviços pendentes.</small></blockquote>
+    <h2>Ola, Seja Bem-vindo!</h2>
+    <small>Confira abaixo Algumas informações importantes para ajudar em nosso trabalho.</small></blockquote>
+
+    <?php $qtdClientesParaCadastrar = $controller->qtdClientesParaCadastrar();
+    	  $qtdClientesParaCadastrar = ($qtdClientesParaCadastrar->cadastrar);
+if($qtdClientesParaCadastrar > 0){
+	?>
+   <div class="alert alert-info" role="alert"> <strong>Atenção!</strong> <p><p> Existem <strong><?php echo $qtdClientesParaCadastrar; ?></strong> Clientes não cadastrados no sistema de OS, por favor, quando sobrar um tempinho cadastre se tiver os dados destes Clientes. Isso contribui para o bom funcionamento do Sistema, Obrigado! :) 
+		<p>
+		<div><a class="btn btn-info" href="../cliente/lista.php?coluna=cli_nome&condicao=igual&filtro=Cadastrar&" role="button">Clique para ver os Clientes.</a></div>
+   </div>
+
+
+<?php
+}
+   ?>
   
-  <!-- Título -->
-  <blockquote>
-    <h2>Outras OS</h2>
-    <small>Confira abaixo as Ordens de Serviço concluidas</small></blockquote>
-  <hr>
+
+
   <?php include_once("../../view/footer/footer.php");?>
 </div>
 <!-- /container --> 
-
 <!-- Javascript --> 
 <script src="../../js/jquery.validate.min.js"></script> 
+<script src="../../js/bootstrap-datepicker.js"></script> 
 <script src="../../js/bootstrap.min.js"></script> 
-<script src="../../js/jquery-ui.js"></script> 
-
-<script>
-        $(document).ready(function(){
-         
-         $('#contact-form').validate(
-         {
-          rules: {
-            login: {
-              minlength: 2,
-              required: true
-            },
-            senha: {
-              required: true,
-              email: true
-            }
-          },
-          highlight: function(element) {
-            $(element).closest('.control-group').removeClass('success').addClass('error');
-          },
-          success: function(element) {
-            element
-            .text('OK!').addClass('valid')
-            .closest('.control-group').removeClass('error').addClass('success');
-          }
-         });
-        });
-        </script>
 </body>
 </html>
